@@ -1,0 +1,12 @@
+** DONE Raging about org-protocol :blog:
+CLOSED: [2013-02-14 Thu 19:02]
+:PROPERTIES:
+:ID:       33033k10c-12a6-48cc-af7e-f412512a11a3
+:CREATED: [2013-02-14 Thu 19:01]
+:END:
+:LOGBOOK:
+- State "DONE"       from "NEXT"           [2013-02-14 Thu 19:02]
+:END:
+Ups I need to write stuff here!
+*** Ups I need to write stuff here!
+

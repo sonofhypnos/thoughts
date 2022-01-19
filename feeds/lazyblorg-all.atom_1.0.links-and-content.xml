@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:thr="http://purl.org/syndication/thread/1.0"
+      xml:lang="en-us">
+  <link rel="self" href="http://sonofhypnos.github.io/thoughs/feeds/lazyblorg-all.atom_1.0.links-and-content.xml" />
+  <title type="text">Perfect is the enemy of the sustainable</title>
+  <id>http://sonofhypnos.github.io/thoughs/</id>
+  <link href="http://sonofhypnos.github.io/thoughs" />
+  <icon>/favicon.ico</icon>
+  <updated>2022-01-19T20:37:50+01:00</updated>
+  <author>
+    <name>Tassilo Neubauer</name>
+  </author>
+  <subtitle type="text">Perfect is the enemy of the sustainable</subtitle>
+  <rights>All content written by Tassilo Neubauer</rights>
+  <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">An Example Blog Post</title>
+    <link href='http://sonofhypnos.github.io/thoughs/2017/06/18/example-posting' />
+    <published>2017-06-18T00:16:00+01:00</published>
+    <updated>2017-06-18T00:16:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughs/tags/lazyblorg' term='lazyblorg' />
+    <category scheme='http://sonofhypnos.github.io/thoughs/tags/software' term='software' />
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+       […] Today, I found out that…
+
+</p>
+
+
+<p>
+
+That’s it. lazyblorg does the rest. It feels like magic, doesn’t it? :-) #+end_src
+
+</p>
+</div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+       […] Today, I found out that…
+
+</p>
+
+
+<p>
+
+That’s it. lazyblorg does the rest. It feels like magic, doesn’t it? :-) #+end_src
+
+</p>
+
+      </div>
+    </content>
+    <id>http://sonofhypnos.github.io/thoughs/2017/06/18/example-posting-from-feed-with-content</id>
+</entry>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Placeholder: How to Use This Blog Efficiently</title>
+    <link href='http://sonofhypnos.github.io/thoughs/how-to-use-public-voit' />
+    <published>2017-01-03T12:07:00+01:00</published>
+    <updated>2017-01-03T12:07:00+01:00</updated>
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+This is a placeholder entry in order to be able to test internal links.
+
+</p>
+</div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+This is a placeholder entry in order to be able to test internal links.
+
+</p>
+
+      </div>
+    </content>
+    <id>http://sonofhypnos.github.io/thoughs/how-to-use-public-voit-from-feed-with-content</id>
+</entry>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Placeholder: About</title>
+    <link href='http://sonofhypnos.github.io/thoughs/about' />
+    <published>2014-03-09T14:57:00+01:00</published>
+    <updated>2014-03-09T14:57:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughs/tags/lazyblorg' term='lazyblorg' />
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+This is a placeholder entry in order to be able to test internal links.
+
+</p>
+</div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+This is a placeholder entry in order to be able to test internal links.
+
+</p>
+
+      </div>
+    </content>
+    <id>http://sonofhypnos.github.io/thoughs/about-from-feed-with-content</id>
+</entry>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Raging about org-protocol</title>
+    <link href='http://sonofhypnos.github.io/thoughs/2013/02/14/33033k10c-12a6-48cc-af7e-f412512a11a3' />
+    <published>2013-02-14T19:02:00+01:00</published>
+    <updated>2013-02-14T19:02:00+01:00</updated>
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+Ups I need to write stuff here!
+
+</p>
+</div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+Ups I need to write stuff here!
+
+</p>
+
+
+	  <header><h2 class="section-title">Ups I need to write stuff here!</h2></header>
+
+      </div>
+    </content>
+    <id>http://sonofhypnos.github.io/thoughs/2013/02/14/33033k10c-12a6-48cc-af7e-f412512a11a3-from-feed-with-content</id>
+</entry></feed>
