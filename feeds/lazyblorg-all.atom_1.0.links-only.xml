@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom"
       xmlns:thr="http://purl.org/syndication/thread/1.0"
       xml:lang="en-us">
-  <link rel="self" href="http://sonofhypnos.github.io/thoughs/feeds/lazyblorg-all.atom_1.0.links-only.xml" />
+  <link rel="self" href="http://sonofhypnos.github.io/thoughts/feeds/lazyblorg-all.atom_1.0.links-only.xml" />
   <title type="text">Perfect is the enemy of the sustainable</title>
-  <id>http://sonofhypnos.github.io/thoughs/</id>
-  <link href="http://sonofhypnos.github.io/thoughs" />
+  <id>http://sonofhypnos.github.io/thoughts/</id>
+  <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-01-19T20:37:50+01:00</updated>
+  <updated>2022-01-19T20:46:38+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -17,35 +17,35 @@
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">An Example Blog Post</title>
-    <link href='http://sonofhypnos.github.io/thoughs/2017/06/18/example-posting' />
+    <link href='http://sonofhypnos.github.io/thoughts/2017/06/18/example-posting' />
     <published>2017-06-18T00:16:00+01:00</published>
     <updated>2017-06-18T00:16:00+01:00</updated>
-    <category scheme='http://sonofhypnos.github.io/thoughs/tags/lazyblorg' term='lazyblorg' />
-    <category scheme='http://sonofhypnos.github.io/thoughs/tags/software' term='software' />
-    <id>http://sonofhypnos.github.io/thoughs/2017/06/18/example-posting-from-feed-with-links</id>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/lazyblorg' term='lazyblorg' />
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/software' term='software' />
+    <id>http://sonofhypnos.github.io/thoughts/2017/06/18/example-posting-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Placeholder: How to Use This Blog Efficiently</title>
-    <link href='http://sonofhypnos.github.io/thoughs/how-to-use-public-voit' />
+    <link href='http://sonofhypnos.github.io/thoughts/how-to-use-public-voit' />
     <published>2017-01-03T12:07:00+01:00</published>
     <updated>2017-01-03T12:07:00+01:00</updated>
-    <id>http://sonofhypnos.github.io/thoughs/how-to-use-public-voit-from-feed-with-links</id>
+    <id>http://sonofhypnos.github.io/thoughts/how-to-use-public-voit-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Placeholder: About</title>
-    <link href='http://sonofhypnos.github.io/thoughs/about' />
+    <link href='http://sonofhypnos.github.io/thoughts/about' />
     <published>2014-03-09T14:57:00+01:00</published>
     <updated>2014-03-09T14:57:00+01:00</updated>
-    <category scheme='http://sonofhypnos.github.io/thoughs/tags/lazyblorg' term='lazyblorg' />
-    <id>http://sonofhypnos.github.io/thoughs/about-from-feed-with-links</id>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/lazyblorg' term='lazyblorg' />
+    <id>http://sonofhypnos.github.io/thoughts/about-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Raging about org-protocol</title>
-    <link href='http://sonofhypnos.github.io/thoughs/2013/02/14/33033k10c-12a6-48cc-af7e-f412512a11a3' />
+    <link href='http://sonofhypnos.github.io/thoughts/2013/02/14/33033k10c-12a6-48cc-af7e-f412512a11a3' />
     <published>2013-02-14T19:02:00+01:00</published>
     <updated>2013-02-14T19:02:00+01:00</updated>
-    <id>http://sonofhypnos.github.io/thoughs/2013/02/14/33033k10c-12a6-48cc-af7e-f412512a11a3-from-feed-with-links</id>
+    <id>http://sonofhypnos.github.io/thoughts/2013/02/14/33033k10c-12a6-48cc-af7e-f412512a11a3-from-feed-with-links</id>
 </entry></feed>
