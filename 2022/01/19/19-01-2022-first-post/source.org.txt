@@ -1,0 +1,15 @@
+* DONE This is my first lazy blogpost :blog:lazyblorg:software:
+:PROPERTIES:
+:ID: 19-01-2022-first-post
+:CREATED: [2022-01-19 Di 21:00]
+:END:
+:LOGBOOK:
+- State "DONE"       from "NEXT"       [2022-01-19 Di 21:00]
+:END:
+
+
+Today I finally managed to get a working blogging setup with orgmode working.
+This has honestly been one of my more stressful projects so far. According to my timetracking data, I have spent at least 26 hours tinkering with different solutions, sweating whether I should go anonymous or not, whether to continue to use my [[https://github.com/sonofhypnos/blog][jekyll setup]] and other overwhelming details.
+In the end I decided to go with [[https://github.com/novoid/lazyblorg][lazyblorg]].
+While [[https://github.com/novoid/lazyblorg][lazyblorg]] promises to make blogging low effort, therefore making blogging a sustainable habit for me, it is definitely not the easiest solution to set up in the first place. I had already once tried to use [[github:novoid/lazyblorg][lazyblorg]], but must have gotten stuck at some point that I don't even remember anymore. It still took me 4 hours yesterday to go from "Ok lets finally do this", to now where I managed to create this blogpost and be able to see it in the browser. I am honestly not quite sure what took me so long, but one thing that definitely was tricky, was getting all of the meta-data right, that is required for a blogpost. Things I have allowed to put off for now is tweaking the CSS file, fixing the broken Header of the webpage or removing the example blogposts.
+
