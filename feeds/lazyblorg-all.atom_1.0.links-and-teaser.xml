@@ -7,7 +7,7 @@
   <id>http://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-01-19T21:05:02+01:00</updated>
+  <updated>2022-01-20T10:00:05+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -26,14 +26,14 @@
 <div xmlns='http://www.w3.org/1999/xhtml'>
 <p>
 
-       […] Today, I found out that…
+       […] Today, I found out that I still don't know how to create a valid Blogpost with lazyblorg
 
 </p>
 
 
 <p>
 
-That’s it. lazyblorg does the rest. It feels like magic, doesn’t it? :-) #+end_src
+That’s it. lazyblorg does the rest. It feels like magic, doesn’t it? :-)
 
 </p>
 </div>
