@@ -7,13 +7,22 @@
   <id>http://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-01-20T10:35:02+01:00</updated>
+  <updated>2022-01-20T10:46:59+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of the sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">This is my first lazy blogpost</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post' />
+    <published>2022-01-19T21:00:00+01:00</published>
+    <updated>2022-01-19T21:00:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/lazyblorg' term='lazyblorg' />
+    <id>http://sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post-from-feed-with-links</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">An Example Blog Post</title>

@@ -7,13 +7,31 @@
   <id>http://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-01-20T10:35:02+01:00</updated>
+  <updated>2022-01-20T10:46:59+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of the sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">This is my first lazy blogpost</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post' />
+    <published>2022-01-19T21:00:00+01:00</published>
+    <updated>2022-01-19T21:00:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/lazyblorg' term='lazyblorg' />
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+Today I finally finished setting up my blog with the help of lazyblorg and the invaluable motivation of sending a friend of mine an embarrassing photo of myself. This has honestly been one of my more stressful projects so far. According to my timetracking data, I have spent at least 26 hours tinkering with different solutions, sweating over [whether I should go anonymous or not], whether to fit this into my own solution, etc... While <a href="https://github.com/novoid/lazyblorg">Lazyblorg</a> the end has the promise of being low effort and therefore making blogging a sustainable habit for me, it is definitely not the easiest solution to set up in the first place. It took me 4 hours yesterday to go from "Ok lets finally do this" to now where I managed to create this blogpost and be able to see it in the browser. I am honestly not quite sure what took me so long, but one thing that definitely was tricky, was getting all of the meta-data right, that is required for a blogpost. Things I have allowed to put off for now is tweaking the CSS file, fixing the broken Header of the webpage or removing the example blogposts.
+
+</p>
+</div>
+    </summary>
+    <id>http://sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post-from-feed-with-teaser</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">An Example Blog Post</title>
