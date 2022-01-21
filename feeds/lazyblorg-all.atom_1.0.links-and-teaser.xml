@@ -7,7 +7,7 @@
   <id>http://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-01-20T11:35:01+01:00</updated>
+  <updated>2022-01-21T18:45:26+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -26,7 +26,7 @@
 <div xmlns='http://www.w3.org/1999/xhtml'>
 <p>
 
-Today I finally managed to get a working blogging setup with orgmode working. This has honestly been one of my more stressful projects so far. According to my timetracking data, I have spent at least 26 hours tinkering with different solutions, sweating over whether I should go anonymous or not, whether to continue to use my <a href="https://github.com/sonofhypnos/blog">jekyll setup</a> and other overwhelming details.
+Today I finally managed to get a blogging setup with orgmode working. This has honestly been one of my more stressful projects so far. According to my timetracking data, I have spent at least 26 hours tinkering with different solutions, sweating over whether I should go anonymous or not, whether to continue to use my <a href="https://github.com/sonofhypnos/blog">jekyll setup</a> and other overwhelming details.
 
 </p>
 

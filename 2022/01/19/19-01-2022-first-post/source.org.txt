@@ -8,7 +8,7 @@
 :END:
 
 
-Today I finally managed to get a working blogging setup with orgmode working.
+Today I finally managed to get a blogging setup with orgmode working.
 This has honestly been one of my more stressful projects so far. According to my timetracking data, I have spent at least 26 hours tinkering with different solutions, sweating over whether I should go anonymous or not, whether to continue to use my [[https://github.com/sonofhypnos/blog][jekyll setup]] and other overwhelming details.
 
 In the end I decided to go with [[https://github.com/novoid/lazyblorg][lazyblorg]].
