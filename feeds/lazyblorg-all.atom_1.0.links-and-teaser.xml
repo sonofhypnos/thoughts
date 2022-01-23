@@ -7,13 +7,38 @@
   <id>http://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-01-23T02:33:11+01:00</updated>
+  <updated>2022-01-23T09:17:16+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of the sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Interessante Lazyblorg Features</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7' />
+    <published>2022-01-23T01:56:00+01:00</published>
+    <updated>2022-01-23T09:17:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/' term='' />
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+Was ich mich schon gefragt habe, ist wie lazyblorg denn mehrere Sprachen bei den Blogposts unterstützt. Ich hatte mich in der Hinsicht gewundert, weil ich dafür keinen Tag setzen musste oder ähnliches. Nachdem ich <a href="https://github.com/novoid/lazyblorg/wiki/Tags">im Wiki</a> mehr zu tags gelesen habe bin ich darüber gestolpert, dass lazyblorg von Haus aus einfach nach Keywords sucht, um die Sprache zuzuordnen. Das ganze gefällt mir mehr und mehr!
+
+</p>
+
+<ul>
+<li>Als nächstes frage ich mich natürlich, ob bulletpoints funktionieren
+<ul>
+<li>Das wäre schon ein Feature, das ich die ganze Zeit verwenden würde.</li>
+</ul></li>
+</ul>
+</div>
+    </summary>
+    <id>http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7-from-feed-with-teaser</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Anthony Aguirre on the nature of reality is fascinating</title>
