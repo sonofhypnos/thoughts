@@ -7,7 +7,7 @@
   <id>http://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-01-23T02:15:45+01:00</updated>
+  <updated>2022-01-23T02:33:11+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -26,7 +26,7 @@
 <div xmlns='http://www.w3.org/1999/xhtml'>
 <p>
 
-I recently stumbled upon <a href="https://futureoflife.org/2020/01/31/fli-podcast-identity-information-the-nature-of-reality-with-anthony-aguirre/">this episode</a> of the future of life institute podcast on "the nature of reality" and keep coming back to thinking about it. I am still not sure whether to take this whole thing as basically trivial or whether I should go into full blown believe crisis mode. Now that I am thinking about it I already have a full blown believe crisis (maybe insight ornanating would be a better description?). In contrast to my regular believe crisis, while I definitely feel like this view should in some sense change how I think about the world/base reality there is another part that is just really reluctant to accept yet another complication in how I think about the world. I just can't manage to find anything in particular that is different from this view compared to my previous view, except when I apply it to topics like consciousness or the nature of computation that make me really confused anyways. If you are reading this none of this is probably really "new". It is just like someone is spelling out this view that I've sometimes seen people gesture at, but he is more explicit about it.
+I recently stumbled upon <a href="https://futureoflife.org/2020/01/31/fli-podcast-identity-information-the-nature-of-reality-with-anthony-aguirre/">this episode</a> of the future of life institute podcast on "the nature of reality" and keep coming back to thinking about it. I am still not sure whether to take this whole thing as basically trivial or whether I should go into full blown believe crisis mode. Now that I am thinking about it I already have a full blown believe crisis (maybe <a href="https://mindlevelup.wordpress.com/2016/10/28/insight-porn/">insight ornanating</a> would be a better description?). In contrast to my regular believe crisis, while I definitely feel like this view should in some sense change how I think about the world/base reality there is another part that is just really reluctant to accept yet another complication in how I think about the world. I just can't manage to find anything in particular that is different from this view compared to my previous view, except when I apply it to topics like consciousness or the nature of computation that make me really confused anyways. If you are reading this none of this is probably really "new". It is just like someone is spelling out this view that I've sometimes seen people gesture at, but he is more explicit about it.
 
 </p>
 
@@ -44,24 +44,21 @@ I had been already familiar with the idea that quantum mechanics adds a probabil
 
 <blockquote>You can say in Newtonian mechanics or classical physics, there’s something arguably reasonable about saying, “Here is the system, it’s these particles and they’re moving around in this way.” And that’s saying something. I think you can argue about whether that’s actually true, that that’s saying something. But you can talk about the particles themselves in a fairly meaningful way without talking about the observer or the person who’s measuring it or something like that. Whereas in quantum mechanics, it’s really fairly useless to talk about the wave function of something without talking about the way that you measure things or the basis that you operate it on and so on.
 [...]
-So this is a conception of reality that’s kind of like a big game of 20 questions. Every time we look out at reality, we’re just asking different questions of it. Normally we’re narrowing down the possibility space of how reality is by asking those questions, getting answers to it. To me a really interesting question is like, what is the ontological reality status of all those big sets of questions that we’re asking? Your tendency as a theoretical physicist is to say, “Oh, the wave function is the thing that’s real and that’s what actually exists, and all these extra things are just extra things that we made up and our globbed onto the wave function.” But I think that’s kind of a very impoverished view of reality, not just impoverished, but completely useless and empty of any utility or meaning because quantum mechanics by its nature requires both parts. The questions and the state. If you cut out all the questions, you’re just left with this very empty thing that has no applicability or meaning.
-factored sets are failing me here really hard.<br />
-#+begin_comment
-Ok I don't think this objection holds as other people seem to get something out of it.:NOEXPORT:
-Maybe this is just me failing after looking at the comments for finite factored sets again
-I think I might just not yet have the same intuition here (as I am also really confused about "what are random variables")
-#+end_comment<br />
-Not sure whether this goes to far, but I really want to point at stuff like <a href="id:12de1de3-ec2d-400b-962e-6cf2dd814bdf][Cartesian Frames">id:12de1de3-ec2d-400b-962e-6cf2dd814bdf][Cartesian Frames</a> and <a href="id:140da1e2-b6a2-4d64-9a73-83239bf367e4][Finite Factored Sets">id:140da1e2-b6a2-4d64-9a73-83239bf367e4][Finite Factored Sets</a> here, but if I am honest I only recognize the use of the same words, but really the formalism seems awkward and I don't get why it is supposedly more natural (just thinking of the set of all finite factored sets that partition sets with elements of 2^n made more sense to me as corresponding to something like all binary questions, but like "how do I use this" would I use it do describe all ways that could generate a particular string of 1s and 0s, or like all the ways to assing 1s and 0s?. Is there anything not in factored set thingy that I can correspond this to?) than just thinking of subsets of sets (which is rather mainstream in math).
-<b> Next
-</b> Related
-** <a href="id:51192a8c-65d6-4257-b19f-953e04e10eee][Nerd snipping and undecidability">id:51192a8c-65d6-4257-b19f-953e04e10eee][Nerd snipping and undecidability</a></blockquote>
+So this is a conception of reality that’s kind of like a big game of 20 questions. Every time we look out at reality, we’re just asking different questions of it. Normally we’re narrowing down the possibility space of how reality is by asking those questions, getting answers to it. To me a really interesting question is like, what is the ontological reality status of all those big sets of questions that we’re asking? Your tendency as a theoretical physicist is to say, “Oh, the wave function is the thing that’s real and that’s what actually exists, and all these extra things are just extra things that we made up and our globbed onto the wave function.” But I think that’s kind of a very impoverished view of reality, not just impoverished, but completely useless and empty of any utility or meaning because quantum mechanics by its nature requires both parts. The questions and the state. If you cut out all the questions, you’re just left with this very empty thing that has no applicability or meaning.</blockquote>
+
+
+<p>
+
+It also reminded me of Scott Garrabrant’s perspective on inference with <a href="https://www.alignmentforum.org/s/kxs3eeEti9ouwWFzr/p/N5Jm6Nj4HkNKySA5Z">finite factored sets</a>. I am not sure I really understood that either though.
+
+</p>
 </div>
     </summary>    <content type='xhtml'>
       <div xmlns='http://www.w3.org/1999/xhtml'>
 	
 <p>
 
-I recently stumbled upon <a href="https://futureoflife.org/2020/01/31/fli-podcast-identity-information-the-nature-of-reality-with-anthony-aguirre/">this episode</a> of the future of life institute podcast on "the nature of reality" and keep coming back to thinking about it. I am still not sure whether to take this whole thing as basically trivial or whether I should go into full blown believe crisis mode. Now that I am thinking about it I already have a full blown believe crisis (maybe insight ornanating would be a better description?). In contrast to my regular believe crisis, while I definitely feel like this view should in some sense change how I think about the world/base reality there is another part that is just really reluctant to accept yet another complication in how I think about the world. I just can't manage to find anything in particular that is different from this view compared to my previous view, except when I apply it to topics like consciousness or the nature of computation that make me really confused anyways. If you are reading this none of this is probably really "new". It is just like someone is spelling out this view that I've sometimes seen people gesture at, but he is more explicit about it.
+I recently stumbled upon <a href="https://futureoflife.org/2020/01/31/fli-podcast-identity-information-the-nature-of-reality-with-anthony-aguirre/">this episode</a> of the future of life institute podcast on "the nature of reality" and keep coming back to thinking about it. I am still not sure whether to take this whole thing as basically trivial or whether I should go into full blown believe crisis mode. Now that I am thinking about it I already have a full blown believe crisis (maybe <a href="https://mindlevelup.wordpress.com/2016/10/28/insight-porn/">insight ornanating</a> would be a better description?). In contrast to my regular believe crisis, while I definitely feel like this view should in some sense change how I think about the world/base reality there is another part that is just really reluctant to accept yet another complication in how I think about the world. I just can't manage to find anything in particular that is different from this view compared to my previous view, except when I apply it to topics like consciousness or the nature of computation that make me really confused anyways. If you are reading this none of this is probably really "new". It is just like someone is spelling out this view that I've sometimes seen people gesture at, but he is more explicit about it.
 
 </p>
 
@@ -79,17 +76,14 @@ I had been already familiar with the idea that quantum mechanics adds a probabil
 
 <blockquote>You can say in Newtonian mechanics or classical physics, there’s something arguably reasonable about saying, “Here is the system, it’s these particles and they’re moving around in this way.” And that’s saying something. I think you can argue about whether that’s actually true, that that’s saying something. But you can talk about the particles themselves in a fairly meaningful way without talking about the observer or the person who’s measuring it or something like that. Whereas in quantum mechanics, it’s really fairly useless to talk about the wave function of something without talking about the way that you measure things or the basis that you operate it on and so on.
 [...]
-So this is a conception of reality that’s kind of like a big game of 20 questions. Every time we look out at reality, we’re just asking different questions of it. Normally we’re narrowing down the possibility space of how reality is by asking those questions, getting answers to it. To me a really interesting question is like, what is the ontological reality status of all those big sets of questions that we’re asking? Your tendency as a theoretical physicist is to say, “Oh, the wave function is the thing that’s real and that’s what actually exists, and all these extra things are just extra things that we made up and our globbed onto the wave function.” But I think that’s kind of a very impoverished view of reality, not just impoverished, but completely useless and empty of any utility or meaning because quantum mechanics by its nature requires both parts. The questions and the state. If you cut out all the questions, you’re just left with this very empty thing that has no applicability or meaning.
-factored sets are failing me here really hard.<br />
-#+begin_comment
-Ok I don't think this objection holds as other people seem to get something out of it.:NOEXPORT:
-Maybe this is just me failing after looking at the comments for finite factored sets again
-I think I might just not yet have the same intuition here (as I am also really confused about "what are random variables")
-#+end_comment<br />
-Not sure whether this goes to far, but I really want to point at stuff like <a href="id:12de1de3-ec2d-400b-962e-6cf2dd814bdf][Cartesian Frames">id:12de1de3-ec2d-400b-962e-6cf2dd814bdf][Cartesian Frames</a> and <a href="id:140da1e2-b6a2-4d64-9a73-83239bf367e4][Finite Factored Sets">id:140da1e2-b6a2-4d64-9a73-83239bf367e4][Finite Factored Sets</a> here, but if I am honest I only recognize the use of the same words, but really the formalism seems awkward and I don't get why it is supposedly more natural (just thinking of the set of all finite factored sets that partition sets with elements of 2^n made more sense to me as corresponding to something like all binary questions, but like "how do I use this" would I use it do describe all ways that could generate a particular string of 1s and 0s, or like all the ways to assing 1s and 0s?. Is there anything not in factored set thingy that I can correspond this to?) than just thinking of subsets of sets (which is rather mainstream in math).
-<b> Next
-</b> Related
-** <a href="id:51192a8c-65d6-4257-b19f-953e04e10eee][Nerd snipping and undecidability">id:51192a8c-65d6-4257-b19f-953e04e10eee][Nerd snipping and undecidability</a></blockquote>
+So this is a conception of reality that’s kind of like a big game of 20 questions. Every time we look out at reality, we’re just asking different questions of it. Normally we’re narrowing down the possibility space of how reality is by asking those questions, getting answers to it. To me a really interesting question is like, what is the ontological reality status of all those big sets of questions that we’re asking? Your tendency as a theoretical physicist is to say, “Oh, the wave function is the thing that’s real and that’s what actually exists, and all these extra things are just extra things that we made up and our globbed onto the wave function.” But I think that’s kind of a very impoverished view of reality, not just impoverished, but completely useless and empty of any utility or meaning because quantum mechanics by its nature requires both parts. The questions and the state. If you cut out all the questions, you’re just left with this very empty thing that has no applicability or meaning.</blockquote>
+
+
+<p>
+
+It also reminded me of Scott Garrabrant’s perspective on inference with <a href="https://www.alignmentforum.org/s/kxs3eeEti9ouwWFzr/p/N5Jm6Nj4HkNKySA5Z">finite factored sets</a>. I am not sure I really understood that either though.
+
+</p>
 
       </div>
     </content>
