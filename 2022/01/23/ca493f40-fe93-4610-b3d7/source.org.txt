@@ -1,4 +1,4 @@
-* DONE Interessante Lazyblorg Features :blog::
+* DONE Interessante Lazyblorg Features :blog:
 :PROPERTIES:
 :ID:       ca493f40-fe93-4610-b3d7
 :CREATED:  [2022-01-23 So 01:56]
@@ -12,4 +12,5 @@
 Was ich mich schon gefragt habe, ist wie lazyblorg denn mehrere Sprachen bei den Blogposts unterstützt. Ich hatte mich in der Hinsicht gewundert, weil ich dafür keinen Tag setzen musste oder ähnliches. Nachdem ich [[https://github.com/novoid/lazyblorg/wiki/Tags][im Wiki]] mehr zu tags gelesen habe bin ich darüber gestolpert, dass lazyblorg von Haus aus einfach nach Keywords sucht, um die Sprache zuzuordnen. Das ganze gefällt mir mehr und mehr!
 - Als nächstes frage ich mich natürlich, ob bulletpoints funktionieren
   - Das wäre schon ein Feature, das ich die ganze Zeit verwenden würde.
+  - Sieht so aus als würde es ziemlich Einwandfrei funktionieren.
 
