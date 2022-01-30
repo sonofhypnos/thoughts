@@ -7,7 +7,7 @@
   <id>http://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-01-30T23:07:37+01:00</updated>
+  <updated>2022-01-30T23:09:55+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -16,10 +16,64 @@
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
 <!-- ############################################################################################# -->
 <entry>
+    <title type="text">Journal prompts in emacs</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2022/01/30/journaling-prompts-emacs' />
+    <published>2022-01-30T23:07:00+01:00</published>
+    <updated>2022-01-30T23:07:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/emacs' term='emacs' />
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/journaling' term='journaling' />
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+While I really like journaling in Emacs and I really like the daily prompts I've set up for that, asking oneself the same questions every day becomes boring for me really quickly. My new solution is to give myself a random prompt from a list of nice introspective questions I stole from <a href="https://clearerthinking.org">https://clearerthinking.org</a>. This is pretty easy to implement in elisp [fn:1]:
+
+</p>
+
+
+	  <div class="example_code">
+	  <pre>;list with your prompts
+(setq custom/journal-prompts '("What is on your mind?"
+                               "What did you achieve today"
+                               "What worried you today"))
+;command to insert prompt at cursor
+(defun custom/random-phrase ()
+    (interactive)
+    (insert (seq-random-elt custom/journal-prompts)))	  </pre>
+    </div>
+</div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+While I really like journaling in Emacs and I really like the daily prompts I've set up for that, asking oneself the same questions every day becomes boring for me really quickly. My new solution is to give myself a random prompt from a list of nice introspective questions I stole from <a href="https://clearerthinking.org">https://clearerthinking.org</a>. This is pretty easy to implement in elisp [fn:1]:
+
+</p>
+
+
+	  <div class="example_code">
+	  <pre>;list with your prompts
+(setq custom/journal-prompts '("What is on your mind?"
+                               "What did you achieve today"
+                               "What worried you today"))
+;command to insert prompt at cursor
+(defun custom/random-phrase ()
+    (interactive)
+    (insert (seq-random-elt custom/journal-prompts)))	  </pre>
+    </div>
+
+      </div>
+    </content>
+    <id>http://sonofhypnos.github.io/thoughts/2022/01/30/journaling-prompts-emacs-from-feed-with-content</id>
+</entry>
+<!-- ############################################################################################# -->
+<entry>
     <title type="text">Taming Emacs to make writing more pleasant</title>
     <link href='http://sonofhypnos.github.io/thoughts/2022/01/30/taming-emacs' />
     <published>2022-01-30T23:04:00+01:00</published>
     <updated>2022-01-30T23:04:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/emacs' term='emacs' />
     <summary type='xhtml'>
 <div xmlns='http://www.w3.org/1999/xhtml'>
 <p>

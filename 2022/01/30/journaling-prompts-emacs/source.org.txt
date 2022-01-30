@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       journaling-prompts-emacs
+:CREATED:  [2022-01-30 So 21:48]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-01-30 So 23:07]
+- State "TODO"       from              [2022-01-30 So 22:35]
+:END:
+While I really like journaling in Emacs and I really like the daily prompts I've set up for that, asking oneself the same questions every day becomes boring for me really quickly. My new solution is to give myself a random prompt from a list of nice introspective questions I stole from [[https://clearerthinking.org]]. This is pretty easy to implement in elisp [fn:1]:
+#+begin_src elisp
+;list with your prompts
+(setq custom/journal-prompts '("What is on your mind?"
+                               "What did you achieve today"
+                               "What worried you today"))
+;command to insert prompt at cursor
+(defun custom/random-phrase ()
+    (interactive)
+    (insert (seq-random-elt custom/journal-prompts)))
+#+end_src
+

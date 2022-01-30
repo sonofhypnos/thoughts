@@ -55,9 +55,11 @@
          <ul class="top-tags-list">
               
               <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/lazyblorg">lazyblorg</a> (2)</li>
+              <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/emacs">emacs</a> (2)</li>
               <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/software">software</a> (1)</li>
               <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/physics">physics</a> (1)</li>
               <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/epistemology">epistemology</a> (1)</li>
+              <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/journaling">journaling</a> (1)</li>
          </ul></li>
      </ul>
   </div>
@@ -85,7 +87,9 @@
 	  <aside class="tag-cloud">
 	    <ul>
 
+<li><a href="//sonofhypnos.github.io/thoughts/tags/emacs/" class="tagcloud-usertag tagcloud-size-2 tagcloud-age-0">emacs</a></li>
 <li><a href="//sonofhypnos.github.io/thoughts/tags/epistemology/" class="tagcloud-usertag tagcloud-size-1 tagcloud-age-0">epistemology</a></li>
+<li><a href="//sonofhypnos.github.io/thoughts/tags/journaling/" class="tagcloud-usertag tagcloud-size-1 tagcloud-age-0">journaling</a></li>
 <li><a href="//sonofhypnos.github.io/thoughts/tags/lazyblorg/" class="tagcloud-usertag tagcloud-size-2 tagcloud-age-0">lazyblorg</a></li>
 <li><a href="//sonofhypnos.github.io/thoughts/tags/physics/" class="tagcloud-usertag tagcloud-size-1 tagcloud-age-0">physics</a></li>
 
@@ -104,7 +108,42 @@
 
 <article class="entry-page-article">
 	  <aside>
-	    <ul class="entry-page-article-tags">
+	    <ul class="entry-page-article-tags">                <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/emacs/">emacs</a></li>
+                <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/journaling/">journaling</a></li>
+
+	    </ul>
+	  </aside>
+<h1><a href="2022/01/30/journaling-prompts-emacs">2022-01-30: Journal prompts in emacs</a></h1>
+
+
+<p>
+
+While I really like journaling in Emacs and I really like the daily prompts I've set up for that, asking oneself the same questions every day becomes boring for me really quickly. My new solution is to give myself a random prompt from a list of nice introspective questions I stole from <a href="https://clearerthinking.org">https://clearerthinking.org</a>. This is pretty easy to implement in elisp [fn:1]:
+
+</p>
+
+
+	  <div class="example_code">
+	  <pre>;list with your prompts
+(setq custom/journal-prompts '("What is on your mind?"
+                               "What did you achieve today"
+                               "What worried you today"))
+;command to insert prompt at cursor
+(defun custom/random-phrase ()
+    (interactive)
+    (insert (seq-random-elt custom/journal-prompts)))	  </pre>
+    </div>
+
+
+
+</article>
+
+
+
+<article class="entry-page-article">
+	  <aside>
+	    <ul class="entry-page-article-tags">                <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/emacs/">emacs</a></li>
+
 	    </ul>
 	  </aside>
 <h1><a href="2022/01/30/taming-emacs">2022-01-30: Taming Emacs to make writing more pleasant</a></h1>
