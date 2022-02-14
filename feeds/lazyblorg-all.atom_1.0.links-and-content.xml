@@ -7,13 +7,56 @@
   <id>http://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-01-30T23:54:58+01:00</updated>
+  <updated>2022-02-14T16:11:05+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of the sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Interessante Lazyblorg Features</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7' />
+    <published>2022-01-23T01:56:00+01:00</published>
+    <updated>2022-01-31T00:13:00+01:00</updated>
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+Was ich mich schon gefragt habe, ist wie lazyblorg denn mehrere Sprachen bei den Blogposts unterstützt. Ich hatte mich in der Hinsicht gewundert, weil ich dafür keinen Tag setzen musste oder ähnliches. Nachdem ich <a href="https://github.com/novoid/lazyblorg/wiki/Tags">im Wiki</a> mehr zu tags gelesen habe bin ich darüber gestolpert, dass lazyblorg von Haus aus einfach nach Keywords sucht, um die Sprache zuzuordnen. Das ganze gefällt mir mehr und mehr!
+
+</p>
+
+<ul>
+<li>Als nächstes frage ich mich natürlich, ob bulletpoints funktionieren
+<ul>
+<li>Das wäre schon ein Feature, das ich die ganze Zeit verwenden würde.</li>
+<li>Sieht so aus als würde es ziemlich Einwandfrei funktionieren.</li>
+</ul></li>
+</ul>
+</div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+Was ich mich schon gefragt habe, ist wie lazyblorg denn mehrere Sprachen bei den Blogposts unterstützt. Ich hatte mich in der Hinsicht gewundert, weil ich dafür keinen Tag setzen musste oder ähnliches. Nachdem ich <a href="https://github.com/novoid/lazyblorg/wiki/Tags">im Wiki</a> mehr zu tags gelesen habe bin ich darüber gestolpert, dass lazyblorg von Haus aus einfach nach Keywords sucht, um die Sprache zuzuordnen. Das ganze gefällt mir mehr und mehr!
+
+</p>
+
+<ul>
+<li>Als nächstes frage ich mich natürlich, ob bulletpoints funktionieren
+<ul>
+<li>Das wäre schon ein Feature, das ich die ganze Zeit verwenden würde.</li>
+<li>Sieht so aus als würde es ziemlich Einwandfrei funktionieren.</li>
+</ul></li>
+</ul>
+
+      </div>
+    </content>
+    <id>http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7-from-feed-with-content</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Journal prompts in Emacs</title>
@@ -109,7 +152,7 @@ Happy random journaling!
 <div xmlns='http://www.w3.org/1999/xhtml'>
 <p>
 
-Right after <a href="//sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7">creating my blog with Lazyblorg</a>, I had a hard time using Emacs to write my Blogposts instead of just using the markdown editor on <a href="https://lesswrong.com">lesswrong</a>. Truth is Emacs isn't the perfect writing environment for me yet, but it is slowly getting to that point. What was bugging me the most, was the lacking linting and spellchecking through LanguageTool that I've grown accustomed to in the browser. By now I figured out that I had disabled the default flycheck features, which are actually rather neat and very good at identifying my mistakes. I've now actually taken the time to configure LanguageTool. I suddenly realized that this also solved my other problem, which was getting rid of meta-comments in the final versions of my blogposts. For now, I can just add the TODO keyword and flycheck will remind me, that this should probably be removed at some point. Next I've installed LanguageTool on my system, so I could get the superb corrections not only in the browser, but in Emacs as well. Hussa!
+Right after <a href="//sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post">creating my blog with Lazyblorg</a>, I had a hard time using Emacs to write my Blogposts instead of just using the markdown editor on <a href="https://lesswrong.com">lesswrong</a>. Truth is Emacs isn't the perfect writing environment for me yet, but it is slowly getting to that point. What was bugging me the most, was the lacking linting and spellchecking through LanguageTool that I've grown accustomed to in the browser. By now I figured out that I had disabled the default flycheck features, which are actually rather neat and very good at identifying my mistakes. I've now actually taken the time to configure LanguageTool. I suddenly realized that this also solved my other problem, which was getting rid of meta-comments in the final versions of my blogposts. For now, I can just add the TODO keyword and flycheck will remind me, that this should probably be removed at some point. Next I've installed LanguageTool on my system, so I could get the superb corrections not only in the browser, but in Emacs as well. Hussa!
 
 </p>
 </div>
@@ -118,56 +161,13 @@ Right after <a href="//sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4
 	
 <p>
 
-Right after <a href="//sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7">creating my blog with Lazyblorg</a>, I had a hard time using Emacs to write my Blogposts instead of just using the markdown editor on <a href="https://lesswrong.com">lesswrong</a>. Truth is Emacs isn't the perfect writing environment for me yet, but it is slowly getting to that point. What was bugging me the most, was the lacking linting and spellchecking through LanguageTool that I've grown accustomed to in the browser. By now I figured out that I had disabled the default flycheck features, which are actually rather neat and very good at identifying my mistakes. I've now actually taken the time to configure LanguageTool. I suddenly realized that this also solved my other problem, which was getting rid of meta-comments in the final versions of my blogposts. For now, I can just add the TODO keyword and flycheck will remind me, that this should probably be removed at some point. Next I've installed LanguageTool on my system, so I could get the superb corrections not only in the browser, but in Emacs as well. Hussa!
+Right after <a href="//sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post">creating my blog with Lazyblorg</a>, I had a hard time using Emacs to write my Blogposts instead of just using the markdown editor on <a href="https://lesswrong.com">lesswrong</a>. Truth is Emacs isn't the perfect writing environment for me yet, but it is slowly getting to that point. What was bugging me the most, was the lacking linting and spellchecking through LanguageTool that I've grown accustomed to in the browser. By now I figured out that I had disabled the default flycheck features, which are actually rather neat and very good at identifying my mistakes. I've now actually taken the time to configure LanguageTool. I suddenly realized that this also solved my other problem, which was getting rid of meta-comments in the final versions of my blogposts. For now, I can just add the TODO keyword and flycheck will remind me, that this should probably be removed at some point. Next I've installed LanguageTool on my system, so I could get the superb corrections not only in the browser, but in Emacs as well. Hussa!
 
 </p>
 
       </div>
     </content>
     <id>http://sonofhypnos.github.io/thoughts/2022/01/30/taming-emacs-from-feed-with-content</id>
-</entry>
-<!-- ############################################################################################# -->
-<entry>
-    <title type="text">Interessante Lazyblorg Features</title>
-    <link href='http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7' />
-    <published>2022-01-23T01:56:00+01:00</published>
-    <updated>2022-01-23T09:17:00+01:00</updated>
-    <summary type='xhtml'>
-<div xmlns='http://www.w3.org/1999/xhtml'>
-<p>
-
-Was ich mich schon gefragt habe, ist wie lazyblorg denn mehrere Sprachen bei den Blogposts unterstützt. Ich hatte mich in der Hinsicht gewundert, weil ich dafür keinen Tag setzen musste oder ähnliches. Nachdem ich <a href="https://github.com/novoid/lazyblorg/wiki/Tags">im Wiki</a> mehr zu tags gelesen habe bin ich darüber gestolpert, dass lazyblorg von Haus aus einfach nach Keywords sucht, um die Sprache zuzuordnen. Das ganze gefällt mir mehr und mehr!
-
-</p>
-
-<ul>
-<li>Als nächstes frage ich mich natürlich, ob bulletpoints funktionieren
-<ul>
-<li>Das wäre schon ein Feature, das ich die ganze Zeit verwenden würde.</li>
-<li>Sieht so aus als würde es ziemlich Einwandfrei funktionieren.</li>
-</ul></li>
-</ul>
-</div>
-    </summary>    <content type='xhtml'>
-      <div xmlns='http://www.w3.org/1999/xhtml'>
-	
-<p>
-
-Was ich mich schon gefragt habe, ist wie lazyblorg denn mehrere Sprachen bei den Blogposts unterstützt. Ich hatte mich in der Hinsicht gewundert, weil ich dafür keinen Tag setzen musste oder ähnliches. Nachdem ich <a href="https://github.com/novoid/lazyblorg/wiki/Tags">im Wiki</a> mehr zu tags gelesen habe bin ich darüber gestolpert, dass lazyblorg von Haus aus einfach nach Keywords sucht, um die Sprache zuzuordnen. Das ganze gefällt mir mehr und mehr!
-
-</p>
-
-<ul>
-<li>Als nächstes frage ich mich natürlich, ob bulletpoints funktionieren
-<ul>
-<li>Das wäre schon ein Feature, das ich die ganze Zeit verwenden würde.</li>
-<li>Sieht so aus als würde es ziemlich Einwandfrei funktionieren.</li>
-</ul></li>
-</ul>
-
-      </div>
-    </content>
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>

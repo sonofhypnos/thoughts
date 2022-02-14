@@ -4,6 +4,8 @@
 :CREATED:  [2022-01-23 So 01:56]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2022-01-31 Mo 00:13]
+- State "TODO"       from "DONE"       [2022-01-31 Mo 00:13]
 - State "DONE"       from "TODO"       [2022-01-23 So 09:17]
 - State "TODO"       from "DONE"       [2022-01-23 So 01:56]
 - State "DONE"       from "TODO"       [2022-01-23 So 01:56]
