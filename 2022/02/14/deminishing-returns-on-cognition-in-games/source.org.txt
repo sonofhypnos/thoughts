@@ -18,9 +18,7 @@ I recently realized why some I find board games/puzzles boring after a while:
 
 The returns on "cognition" for these games has a sharp cutoff.
 
-#+DOWNLOADED: screenshot @ 2022-02-14 18:00:34
-[[/home/tassilo/org-roam/Diminishing_cognition_in_games/2022-02-14_18-00-34_screenshot.png]]
-[[tsfile:c007f510e244c211cf981071e5573d61f012531f]]
+[[tsfile:IMG_2856.JPG][something_something]]
 
 While this seems a bit obvious in retrospect, I haven't seen anyone talk about "returns on cognition" in any other context apart from thinking about AI-Doom scenarios.
 
