@@ -1,4 +1,4 @@
-** DONE Game complexity is interesting, but what I would find even more interesting, whether this is directly related to the diminishing returns on more cognition in a game :blog:
+** DONE Returns on cognition in a boardgames :blog:games:
 :PROPERTIES:
 :ID:       deminishing-returns-on-cognition-in-games
 :CREATED:  [2022-02-14 Mo 15:08]
