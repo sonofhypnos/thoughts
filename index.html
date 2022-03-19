@@ -54,8 +54,8 @@
      <li>Top <a href="//sonofhypnos.github.io/thoughts/tags/">tags</a>:
          <ul class="top-tags-list">
               
+              <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/emacs">emacs</a> (3)</li>
               <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/lazyblorg">lazyblorg</a> (2)</li>
-              <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/emacs">emacs</a> (2)</li>
               <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/software">software</a> (1)</li>
               <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/games">games</a> (1)</li>
               <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/physics">physics</a> (1)</li>
@@ -88,7 +88,7 @@
 	  <aside class="tag-cloud">
 	    <ul>
 
-<li><a href="//sonofhypnos.github.io/thoughts/tags/emacs/" class="tagcloud-usertag tagcloud-size-2 tagcloud-age-0">emacs</a></li>
+<li><a href="//sonofhypnos.github.io/thoughts/tags/emacs/" class="tagcloud-usertag tagcloud-size-3 tagcloud-age-0">emacs</a></li>
 <li><a href="//sonofhypnos.github.io/thoughts/tags/epistemology/" class="tagcloud-usertag tagcloud-size-1 tagcloud-age-0">epistemology</a></li>
 <li><a href="//sonofhypnos.github.io/thoughts/tags/games/" class="tagcloud-usertag tagcloud-size-1 tagcloud-age-0">games</a></li>
 <li><a href="//sonofhypnos.github.io/thoughts/tags/journaling/" class="tagcloud-usertag tagcloud-size-1 tagcloud-age-0">journaling</a></li>
@@ -106,6 +106,84 @@
 
   </p>
   </div>
+
+
+<article class="entry-page-article">
+	  <aside>
+	    <ul class="entry-page-article-tags">                <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/emacs/">emacs</a></li>
+
+	    </ul>
+	  </aside>
+<h1><a href="2022/03/19/figuring-out-yasnippet">2022-03-19: Figuring out YASnippet</a></h1>
+
+
+<p>
+
+Today I finally took the time to figure to the YASnippet Emacs package to create a template for my new blogposts. Turns out there was not a lot to understand. To create a new template you run `M-x` `yas-new-snippet` in the then opening buffer you just enter your template in plain text and hit `C-c C-c` when you're done.
+
+</p>
+
+
+<p>
+
+The three other elements that I needed for my simple snippets:
+
+</p>
+
+<ul>
+<li>`$0` denotes where the cursor should end up after the snippet is inserted.</li>
+</ul>
+<ul>
+<li>Emacs lisp code to be evaluated with the snipped can be inserted within backquotes. Example: the following snippet enters the current date in iso-format:</li>
+</ul>
+
+
+	  <div class="example_code">
+	  <pre>`(format-time-string "%Y-%m-%d")` $0	  </pre>
+    </div>
+
+<ul>
+<li>Elements to be completed at point are entered with {N: default value} as an example here is the template for a for-loop in C:</li>
+</ul>
+
+
+<p>
+
+  #+begin_src C
+
+</p>
+
+
+<p>
+
+for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
+
+</p>
+
+
+<p>
+
+  #+end_src
+
+</p>
+
+
+
+<img src="http://example.com/images/Joshua_Tree.jpg" alt="A beautiful tree" />
+
+
+
+
+<p>
+
+<a href="tsfile:IMG_2848.JPG][This is a name">tsfile:IMG_2848.JPG][This is a name</a>
+
+</p>
+
+
+
+</article>
+
 
 
 <article class="entry-page-article">

@@ -7,13 +7,88 @@
   <id>http://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-03-16T19:19:22+01:00</updated>
+  <updated>2022-03-19T22:23:54+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of the sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Figuring out YASnippet</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2022/03/19/figuring-out-yasnippet' />
+    <published>2022-03-19T21:20:00+01:00</published>
+    <updated>2022-03-19T21:20:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/emacs' term='emacs' />
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+Today I finally took the time to figure to the YASnippet Emacs package to create a template for my new blogposts. Turns out there was not a lot to understand. To create a new template you run `M-x` `yas-new-snippet` in the then opening buffer you just enter your template in plain text and hit `C-c C-c` when you're done.
+
+</p>
+
+
+<p>
+
+The three other elements that I needed for my simple snippets:
+
+</p>
+
+<ul>
+<li>`$0` denotes where the cursor should end up after the snippet is inserted.</li>
+</ul>
+<ul>
+<li>Emacs lisp code to be evaluated with the snipped can be inserted within backquotes. Example: the following snippet enters the current date in iso-format:</li>
+</ul>
+
+
+	  <div class="example_code">
+	  <pre>`(format-time-string "%Y-%m-%d")` $0	  </pre>
+    </div>
+
+<ul>
+<li>Elements to be completed at point are entered with {N: default value} as an example here is the template for a for-loop in C:</li>
+</ul>
+
+
+<p>
+
+  #+begin_src C
+
+</p>
+
+
+<p>
+
+for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
+
+</p>
+
+
+<p>
+
+  #+end_src
+
+</p>
+
+
+
+<img src="http://example.com/images/Joshua_Tree.jpg" alt="A beautiful tree" />
+
+
+
+
+<p>
+
+<a href="tsfile:IMG_2848.JPG][This is a name">tsfile:IMG_2848.JPG][This is a name</a>
+
+</p>
+</div>
+    </summary>
+    <id>http://sonofhypnos.github.io/thoughts/2022/03/19/figuring-out-yasnippet-from-feed-with-teaser</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Returns on cognition in a boardgames</title>

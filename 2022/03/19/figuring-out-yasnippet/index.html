@@ -5,22 +5,22 @@
 
   <meta name="author" content="Tassilo Neubauer" />
   <meta name="generator" content="lazyblorg" />
-  <meta name="description" content="Tag page for tag games" />
-  <meta name="orgmode-id" content="lb_tag-games" />
+  <meta name="description" content="Figuring out YASnippet" />
+  <meta name="orgmode-id" content="figuring-out-yasnippet" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@tassilo.neubauer" />
   <meta name="twitter:creator" content="@tassilo.neubauer" />
-  <meta name="twitter:title" content="games" />
-  <meta name="twitter:description" content="Tag page for tag games" />
+  <meta name="twitter:title" content="Figuring out YASnippet" />
+  <meta name="twitter:description" content="Figuring out YASnippet" />
   <meta name="twitter:image" content="http://Karl-Voit.at/images/public-voit_T_logo_200x200.png" />
 
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="games" />
-  <meta property="og:description" content="Tag page for tag games" />
+  <meta property="og:title" content="Figuring out YASnippet" />
+  <meta property="og:description" content="Figuring out YASnippet" />
   <meta property="og:image" content="http://Karl-Voit.at/images/public-voit_T_logo_200x200.png" />
   <meta property="og:site_name" content="Perfect is the enemy of the sustainable - Web-page of Tassilo Neubauer">
-  <meta property="article:published_time" content="2017-01-01T00:00+01:00" />
+  <meta property="article:published_time" content="2022-03-19T21:20+01:00" />
   <meta property="article:author" content="Tassilo Neubauer" />
 
   <link rel="stylesheet" title="Perfect is the enemy of the sustainable Standard CSS Style"
@@ -36,7 +36,7 @@
   <!-- WARNING: This page is written in HTML5 and might not be displayed correctly in old browsers. -->
 
       <!-- link rel="stylesheet" type="text/css" href="../../../../style.css" / -->
-      <title>The Tag &laquo;games&raquo;</title>
+      <title>Figuring out YASnippet</title>
 
   </head>  <body>
 
@@ -47,17 +47,21 @@
 
 	  <nav class="temporal-article-header-nav">
 	    <span class="breadcrumbs">
-	      <a href="../../../../"><img src="" alt="Perfect is the enemy of the sustainable logo" width="350" style="vertical-align:middle;"></a><span style="padding-top:1em;">&nbsp;&nbsp;&nbsp;&nbsp;&raquo;<a href="../">Tags</a>&nbsp;&nbsp;&nbsp;&nbsp;&raquo;games</span>
+	      <a href="../../../../"><img src="" alt="Perfect is the enemy of the sustainable logo" width="350" style="vertical-align:middle;"></a><span style="padding-top:1em;">&nbsp;&nbsp;&nbsp;&nbsp;&raquo;
+	      <a href="../../../">2022</a>&nbsp;&ndash;&nbsp;<a href="../../">03</a>&nbsp;&ndash;&nbsp;<a href="../">19</a></span>
 	    </span>
 	  </nav>
 	  <aside class="common-tags">
 	    <ul>
+                <li><a class="usertag" href="//sonofhypnos.github.io/thoughts/tags/emacs/">emacs</a></li>
 	    </ul>
 	  </aside>
 
-	  <h1 class="common-article-header-title">Tag Page for the Tag "games"</h1>
+	  <h1 class="common-article-header-title">Figuring out YASnippet</h1>
 
-    
+  	  <aside class="reading-time-section">
+          Reading time is one minute
+	  </aside>
 
 	</header>
 
@@ -98,27 +102,68 @@
 
   <article class="common-article">
 
-  <hr />
+<p>
 
-  <p>
-  All articles tagged with games <span class="minor-contrast">(sorted by last update, oldest on top)</span>:
-  </p>
+Today I finally took the time to figure to the YASnippet Emacs package to create a template for my new blogposts. Turns out there was not a lot to understand. To create a new template you run `M-x` `yas-new-snippet` in the then opening buffer you just enter your template in plain text and hit `C-c C-c` when you're done.
 
-  <p>
-  
-<ul class='tag-pages-link-list'>
-  <li> <span class='timestamp'>2022-02-14T16:12</span> <a href="//sonofhypnos.github.io/thoughts/2022/02/14/deminishing-returns-on-cognition-in-games">Returns on cognition in a boardgames</a></li>
+</p>
+
+<p>
+
+The three other elements that I needed for my simple snippets:
+
+</p>
+<ul>
+<li>`$0` denotes where the cursor should end up after the snippet is inserted.</li>
+</ul>
+<ul>
+<li>Emacs lisp code to be evaluated with the snipped can be inserted within backquotes. Example: the following snippet enters the current date in iso-format:</li>
 </ul>
 
-  </p>
+	  <div class="example_code">
+	  <pre>`(format-time-string "%Y-%m-%d")` $0	  </pre>
+    </div>
+<ul>
+<li>Elements to be completed at point are entered with {N: default value} as an example here is the template for a for-loop in C:</li>
+</ul>
+
+<p>
+
+  #+begin_src C
+
+</p>
+
+<p>
+
+for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
+
+</p>
+
+<p>
+
+  #+end_src
+
+</p>
+
+
+<img src="http://example.com/images/Joshua_Tree.jpg" alt="A beautiful tree" />
+
+
+
+<p>
+
+<a href="tsfile:IMG_2848.JPG][This is a name">tsfile:IMG_2848.JPG][This is a name</a>
+
+</p>
+
 
   </article>
 	  <aside class="published-on">
-	    Published on <time datetime="2017-01-01T00:00+01:00">2017-01-01T00:00</time>
+	    Published on <time datetime="2022-03-19T21:20+01:00">2022-03-19T21:20</time>
 	  </aside>
 
    <p class="email-comment">
-      <a href="mailto:.....?subject=lb_tag-games%20comment:%20&body=Please%20do%20not%20remove%20'lb_tag-games%20comment:'%20in%20subject%20and%20please%20tell%20me%20whether%20or%20not%20it%20is%20OK%20to%20add%20your%20comment%20and%2For%20your%20name%20and%2For%20your%20email%20address%20to%20the%20blog%20entry!">Comment via email</a> or via <a href="//disqus.com">Disqus</a> comments below:
+      <a href="mailto:.....?subject=figuring-out-yasnippet%20comment:%20&body=Please%20do%20not%20remove%20'figuring-out-yasnippet%20comment:'%20in%20subject%20and%20please%20tell%20me%20whether%20or%20not%20it%20is%20OK%20to%20add%20your%20comment%20and%2For%20your%20name%20and%2For%20your%20email%20address%20to%20the%20blog%20entry!">Comment via email</a> or via <a href="//disqus.com">Disqus</a> comments below:
    </p>
 
     <div id="disqus_thread"></div>
@@ -132,7 +177,7 @@
           dsq.type = 'text/javascript';
           dsq.async = true;
           dsq.src = "//.disqus.com/embed.js";
-          var disqus_identifier = 'lb_tag-games';
+          var disqus_identifier = 'figuring-out-yasnippet';
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
           var ldr = document.getElementById('disqus_loader');
           ldr.parentNode.removeChild(ldr);
@@ -148,7 +193,7 @@
 
 	 	&nbsp;&bull;&nbsp; <a href="//jigsaw.w3.org/css-validator/">CSS3</a>
 
-	 	&nbsp;&bull;&nbsp; <a href="https://web.archive.org/web/*/sonofhypnos.github.io/thoughts/tags/games/">Archive</a>
+	 	&nbsp;&bull;&nbsp; <a href="https://web.archive.org/web/*/sonofhypnos.github.io/thoughts/2022/03/19/figuring-out-yasnippet/">Archive</a>
 
 	 	&nbsp;&bull;&nbsp; <a href="https://jeffhuang.com/designed_to_last/">Designed to Last</a>
       </p>
