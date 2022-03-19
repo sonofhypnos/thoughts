@@ -4,10 +4,10 @@
       xml:lang="en-us">
   <link rel="self" href="http://sonofhypnos.github.io/thoughts/feeds/lazyblorg-all.atom_1.0.links-and-content.xml" />
   <title type="text">Perfect is the enemy of the sustainable</title>
-  <id>http://sonofhypnos.github.io/thoughts/</id>
+  <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-03-19T22:23:54+01:00</updated>
+  <updated>2022-03-19T22:56:16+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -69,7 +69,7 @@ for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
 
 <p>
 
-  #+end_src
+  #+end_src <a href="tsfile:IMG_2848.JPG">tsfile:IMG_2848.JPG</a>
 
 </p>
 
@@ -78,13 +78,6 @@ for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
 <img src="http://example.com/images/Joshua_Tree.jpg" alt="A beautiful tree" />
 
 
-
-
-<p>
-
-<a href="tsfile:IMG_2848.JPG][This is a name">tsfile:IMG_2848.JPG][This is a name</a>
-
-</p>
 </div>
     </summary>    <content type='xhtml'>
       <div xmlns='http://www.w3.org/1999/xhtml'>
@@ -135,7 +128,7 @@ for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
 
 <p>
 
-  #+end_src
+  #+end_src <a href="tsfile:IMG_2848.JPG">tsfile:IMG_2848.JPG</a>
 
 </p>
 
@@ -145,16 +138,9 @@ for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
 
 
 
-
-<p>
-
-<a href="tsfile:IMG_2848.JPG][This is a name">tsfile:IMG_2848.JPG][This is a name</a>
-
-</p>
-
       </div>
     </content>
-    <id>http://sonofhypnos.github.io/thoughts/2022/03/19/figuring-out-yasnippet-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/03/19/figuring-out-yasnippet-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -274,7 +260,7 @@ Interesting concept I stumbled upon while googling:
 
       </div>
     </content>
-    <id>http://sonofhypnos.github.io/thoughts/2022/02/14/deminishing-returns-on-cognition-in-games-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/02/14/deminishing-returns-on-cognition-in-games-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -317,7 +303,7 @@ Was ich mich schon gefragt habe, ist wie lazyblorg denn mehrere Sprachen bei den
 
       </div>
     </content>
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -401,7 +387,7 @@ Happy random journaling!
 
       </div>
     </content>
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/30/journaling-prompts-emacs-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/30/journaling-prompts-emacs-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -429,7 +415,7 @@ Right after <a href="//sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-firs
 
       </div>
     </content>
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/30/taming-emacs-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/30/taming-emacs-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -504,7 +490,7 @@ It also reminded me of Scott Garrabrant’s perspective on inference with <a hre
 
       </div>
     </content>
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/21/information-all-the-way-down-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/21/information-all-the-way-down-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -547,7 +533,7 @@ In the end I decided to go with <a href="https://github.com/novoid/lazyblorg">la
 
       </div>
     </content>
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -574,7 +560,7 @@ This is a placeholder entry in order to be able to test internal links.
 
       </div>
     </content>
-    <id>http://sonofhypnos.github.io/thoughts/how-to-use-public-voit-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/how-to-use-public-voit-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -602,5 +588,5 @@ This is a placeholder entry in order to be able to test internal links.
 
       </div>
     </content>
-    <id>http://sonofhypnos.github.io/thoughts/about-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/about-from-feed-with-content</id>
 </entry></feed>

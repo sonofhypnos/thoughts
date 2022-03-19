@@ -4,10 +4,10 @@
       xml:lang="en-us">
   <link rel="self" href="http://sonofhypnos.github.io/thoughts/feeds/lazyblorg-all.atom_1.0.links-only.xml" />
   <title type="text">Perfect is the enemy of the sustainable</title>
-  <id>http://sonofhypnos.github.io/thoughts/</id>
+  <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-03-19T22:23:54+01:00</updated>
+  <updated>2022-03-19T22:56:16+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -21,7 +21,7 @@
     <published>2022-03-19T21:20:00+01:00</published>
     <updated>2022-03-19T21:20:00+01:00</updated>
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/emacs' term='emacs' />
-    <id>http://sonofhypnos.github.io/thoughts/2022/03/19/figuring-out-yasnippet-from-feed-with-links</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/03/19/figuring-out-yasnippet-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -30,7 +30,7 @@
     <published>2022-02-14T16:12:00+01:00</published>
     <updated>2022-02-14T19:00:00+01:00</updated>
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/games' term='games' />
-    <id>http://sonofhypnos.github.io/thoughts/2022/02/14/deminishing-returns-on-cognition-in-games-from-feed-with-links</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/02/14/deminishing-returns-on-cognition-in-games-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -38,7 +38,7 @@
     <link href='http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7' />
     <published>2022-01-23T01:56:00+01:00</published>
     <updated>2022-01-31T00:13:00+01:00</updated>
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7-from-feed-with-links</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -48,7 +48,7 @@
     <updated>2022-01-30T23:37:00+01:00</updated>
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/emacs' term='emacs' />
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/journaling' term='journaling' />
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/30/journaling-prompts-emacs-from-feed-with-links</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/30/journaling-prompts-emacs-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -57,7 +57,7 @@
     <published>2022-01-30T23:04:00+01:00</published>
     <updated>2022-01-30T23:04:00+01:00</updated>
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/emacs' term='emacs' />
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/30/taming-emacs-from-feed-with-links</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/30/taming-emacs-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -67,7 +67,7 @@
     <updated>2022-01-21T18:40:00+01:00</updated>
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/physics' term='physics' />
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/epistemology' term='epistemology' />
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/21/information-all-the-way-down-from-feed-with-links</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/21/information-all-the-way-down-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -77,7 +77,7 @@
     <updated>2022-01-19T21:00:00+01:00</updated>
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/lazyblorg' term='lazyblorg' />
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/software' term='software' />
-    <id>http://sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post-from-feed-with-links</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -85,7 +85,7 @@
     <link href='http://sonofhypnos.github.io/thoughts/how-to-use-public-voit' />
     <published>2017-01-03T12:07:00+01:00</published>
     <updated>2017-01-03T12:07:00+01:00</updated>
-    <id>http://sonofhypnos.github.io/thoughts/how-to-use-public-voit-from-feed-with-links</id>
+    <id>https://sonofhypnos.github.io/thoughts/how-to-use-public-voit-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
@@ -94,5 +94,5 @@
     <published>2014-03-09T14:57:00+01:00</published>
     <updated>2014-03-09T14:57:00+01:00</updated>
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/lazyblorg' term='lazyblorg' />
-    <id>http://sonofhypnos.github.io/thoughts/about-from-feed-with-links</id>
+    <id>https://sonofhypnos.github.io/thoughts/about-from-feed-with-links</id>
 </entry></feed>

@@ -31,6 +31,11 @@ for (${1:i = 0}; ${2:i < N}; ${3:i++}) {
 
   #+end_src
 
+#+CAPTION: An example image with a linked, larger version of it.
+#+ATTR_HTML: :alt This is the alt-text for this example image
+#+ATTR_HTML: :align center :width 560 :linked-image-width 1500
+[[tsfile:IMG_2848.JPG]]
+
 
 #+BEGIN_EXPORT html
 
@@ -40,6 +45,4 @@ for (${1:i = 0}; ${2:i < N}; ${3:i++}) {
 
 
 #+END_EXPORT
-
-
 
