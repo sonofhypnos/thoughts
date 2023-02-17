@@ -23,11 +23,9 @@ The three other elements that I needed for my simple snippets:
 
 - Elements to be completed at point are entered with {N: default value} as an example here is the template for a for-loop in C:
 
-  #+begin_src C :tangle yes
-
+  #+begin_src c :tangle yes
 for (${1:i = 0}; ${2:i < N}; ${3:i++}) {
     $0
         }
-
   #+end_src
 

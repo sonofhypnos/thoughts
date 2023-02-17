@@ -7,7 +7,7 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-02-17T18:37:31+01:00</updated>
+  <updated>2023-02-17T18:40:59+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -139,21 +139,7 @@ The three other elements that I needed for my simple snippets:
 
 <p>
 
-  #+begin_src C :tangle yes
-
-</p>
-
-
-<p>
-
-for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
-
-</p>
-
-
-<p>
-
-  #+end_src
+  #<s>begin_src c :tangle yes for (${1:i = 0}; ${2:i &lt; N}; ${3:i</s>+}) { $0 } #+end_src
 
 </p>
 </div>
@@ -192,21 +178,7 @@ The three other elements that I needed for my simple snippets:
 
 <p>
 
-  #+begin_src C :tangle yes
-
-</p>
-
-
-<p>
-
-for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
-
-</p>
-
-
-<p>
-
-  #+end_src
+  #<s>begin_src c :tangle yes for (${1:i = 0}; ${2:i &lt; N}; ${3:i</s>+}) { $0 } #+end_src
 
 </p>
 
