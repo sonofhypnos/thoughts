@@ -27,7 +27,7 @@ The three other elements that I needed for my simple snippets:
 
 for (${1:i = 0}; ${2:i < N}; ${3:i++}) {
     $0
-}
+        }
 
   #+end_src
 
