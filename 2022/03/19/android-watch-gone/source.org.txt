@@ -1,60 +1,27 @@
-*** DONE About my old Watch :blog:
 :PROPERTIES:
 :ID: android-watch-gone
-:CREATED: [2022-03-19 Sa 23:06]
+:CREATED: [2022-03-18 Fr 23:06]
 :END:
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2022-03-19 Sa 23:06]
-- State "TODO"       from              [2022-01-23 So 02:37]
 :END:
-**** DONE :NOEXPORT:
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2022-03-19 Sa 23:06]
-- State "TODO"       from              [2022-01-23 So 02:37]
-:END:
-***** DONE Figure out the name of my old watch
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2022-03-19 Sa 23:06]
-- State "TODO"       from              [2022-01-23 So 02:55]
-:END:
-***** DONE Figure out what kind of picture framework I want to use!
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2022-03-19 Sa 23:06]
-- State "TODO"       from              [2022-01-23 So 02:56]
-:END:
-**** Outline
-***** Introduction
-***** Ideas
-****** Moving from an annoying teenager to an annoying young adult
-****** Learning what "responsibility" is and still not possessing lots of it. Maybe more like stumbling into adulthood agency.
-- There is this quote that floats through self-help material I've read and it basically boils down to becoming and adult means acquiring agency and not stumbling through your life, which is a classic adhd thing to do.
-- tHERE IS THIS [[roam:CGPGrey]] Video related to this and also a blog mentioned on why you should start a blog right now
-
-
-***** Stream of consciousness
-
-
-Today I want to tal
-
-
-***** Today I want
-
-
 Today I want to show you the amazing device that ran my life for...3 years? It's this smart watch.
-[picture]
-As you can see (sorry for the low image quality) this watch is very packed.
-
-
 #+CAPTION: An example image with a linked, larger version of it.
 #+ATTR_HTML: :alt This is the alt-text for this example image
 #+ATTR_HTML: :align center :width 560 :linked-image-width 1500
-[[tsfile:IMG_20191016_154108.jpg][photo]]
+[[tsfile:image.png][photo]]
+As you can see (sorry for the low image quality) this watch is very packed.
+
+** Outline
+*** Introduction
+*** Ideas
+**** Moving from an annoying teenager to an annoying young adult
+**** Learning what "responsibility" is and still not possessing lots of it. Maybe more like stumbling into adulthood agency.
+- There is this quote that floats through self-help material I've read and it basically boils down to becoming and adult means acquiring agency and not stumbling through your life, which is a classic adhd thing to do.
+- THERE IS THIS CGPGrey Video related to this and also a blog mentioned on why you should start a blog right now
 
 
 
-:LOGBOOK:
-- State "TODO"       from              [2022-01-23 So 03:02]
-:END:
-***** What I used it for?
-***** Some lessons?
-***** Please if you have something like this let me know!
+*** What I used it for?
+*** Lessons
+*** Please if you have something like this let me know!

@@ -7,13 +7,99 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-02-17T16:11:02+01:00</updated>
+  <updated>2023-02-17T16:13:23+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of the sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">About my old Watch :watches:</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2022/03/19/android-watch-gone' />
+    <published>2022-03-19T23:06:00+01:00</published>
+    <updated>2022-03-19T23:06:00+01:00</updated>
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+Today I want to show you the amazing device that ran my life for...3 years? It's this smart watch.
+
+</p>
+
+
+<figure class="image-center">
+<a href="image%20-%20scaled%20width%201500.png">
+  <img src="image%20-%20scaled%20width%20560.png" alt="This is the alt-text for this example image" width="560" />
+</a>
+<figcaption>An example image with a linked, larger version of it.</figcaption>
+</figure>
+
+
+<p>
+
+As you can see (sorry for the low image quality) this watch is very packed.
+
+</p>
+</div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+Today I want to show you the amazing device that ran my life for...3 years? It's this smart watch.
+
+</p>
+
+
+<figure class="image-center">
+<a href="image%20-%20scaled%20width%201500.png">
+  <img src="image%20-%20scaled%20width%20560.png" alt="This is the alt-text for this example image" width="560" />
+</a>
+<figcaption>An example image with a linked, larger version of it.</figcaption>
+</figure>
+
+
+<p>
+
+As you can see (sorry for the low image quality) this watch is very packed.
+
+</p>
+
+
+	  <header><h2 class="section-title">Outline</h2></header>
+
+
+	  <header><h3 class="section-title">Introduction</h3></header>
+
+
+	  <header><h3 class="section-title">Ideas</h3></header>
+
+
+	  <header><h4 class="section-title">Moving from an annoying teenager to an annoying young adult</h4></header>
+
+
+	  <header><h4 class="section-title">Learning what "responsibility" is and still not possessing lots of it. Maybe more like stumbling into adulthood agency.</h4></header>
+
+<ul>
+<li>There is this quote that floats through self-help material I've read and it basically boils down to becoming and adult means acquiring agency and not stumbling through your life, which is a classic adhd thing to do.</li>
+<li>THERE IS THIS CGPGrey Video related to this and also a blog mentioned on why you should start a blog right now</li>
+</ul>
+
+
+	  <header><h3 class="section-title">What I used it for?</h3></header>
+
+
+	  <header><h3 class="section-title">Lessons</h3></header>
+
+
+	  <header><h3 class="section-title">Please if you have something like this let me know!</h3></header>
+
+      </div>
+    </content>
+    <id>https://sonofhypnos.github.io/thoughts/2022/03/19/android-watch-gone-from-feed-with-content</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Figuring out YASnippet</title>
