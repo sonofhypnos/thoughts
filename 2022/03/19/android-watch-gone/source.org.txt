@@ -10,6 +10,13 @@
 Today I want to show you the amazing device that ran my life for...3 years? It's this smart watch:
 
 
+
+#+CAPTION: Test image.
+#+ATTR_HTML: :align center :width 560 :linked-image-width 1500
+[[file:My_old_smartwatch/2023-02-17_18-22-53_screenshot.png]]
+
+
+
 #+CAPTION: I didn't claim it looked sexy.
 #+ATTR_HTML: :align center :width 560 :linked-image-width 1500
 [[tsfile:image.png][photo]]
