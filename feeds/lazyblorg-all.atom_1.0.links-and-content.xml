@@ -7,7 +7,7 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-02-17T15:12:17+01:00</updated>
+  <updated>2023-02-17T15:18:24+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -147,6 +147,183 @@ for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
       </div>
     </content>
     <id>https://sonofhypnos.github.io/thoughts/2022/03/19/figuring-out-yasnippet-from-feed-with-content</id>
+</entry>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Reflecting on Finding your people and 3 months at university during Corona</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2022/02/13/reflecting-on-finding-your-people' />
+    <published>2022-02-13T18:33:00+01:00</published>
+    <updated>2022-03-16T19:14:00+01:00</updated>
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+My second semester has just ended and I've been reflecting on my goals for the last 1.5 years. While rereading [Finding your people](<a href="https://guzey.com/personal/friendship/)">https://guzey.com/personal/friendship/)</a> and other peoples reflections on college there is this theme: “Try to not settle for the local optimum of always hanging out with the people you happen to stumble into, but to actively optimize for meeting awesome people.“ While reading these I felt like "Yes this feels like something important, but how do you actually optimize for this in practice?". As always with these things I feel like the best way would probably asking other people for help, but this is so scarry so I might as well worry about it The things written below are just me brainstorming on the topic, so I apologize if more people end up reading this. I haven’t heavily optimized this for readability, but hope this is still helpful for other people.
+
+</p>
+
+<ul>
+<li>But how do you even optimize for meeting (awesome) people?
+<ul>
+<li>Looking back on the last 1.5 year
+<ul>
+<li>What worked
+<ul>
+<li>I found an accountability partner by actively searching! At some points one of my desperate attempts just ended up working! (Let's see for how long this goes!)</li>
+<li>Ask my accountability guy for advice about meeting people?</li>
+<li>My local rationality group</li>
+<li>There is a bunch of awesome people I interacted for a short while through coworking online, which were always exceptionally well fit people concerned about the same things as I was.</li>
+<li>I think one thing that went really great was focusmate. If there is one thing were I want to congratulate past me with following through, then it is probably doing the coworking sessions on focusmate even though my chest was pounding like crazy and I felt like embarrassing myself in front of these awesome people doing important stuff every time. I don't think my smalltalk/de-awkwarding skills improved lots during these sessions, but I feel like my head slowly accepted that these very short situations with strangers end up slightly awkward not only because people are focused on a different goal (getting their work done.)
+<ul>
+<li>So if you just like me feel very frightened and awkward during your first meetings on focusmate and feel like they might not be worth it on balance, if that is always how you feel about them. Then I want to nudge you by this n=1 evidence that this feeling is probably going to decline. Yay!</li>
+<li>I feel like on the one hand I should probably follow up with some of the really intruiging people I met there. At the same time I don't want to degrade the quality of the whole website and it is nice that people there are there not "just" for "<code>networking</code>".</li>
+</ul></li>
+<li>Going to big parties and just settling in a random place, introducing myself while not interrupting people actively in their conversations went great when I literally didn't know anyone. Problem there haven't been that many parties like this or I haven't been invited to them.</li>
+</ul></li>
+<li>What did not work
+<ul>
+<li>Online dating. None of my days this years have been as miserable than the days were I set up my online dating accounts and tried to compose my bio or write messages to people. There is not a single person who I ended up meeting.
+<ul>
+<li>Yes I know… Maybe if I was being more strategic the whole thing would work, but I feel this is an area where I again and again failed with the "trying harder" approach. Yes my photos suck! I took some selfies outside. I did not go as far as asking a friend to take some photos with me AND then actually following through with that (because it felt super awkward the ~4 times I pitched this to a friend in conversation and I kind of waited for them to say "yes" lets do that (which of course never happened).)
+<ul>
+<li>I did not go as far as buying better looking clothes because I think without someone who has actual taste in this I would not be doing particularly better than with the clothes largely optimized for convencience and "unauffällig" averageness I have now.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>What is the current situation?
+<ul>
+<li>There is about ~10-20 people I talk to during a regular week would be my guess. Maybe half of that are actually meaningful interactions. The amount of new people entering my life per week might be around 1-3 depending on how deep of an interaction counts. (I just reflected on the last party I went to and I think the average one I went to still doubled the amount of new people I met per week with maybe slightly worse interactions?)</li>
+</ul></li>
+<li>What is the current bottleneck?
+<ul>
+<li>Things that come to my mind related to this</li>
+<li>Am I just lazy, do I need to invest more time in this than I would naively like to?</li>
+<li>Is my social anxiety one of the limiting factors, and there are all of these opportunities — like talking to the other people in the studying room when you take a break — that I am missing out on?</li>
+<li>Do I need to accept that the current</li>
+</ul></li>
+<li>What should I even optimize for?
+<ul>
+<li>What is the right balance between:
+<ul>
+<li>Meeting people in AI-Alignment because this seems like an important area?</li>
+<li>Meeting people in the whole intellectuals sphere EA/ People in the US compared to people around here?
+<ul>
+<li>How would I make best guesses in this Area?</li>
+<li>Should I ask some people explicitly who have probably thought more about this?
+<ul>
+<li>[?] Like the australian guy?</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>I feel like my experience doing this has been mixed and it just generally feels very hard to do that
+<ul>
+<li>I am already not the kind of person who likes to always go on parties, but I went to way more bar nights in my dorm than I would have if not explicitly thinking about explore vs exploit dynamics
+<ul>
+<li>These bar nights are dominated by the same kind of people often though. The big parties are things like people partying after their exams. That feels like the kind of events you want to be at, but first I don't really know how to hear about them, if it is not my major (I guess this is intentional?)
+<ul>
+<li>At the same time corona adds this second layer of ambigouity because I think the current situation is rather ridiculus with 97% of students at my university being vaccinated, but really huge parties would still probably be a thing to avoid? My strategy so far had mostly been just going more with my antisocial side, so I wouldn't have to think about the pandemic.
+<ul>
+<li>It also adds this layer where it makes it hard to talk with other people about this stuff because you don't want to seem like the reckless person.
+<ul>
+<li>Am I being reckless? Maybe I do not have the right perspective on this? To be honest I am just really tired of this whole thing.</li>
+</ul></li>
+</ul></li>
+<li>Wait!!! While writing this I was thinking that it should be trivially easy</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+My second semester has just ended and I've been reflecting on my goals for the last 1.5 years. While rereading [Finding your people](<a href="https://guzey.com/personal/friendship/)">https://guzey.com/personal/friendship/)</a> and other peoples reflections on college there is this theme: “Try to not settle for the local optimum of always hanging out with the people you happen to stumble into, but to actively optimize for meeting awesome people.“ While reading these I felt like "Yes this feels like something important, but how do you actually optimize for this in practice?". As always with these things I feel like the best way would probably asking other people for help, but this is so scarry so I might as well worry about it The things written below are just me brainstorming on the topic, so I apologize if more people end up reading this. I haven’t heavily optimized this for readability, but hope this is still helpful for other people.
+
+</p>
+
+<ul>
+<li>But how do you even optimize for meeting (awesome) people?
+<ul>
+<li>Looking back on the last 1.5 year
+<ul>
+<li>What worked
+<ul>
+<li>I found an accountability partner by actively searching! At some points one of my desperate attempts just ended up working! (Let's see for how long this goes!)</li>
+<li>Ask my accountability guy for advice about meeting people?</li>
+<li>My local rationality group</li>
+<li>There is a bunch of awesome people I interacted for a short while through coworking online, which were always exceptionally well fit people concerned about the same things as I was.</li>
+<li>I think one thing that went really great was focusmate. If there is one thing were I want to congratulate past me with following through, then it is probably doing the coworking sessions on focusmate even though my chest was pounding like crazy and I felt like embarrassing myself in front of these awesome people doing important stuff every time. I don't think my smalltalk/de-awkwarding skills improved lots during these sessions, but I feel like my head slowly accepted that these very short situations with strangers end up slightly awkward not only because people are focused on a different goal (getting their work done.)
+<ul>
+<li>So if you just like me feel very frightened and awkward during your first meetings on focusmate and feel like they might not be worth it on balance, if that is always how you feel about them. Then I want to nudge you by this n=1 evidence that this feeling is probably going to decline. Yay!</li>
+<li>I feel like on the one hand I should probably follow up with some of the really intruiging people I met there. At the same time I don't want to degrade the quality of the whole website and it is nice that people there are there not "just" for "<code>networking</code>".</li>
+</ul></li>
+<li>Going to big parties and just settling in a random place, introducing myself while not interrupting people actively in their conversations went great when I literally didn't know anyone. Problem there haven't been that many parties like this or I haven't been invited to them.</li>
+</ul></li>
+<li>What did not work
+<ul>
+<li>Online dating. None of my days this years have been as miserable than the days were I set up my online dating accounts and tried to compose my bio or write messages to people. There is not a single person who I ended up meeting.
+<ul>
+<li>Yes I know… Maybe if I was being more strategic the whole thing would work, but I feel this is an area where I again and again failed with the "trying harder" approach. Yes my photos suck! I took some selfies outside. I did not go as far as asking a friend to take some photos with me AND then actually following through with that (because it felt super awkward the ~4 times I pitched this to a friend in conversation and I kind of waited for them to say "yes" lets do that (which of course never happened).)
+<ul>
+<li>I did not go as far as buying better looking clothes because I think without someone who has actual taste in this I would not be doing particularly better than with the clothes largely optimized for convencience and "unauffällig" averageness I have now.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>What is the current situation?
+<ul>
+<li>There is about ~10-20 people I talk to during a regular week would be my guess. Maybe half of that are actually meaningful interactions. The amount of new people entering my life per week might be around 1-3 depending on how deep of an interaction counts. (I just reflected on the last party I went to and I think the average one I went to still doubled the amount of new people I met per week with maybe slightly worse interactions?)</li>
+</ul></li>
+<li>What is the current bottleneck?
+<ul>
+<li>Things that come to my mind related to this</li>
+<li>Am I just lazy, do I need to invest more time in this than I would naively like to?</li>
+<li>Is my social anxiety one of the limiting factors, and there are all of these opportunities — like talking to the other people in the studying room when you take a break — that I am missing out on?</li>
+<li>Do I need to accept that the current</li>
+</ul></li>
+<li>What should I even optimize for?
+<ul>
+<li>What is the right balance between:
+<ul>
+<li>Meeting people in AI-Alignment because this seems like an important area?</li>
+<li>Meeting people in the whole intellectuals sphere EA/ People in the US compared to people around here?
+<ul>
+<li>How would I make best guesses in this Area?</li>
+<li>Should I ask some people explicitly who have probably thought more about this?
+<ul>
+<li>[?] Like the australian guy?</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>I feel like my experience doing this has been mixed and it just generally feels very hard to do that
+<ul>
+<li>I am already not the kind of person who likes to always go on parties, but I went to way more bar nights in my dorm than I would have if not explicitly thinking about explore vs exploit dynamics
+<ul>
+<li>These bar nights are dominated by the same kind of people often though. The big parties are things like people partying after their exams. That feels like the kind of events you want to be at, but first I don't really know how to hear about them, if it is not my major (I guess this is intentional?)
+<ul>
+<li>At the same time corona adds this second layer of ambigouity because I think the current situation is rather ridiculus with 97% of students at my university being vaccinated, but really huge parties would still probably be a thing to avoid? My strategy so far had mostly been just going more with my antisocial side, so I wouldn't have to think about the pandemic.
+<ul>
+<li>It also adds this layer where it makes it hard to talk with other people about this stuff because you don't want to seem like the reckless person.
+<ul>
+<li>Am I being reckless? Maybe I do not have the right perspective on this? To be honest I am just really tired of this whole thing.</li>
+</ul></li>
+</ul></li>
+<li>Wait!!! While writing this I was thinking that it should be trivially easy</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </div>
+    </content>
+    <id>https://sonofhypnos.github.io/thoughts/2022/02/13/reflecting-on-finding-your-people-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
