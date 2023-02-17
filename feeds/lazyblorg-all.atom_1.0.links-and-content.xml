@@ -7,13 +7,93 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2022-03-19T22:56:16+01:00</updated>
+  <updated>2023-02-17T14:04:42+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of the sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">About my old Watch</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2022/03/19/android-watch-gone' />
+    <published>2022-03-19T23:06:00+01:00</published>
+    <updated>2022-03-19T23:06:00+01:00</updated>
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'></div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+	  <header><h2 class="section-title">:NOEXPORT:</h2></header>
+
+
+	  <header><h3 class="section-title">Figure out the name of my old watch</h3></header>
+
+
+	  <header><h3 class="section-title">Figure out what kind of picture framework I want to use!</h3></header>
+
+
+	  <header><h2 class="section-title">Outline</h2></header>
+
+
+	  <header><h3 class="section-title">Introduction</h3></header>
+
+
+	  <header><h3 class="section-title">Ideas</h3></header>
+
+
+	  <header><h4 class="section-title">Moving from an annoying teenager to an annoying young adult</h4></header>
+
+
+	  <header><h4 class="section-title">Learning what "responsibility" is and still not possessing lots of it. Maybe more like stumbling into adulthood agency.</h4></header>
+
+<ul>
+<li>There is this quote that floats through self-help material I've read and it basically boils down to becoming and adult means acquiring agency and not stumbling through your life, which is a classic adhd thing to do.</li>
+<li>tHERE IS THIS <a href="roam:CGPGrey">roam:CGPGrey</a> Video related to this and also a blog mentioned on why you should start a blog right now</li>
+</ul>
+
+
+	  <header><h3 class="section-title">Stream of consciousness</h3></header>
+
+
+<p>
+
+Today I want to tal
+
+</p>
+
+
+	  <header><h3 class="section-title">Today I want</h3></header>
+
+
+<p>
+
+Today I want to show you the amazing device that ran my life for...3 years? It's this smart watch. [picture] As you can see (sorry for the low image quality) this watch is very packed.
+
+</p>
+
+
+<figure class="image-center">
+<a href="IMG_20191016_154108%20-%20scaled%20width%201500.jpg">
+  <img src="IMG_20191016_154108%20-%20scaled%20width%20560.jpg" alt="This is the alt-text for this example image" width="560" />
+</a>
+<figcaption>An example image with a linked, larger version of it.</figcaption>
+</figure>
+
+
+	  <header><h3 class="section-title">What I used it for?</h3></header>
+
+
+	  <header><h3 class="section-title">Some lessons?</h3></header>
+
+
+	  <header><h3 class="section-title">Please if you have something like this let me know!</h3></header>
+
+      </div>
+    </content>
+    <id>https://sonofhypnos.github.io/thoughts/2022/03/19/android-watch-gone-from-feed-with-content</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Figuring out YASnippet</title>
@@ -25,7 +105,7 @@
 <div xmlns='http://www.w3.org/1999/xhtml'>
 <p>
 
-Today I finally took the time to figure to the YASnippet Emacs package to create a template for my new blogposts. Turns out there was not a lot to understand. To create a new template you run `M-x` `yas-new-snippet` in the then opening buffer you just enter your template in plain text and hit `C-c C-c` when you're done.
+Today I finally took the time to figure to the YASnippet Emacs package to create a template for my new blogposts. Turns out there was not a lot to understand. To create a new template you run `M-x` `yas-new-snippet`. In the then opening buffer you just enter your template in plain text and hit `C-c C-c` when you're done.
 
 </p>
 
@@ -69,22 +149,25 @@ for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
 
 <p>
 
-  #+end_src <a href="tsfile:IMG_2848.JPG">tsfile:IMG_2848.JPG</a>
+  #+end_src
 
 </p>
 
 
+<figure class="image-center">
+<a href="IMG_20191016_154108%20-%20scaled%20width%201500.jpg">
+  <img src="IMG_20191016_154108%20-%20scaled%20width%20560.jpg" alt="This is the alt-text for this example image" width="560" />
+</a>
+<figcaption>An example image with a linked, larger version of it.</figcaption>
+</figure>
 
-<img src="http://example.com/images/Joshua_Tree.jpg" alt="A beautiful tree" />
-
-
-</div>
+<img src="http://example.com/images/Joshua_Tree.jpg" alt="A beautiful tree" /></div>
     </summary>    <content type='xhtml'>
       <div xmlns='http://www.w3.org/1999/xhtml'>
 	
 <p>
 
-Today I finally took the time to figure to the YASnippet Emacs package to create a template for my new blogposts. Turns out there was not a lot to understand. To create a new template you run `M-x` `yas-new-snippet` in the then opening buffer you just enter your template in plain text and hit `C-c C-c` when you're done.
+Today I finally took the time to figure to the YASnippet Emacs package to create a template for my new blogposts. Turns out there was not a lot to understand. To create a new template you run `M-x` `yas-new-snippet`. In the then opening buffer you just enter your template in plain text and hit `C-c C-c` when you're done.
 
 </p>
 
@@ -128,23 +211,26 @@ for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) { $0 }
 
 <p>
 
-  #+end_src <a href="tsfile:IMG_2848.JPG">tsfile:IMG_2848.JPG</a>
+  #+end_src
 
 </p>
 
 
+<figure class="image-center">
+<a href="IMG_20191016_154108%20-%20scaled%20width%201500.jpg">
+  <img src="IMG_20191016_154108%20-%20scaled%20width%20560.jpg" alt="This is the alt-text for this example image" width="560" />
+</a>
+<figcaption>An example image with a linked, larger version of it.</figcaption>
+</figure>
 
 <img src="http://example.com/images/Joshua_Tree.jpg" alt="A beautiful tree" />
-
-
-
       </div>
     </content>
     <id>https://sonofhypnos.github.io/thoughts/2022/03/19/figuring-out-yasnippet-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
-    <title type="text">Returns on cognition in a boardgames</title>
+    <title type="text">Returns on cognition in different boardgames</title>
     <link href='http://sonofhypnos.github.io/thoughts/2022/02/14/deminishing-returns-on-cognition-in-games' />
     <published>2022-02-14T16:12:00+01:00</published>
     <updated>2022-02-14T19:00:00+01:00</updated>
@@ -265,7 +351,7 @@ Interesting concept I stumbled upon while googling:
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Interessante Lazyblorg Features</title>
-    <link href='http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7' />
+    <link href='http://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-kddkdk' />
     <published>2022-01-23T01:56:00+01:00</published>
     <updated>2022-01-31T00:13:00+01:00</updated>
     <summary type='xhtml'>
@@ -280,7 +366,10 @@ Was ich mich schon gefragt habe, ist wie lazyblorg denn mehrere Sprachen bei den
 <li>Als nächstes frage ich mich natürlich, ob bulletpoints funktionieren
 <ul>
 <li>Das wäre schon ein Feature, das ich die ganze Zeit verwenden würde.</li>
-<li>Sieht so aus als würde es ziemlich Einwandfrei funktionieren.</li>
+<li>Sieht so aus als würde es ziemlich Einwandfrei funktionieren.
+<ul>
+<li>Aber wie weit geht es rein in die Hierarchie?</li>
+</ul></li>
 </ul></li>
 </ul>
 </div>
@@ -297,13 +386,16 @@ Was ich mich schon gefragt habe, ist wie lazyblorg denn mehrere Sprachen bei den
 <li>Als nächstes frage ich mich natürlich, ob bulletpoints funktionieren
 <ul>
 <li>Das wäre schon ein Feature, das ich die ganze Zeit verwenden würde.</li>
-<li>Sieht so aus als würde es ziemlich Einwandfrei funktionieren.</li>
+<li>Sieht so aus als würde es ziemlich Einwandfrei funktionieren.
+<ul>
+<li>Aber wie weit geht es rein in die Hierarchie?</li>
+</ul></li>
 </ul></li>
 </ul>
 
       </div>
     </content>
-    <id>https://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-4610-b3d7-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/2022/01/23/ca493f40-fe93-kddkdk-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>

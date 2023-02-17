@@ -1,4 +1,4 @@
-** DONE Returns on cognition in a boardgames :blog:games:
+** DONE Returns on cognition in different boardgames :blog:games:
 :PROPERTIES:
 :ID:       deminishing-returns-on-cognition-in-games
 :CREATED:  [2022-02-14 Mo 15:08]
