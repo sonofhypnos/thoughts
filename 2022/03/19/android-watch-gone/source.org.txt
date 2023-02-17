@@ -11,7 +11,6 @@ Today I want to show you the amazing device that ran my life for...3 years? It's
 
 
 #+CAPTION: I didn't claim it looked sexy.
-#+ATTR_HTML: :alt This is the alt-text for this example image
 #+ATTR_HTML: :align center :width 560 :linked-image-width 1500
 [[tsfile:image.png][photo]]
 
