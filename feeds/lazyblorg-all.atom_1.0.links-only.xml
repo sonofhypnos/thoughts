@@ -3,15 +3,15 @@
       xmlns:thr="http://purl.org/syndication/thread/1.0"
       xml:lang="en-us">
   <link rel="self" href="http://sonofhypnos.github.io/thoughts/feeds/lazyblorg-all.atom_1.0.links-only.xml" />
-  <title type="text">Perfect is the enemy of the sustainable</title>
+  <title type="text">Perfect is the enemy of sustainable</title>
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-02-18T14:02:57+01:00</updated>
+  <updated>2023-02-18T14:06:54+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
-  <subtitle type="text">Perfect is the enemy of the sustainable</subtitle>
+  <subtitle type="text">Perfect is the enemy of sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
 <!-- ############################################################################################# -->
