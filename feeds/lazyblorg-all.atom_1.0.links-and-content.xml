@@ -7,7 +7,7 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-02-18T14:10:01+01:00</updated>
+  <updated>2023-02-18T14:32:25+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -33,7 +33,7 @@ Today I want to show you the amazing device that ran my life for...3 years? It's
 
 <figure class="image-center">
 <a href="image%20-%20scaled%20width%201500.png">
-  <img src="image%20-%20scaled%20width%20560.png" alt="" width="560" />
+  <img src="image%20-%20scaled%20width%20560.png" alt="" width="TMPREPLACEMEwidthSTART-image - scaled width 560.png-TMPREPLACEMEwidthEND" height="TMPREPLACEMEheightSTART-image - scaled width 560.png-TMPREPLACEMEheightEND" loading="lazy" />
 </a>
 <figcaption>I didn't claim it looked sexy.</figcaption>
 </figure>
@@ -57,7 +57,7 @@ Today I want to show you the amazing device that ran my life for...3 years? It's
 
 <figure class="image-center">
 <a href="image%20-%20scaled%20width%201500.png">
-  <img src="image%20-%20scaled%20width%20560.png" alt="" width="560" />
+  <img src="image%20-%20scaled%20width%20560.png" alt="" width="TMPREPLACEMEwidthSTART-image - scaled width 560.png-TMPREPLACEMEwidthEND" height="TMPREPLACEMEheightSTART-image - scaled width 560.png-TMPREPLACEMEheightEND" loading="lazy" />
 </a>
 <figcaption>I didn't claim it looked sexy.</figcaption>
 </figure>
@@ -239,7 +239,7 @@ One example for a game that is boring is 2048 (or at least doesn't encourage mor
 
 <figure class="image-center">
 <a href="2023-02-17_17-40-45_screenshot%20-%20scaled%20width%201500.png">
-  <img src="2023-02-17_17-40-45_screenshot%20-%20scaled%20width%20560.png" alt="" width="560" />
+  <img src="2023-02-17_17-40-45_screenshot%20-%20scaled%20width%20560.png" alt="" width="TMPREPLACEMEwidthSTART-2023-02-17_17-40-45_screenshot - scaled width 560.png-TMPREPLACEMEwidthEND" height="TMPREPLACEMEheightSTART-2023-02-17_17-40-45_screenshot - scaled width 560.png-TMPREPLACEMEheightEND" loading="lazy" />
 </a>
 <figcaption>What is the optimal next step? I don't know!</figcaption>
 </figure>
@@ -302,7 +302,7 @@ One example for a game that is boring is 2048 (or at least doesn't encourage mor
 
 <figure class="image-center">
 <a href="2023-02-17_17-40-45_screenshot%20-%20scaled%20width%201500.png">
-  <img src="2023-02-17_17-40-45_screenshot%20-%20scaled%20width%20560.png" alt="" width="560" />
+  <img src="2023-02-17_17-40-45_screenshot%20-%20scaled%20width%20560.png" alt="" width="TMPREPLACEMEwidthSTART-2023-02-17_17-40-45_screenshot - scaled width 560.png-TMPREPLACEMEwidthEND" height="TMPREPLACEMEheightSTART-2023-02-17_17-40-45_screenshot - scaled width 560.png-TMPREPLACEMEheightEND" loading="lazy" />
 </a>
 <figcaption>What is the optimal next step? I don't know!</figcaption>
 </figure>
@@ -604,7 +604,7 @@ In the end I decided to go with <a href="https://github.com/novoid/lazyblorg">la
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Placeholder: How to Use This Blog Efficiently</title>
-    <link href='http://sonofhypnos.github.io/thoughts/how-to-use-public-voit' />
+    <link href='http://sonofhypnos.github.io/thoughts/how-to-use-this-blog' />
     <published>2017-01-03T12:07:00+01:00</published>
     <updated>2017-01-03T12:07:00+01:00</updated>
     <summary type='xhtml'>
@@ -626,7 +626,7 @@ This is a placeholder entry in order to be able to test internal links.
 
       </div>
     </content>
-    <id>https://sonofhypnos.github.io/thoughts/how-to-use-public-voit-from-feed-with-content</id>
+    <id>https://sonofhypnos.github.io/thoughts/how-to-use-this-blog-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
