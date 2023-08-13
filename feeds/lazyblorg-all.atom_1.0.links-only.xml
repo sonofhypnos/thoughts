@@ -7,13 +7,29 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-02-18T14:32:25+01:00</updated>
+  <updated>2023-08-13T21:50:54+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">personal shortform</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2023/08/13/veryshorttakes' />
+    <published>2023-08-13T15:56:00+01:00</published>
+    <updated>2023-08-13T15:56:00+01:00</updated>
+    <id>https://sonofhypnos.github.io/thoughts/2023/08/13/veryshorttakes-from-feed-with-links</id>
+</entry>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Favorites</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2023/08/13/favorites' />
+    <published>2023-08-13T14:29:00+01:00</published>
+    <updated>2023-08-13T14:29:00+01:00</updated>
+    <id>https://sonofhypnos.github.io/thoughts/2023/08/13/favorites-from-feed-with-links</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">My old smartwatch</title>
@@ -88,6 +104,16 @@
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/lazyblorg' term='lazyblorg' />
     <category scheme='http://sonofhypnos.github.io/thoughts/tags/software' term='software' />
     <id>https://sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post-from-feed-with-links</id>
+</entry>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">An Example Blog Post</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2017/06/18/example-posting' />
+    <published>2017-06-18T00:16:00+01:00</published>
+    <updated>2017-06-18T00:16:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/lazyblorg' term='lazyblorg' />
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/software' term='software' />
+    <id>https://sonofhypnos.github.io/thoughts/2017/06/18/example-posting-from-feed-with-links</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>

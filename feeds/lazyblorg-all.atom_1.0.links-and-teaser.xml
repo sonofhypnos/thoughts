@@ -7,13 +7,106 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-02-18T14:32:25+01:00</updated>
+  <updated>2023-08-13T21:50:54+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">personal shortform</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2023/08/13/veryshorttakes' />
+    <published>2023-08-13T15:56:00+01:00</published>
+    <updated>2023-08-13T15:56:00+01:00</updated>
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+This document is for small ideas similar to the lw shortform feature
+
+</p>
+
+<ul>
+<li>Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I care about is really annoying.
+<ul>
+<li>I feel like I don't have a good overview</li>
+<li>What my current setup looks like (and how this factors into things)
+<ul>
+<li>Operating system
+<ul>
+<li>Browser/Firefox
+<ul>
+<li>Trydactyl (for vim keybinds and much more inside the browser)
+<ul>
+<li>webapps</li>
+<li>specific websites</li>
+</ul></li>
+</ul></li>
+<li>Text-Editor</li>
+<li>Other Applications</li>
+</ul></li>
+</ul></li>
+<li>Different platforms have different keyboard shortcut philosophy sets.
+<ul>
+<li>VSCode vs Emacs vs. Vim</li>
+</ul></li>
+<li>Example: Different</li>
+<li>Story:</li>
+<li>link: gwern has an interesting take on this.</li>
+</ul></li>
+</ul>
+</div>
+    </summary>
+    <id>https://sonofhypnos.github.io/thoughts/2023/08/13/veryshorttakes-from-feed-with-teaser</id>
+</entry>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Favorites</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2023/08/13/favorites' />
+    <published>2023-08-13T14:29:00+01:00</published>
+    <updated>2023-08-13T14:29:00+01:00</updated>
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'><ul>
+<li>Podcasts
+<ul>
+<li><a href="https://80000hours.org/podcast/">The 80k hours podcast</a>
+<ul>
+<li>Favorite Episodes:
+<ul>
+<li><a href="https://80000hours.org/podcast/episodes/luisa-rodriguez-why-global-catastrophes-seem-unlikely-to-kill-us-all/">Luisa Rodriguez on why global catastrophes seem unlikely to kill us all</a>
+<ul>
+<li>Made me more certain that for reducing existential risk, I want to focus on finding a way to make AGI go well, because society is probably going to make it.</li>
+</ul></li>
+<li><a href="https://80000hours.org/podcast/episodes/david-denkenberger-sahil-shah-using-paper-mills-and-seaweed-in-catastrophes/">David Denkenberger on using paper mills and seaweed to feed everyone in a catastrophe, ft Sahil Shah</a>
+<ul>
+<li>Same as above.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="https://podcast.clearerthinking.org/">The clearerthinking podcast</a>
+<ul>
+<li>My favorite episodes:
+<ul>
+<li><a href="https://podcast.clearerthinking.org/episode/021/duncan-sabien-antagonistic-learning-and-civilization/">Antagonistic Learning and Civilization (with Duncan Sabien)</a></li>
+<li><a href="https://podcast.clearerthinking.org/episode/005/anna-salamon-lines-of-retreat-and-incomplete-maps/">Lines of Retreat and Incomplete Maps (with Anna Salamon)</a></li>
+<li><a href="https://podcast.clearerthinking.org/episode/017/aella-enlightenment-and-sex-work/">Enlightenment and Sex Work (with Aella)</a></li>
+</ul></li>
+</ul></li>
+<li><a href="https://www.youtube.com/playlist?list=PLuWDtoKIa7WJGiw4SNeNDPlQa-FbwIgds">Innovative Minds with Audrey Tang</a> (unfortunately there don't seem any new episodes to be comming out)
+<ul>
+<li>Favorite Episode:
+<ul>
+<li><a href="https://www.youtube.com/watch?v=bWw_NDlk2uw&amp;list=PLuWDtoKIa7WJGiw4SNeNDPlQa-FbwIgds&amp;index=6&amp;pp=iAQB">Interview with Estonias' former President Toomas Hendrik Ilves</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+    </summary>
+    <id>https://sonofhypnos.github.io/thoughts/2023/08/13/favorites-from-feed-with-teaser</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">My old smartwatch</title>
@@ -319,6 +412,32 @@ In the end I decided to go with <a href="https://github.com/novoid/lazyblorg">la
 </div>
     </summary>
     <id>https://sonofhypnos.github.io/thoughts/2022/01/19/19-01-2022-first-post-from-feed-with-teaser</id>
+</entry>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">An Example Blog Post</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2017/06/18/example-posting' />
+    <published>2017-06-18T00:16:00+01:00</published>
+    <updated>2017-06-18T00:16:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/lazyblorg' term='lazyblorg' />
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/software' term='software' />
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+       […] Today, I found out that I still don't know how to create a valid Blogpost with lazyblorg
+
+</p>
+
+
+<p>
+
+That’s it. lazyblorg does the rest. It feels like magic, doesn’t it? :-)
+
+</p>
+</div>
+    </summary>
+    <id>https://sonofhypnos.github.io/thoughts/2017/06/18/example-posting-from-feed-with-teaser</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>

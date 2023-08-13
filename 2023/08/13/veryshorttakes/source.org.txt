@@ -1,0 +1,25 @@
+* DONE personal shortform :blog:
+:PROPERTIES:
+:ID: very short takes
+:CREATED: [2023-08-13 Sun 15:56]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2023-08-13 Sun 15:56]
+:END:
+This document is for small ideas similar to the lw shortform feature
+- Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I care about is really annoying.
+  - I feel like I don't have a good overview
+  - What my current setup looks like (and how this factors into things)
+    - Operating system
+      - Browser/Firefox
+        - Trydactyl (for vim keybinds and much more inside the browser)
+          - webapps
+          - specific websites
+      - Text-Editor
+      - Other Applications
+  - Different platforms have different keyboard shortcut philosophy sets.
+    - VSCode vs Emacs vs. Vim
+  - Example: Different
+  - Story:
+  - link: gwern has an interesting take on this.
+
