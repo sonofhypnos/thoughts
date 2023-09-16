@@ -1,4 +1,4 @@
-* DONE Running with dumbells :blog:
+* DONE Running with dumbells :blog:courage:habits:
 #+TODO: TODO(b!) WAIT(w@/!) | DONE(d!) CANCELED(c@)
 #+PROPERTY: LOG_INTO_DRAWER LOGBOOK
 :PROPERTIES:

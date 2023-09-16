@@ -7,7 +7,7 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-09-16T21:37:48+01:00</updated>
+  <updated>2023-09-16T21:39:26+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -20,6 +20,8 @@
     <link href='http://sonofhypnos.github.io/thoughts/2023/09/16/dumbell-courage' />
     <published>2023-09-16T21:34:00+01:00</published>
     <updated>2023-09-16T21:37:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/courage' term='courage' />
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/habits' term='habits' />
     <summary type='xhtml'>
 <div xmlns='http://www.w3.org/1999/xhtml'>
 <p>
