@@ -9,6 +9,7 @@
 - State "DONE"       from "TODO"       [2023-09-16 Sat 21:34]
 CLOCK: [2023-09-16 Sa 20:21]--[2023-09-16 Sat 21:34] =>  1:13
 :END:
+
 Two weeks ago I've been dissatisfied with the amount of workouts I do.
 When I considered how to solve the issue my
 brain generated the excuse that while I like [[https://www.lesswrong.com/posts/4y3qcbnhSmXrk6p34/running-by-default][running]] outside, I really
@@ -28,11 +29,5 @@ just seem to need way too much context to establish (I guess writing needs
 practice who would have thought). As well as frustrations like not having
 implemented footnotes, so I need to choose between annoying my reader and
 cutting this section).
-
-- [[https://www.lesswrong.com/posts/2x7fwbwb35sG8QmEt/sunset-at-noon#Problems_Worth_Solving][Sunset at Noon — LessWrong]]
-
-
-
-
 
 
