@@ -7,7 +7,7 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-08-13T21:50:54+01:00</updated>
+  <updated>2023-09-16T21:36:10+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -16,96 +16,31 @@
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
 <!-- ############################################################################################# -->
 <entry>
-    <title type="text">personal shortform</title>
-    <link href='http://sonofhypnos.github.io/thoughts/2023/08/13/veryshorttakes' />
-    <published>2023-08-13T15:56:00+01:00</published>
-    <updated>2023-08-13T15:56:00+01:00</updated>
+    <title type="text">On courage</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2023/09/16/dumbell-courage' />
+    <published>2023-09-16T21:34:00+01:00</published>
+    <updated>2023-09-16T21:34:00+01:00</updated>
     <summary type='xhtml'>
 <div xmlns='http://www.w3.org/1999/xhtml'>
 <p>
 
-This document is for small ideas similar to the lw shortform feature
+Two weeks ago I've been dissatisfied with the amount of workouts I do. When I considered how to solve the issue my brain generated the excuse that while I like <a href="https://www.lesswrong.com/posts/4y3qcbnhSmXrk6p34/running-by-default">running</a> outside, I really don't like doing workouts with my dumbells in my room even though that would be a more intense and therefore more useful workout. Somehow I ended up <a href="https://www.lesswrong.com/posts/dvzwqLbpSK2nD8Yvn/aversion-factoring">/actually/ thinking</a> and asked myself why I don't just take the dumbells with me outside. Which was of course met by resistance because it looks weird. It's even worse!: I don't know how to "properly" do curls or whatnot and other people would judge me on that. I noticed that I don't actually care that much about people in my dorm judging me. These weirdness points have low cost. In addition <a href="https://www.lesswrong.com/posts/CEGnJBHmkcwPTysb7/lonely-dissent">this muscle of rebellion</a> seems useful to train as I suspect it to be one of the bottlenecks that hinders me from writing posts like this one.
+
+</p>
+
+
+<p>
+
+(Though the aversions about this particular post were that these anecdotes just seem to need way too much context to establish (I guess writing needs practice who would have thought). As well as frustrations like not having implemented footnotes, so I need to choose between annoying my reader and cutting this section).
 
 </p>
 
 <ul>
-<li>Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I care about is really annoying.
-<ul>
-<li>I feel like I don't have a good overview</li>
-<li>What my current setup looks like (and how this factors into things)
-<ul>
-<li>Operating system
-<ul>
-<li>Browser/Firefox
-<ul>
-<li>Trydactyl (for vim keybinds and much more inside the browser)
-<ul>
-<li>webapps</li>
-<li>specific websites</li>
-</ul></li>
-</ul></li>
-<li>Text-Editor</li>
-<li>Other Applications</li>
-</ul></li>
-</ul></li>
-<li>Different platforms have different keyboard shortcut philosophy sets.
-<ul>
-<li>VSCode vs Emacs vs. Vim</li>
-</ul></li>
-<li>Example: Different</li>
-<li>Story:</li>
-<li>link: gwern has an interesting take on this.</li>
-</ul></li>
+<li><a href="https://www.lesswrong.com/posts/2x7fwbwb35sG8QmEt/sunset-at-noon#Problems_Worth_Solving">Sunset at Noon — LessWrong</a></li>
 </ul>
 </div>
     </summary>
-    <id>https://sonofhypnos.github.io/thoughts/2023/08/13/veryshorttakes-from-feed-with-teaser</id>
-</entry>
-<!-- ############################################################################################# -->
-<entry>
-    <title type="text">Favorites</title>
-    <link href='http://sonofhypnos.github.io/thoughts/2023/08/13/favorites' />
-    <published>2023-08-13T14:29:00+01:00</published>
-    <updated>2023-08-13T14:29:00+01:00</updated>
-    <summary type='xhtml'>
-<div xmlns='http://www.w3.org/1999/xhtml'><ul>
-<li>Podcasts
-<ul>
-<li><a href="https://80000hours.org/podcast/">The 80k hours podcast</a>
-<ul>
-<li>Favorite Episodes:
-<ul>
-<li><a href="https://80000hours.org/podcast/episodes/luisa-rodriguez-why-global-catastrophes-seem-unlikely-to-kill-us-all/">Luisa Rodriguez on why global catastrophes seem unlikely to kill us all</a>
-<ul>
-<li>Made me more certain that for reducing existential risk, I want to focus on finding a way to make AGI go well, because society is probably going to make it.</li>
-</ul></li>
-<li><a href="https://80000hours.org/podcast/episodes/david-denkenberger-sahil-shah-using-paper-mills-and-seaweed-in-catastrophes/">David Denkenberger on using paper mills and seaweed to feed everyone in a catastrophe, ft Sahil Shah</a>
-<ul>
-<li>Same as above.</li>
-</ul></li>
-</ul></li>
-</ul></li>
-<li><a href="https://podcast.clearerthinking.org/">The clearerthinking podcast</a>
-<ul>
-<li>My favorite episodes:
-<ul>
-<li><a href="https://podcast.clearerthinking.org/episode/021/duncan-sabien-antagonistic-learning-and-civilization/">Antagonistic Learning and Civilization (with Duncan Sabien)</a></li>
-<li><a href="https://podcast.clearerthinking.org/episode/005/anna-salamon-lines-of-retreat-and-incomplete-maps/">Lines of Retreat and Incomplete Maps (with Anna Salamon)</a></li>
-<li><a href="https://podcast.clearerthinking.org/episode/017/aella-enlightenment-and-sex-work/">Enlightenment and Sex Work (with Aella)</a></li>
-</ul></li>
-</ul></li>
-<li><a href="https://www.youtube.com/playlist?list=PLuWDtoKIa7WJGiw4SNeNDPlQa-FbwIgds">Innovative Minds with Audrey Tang</a> (unfortunately there don't seem any new episodes to be comming out)
-<ul>
-<li>Favorite Episode:
-<ul>
-<li><a href="https://www.youtube.com/watch?v=bWw_NDlk2uw&amp;list=PLuWDtoKIa7WJGiw4SNeNDPlQa-FbwIgds&amp;index=6&amp;pp=iAQB">Interview with Estonias' former President Toomas Hendrik Ilves</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-</div>
-    </summary>
-    <id>https://sonofhypnos.github.io/thoughts/2023/08/13/favorites-from-feed-with-teaser</id>
+    <id>https://sonofhypnos.github.io/thoughts/2023/09/16/dumbell-courage-from-feed-with-teaser</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
