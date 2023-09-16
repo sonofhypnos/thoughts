@@ -1,4 +1,4 @@
-* DONE Running with dumbells :blog:courage:habits:
+* DONE Running with dumbbells :blog:courage:habits:
 #+TODO: TODO(b!) WAIT(w@/!) | DONE(d!) CANCELED(c@)
 #+PROPERTY: LOG_INTO_DRAWER LOGBOOK
 :PROPERTIES:
@@ -12,23 +12,7 @@
 CLOCK: [2023-09-16 Sa 20:21]--[2023-09-16 Sat 21:34] =>  1:13
 :END:
 
-Two weeks ago I've been dissatisfied with the amount of workouts I do.
-When I considered how to solve the issue my
-brain generated the excuse that while I like [[https://www.lesswrong.com/posts/4y3qcbnhSmXrk6p34/running-by-default][running]] outside, I really
-don't like doing workouts with my dumbells in my room even though that would
-be a more intense and therefore more useful workout. Somehow I ended up
-[[https://www.lesswrong.com/posts/dvzwqLbpSK2nD8Yvn/aversion-factoring][/actually/ thinking]] and asked myself why I don't just take the dumbells with
-me outside. Which was of course met by resistance because it looks weird. It's
-even worse!: I don't know how to "properly" do curls or whatnot and other
-people would judge me on that. I noticed that I don't actually care that much about
-people in my dorm judging me. These weirdness points have low cost. In
-addition [[https://www.lesswrong.com/posts/CEGnJBHmkcwPTysb7/lonely-dissent][this muscle of rebellion]] seems useful to train as I suspect it to be
-one of the bottlenecks that hinders me from writing posts like this one.
+Two weeks ago, I've been dissatisfied with the amount of workouts I do. When I considered how to solve the issue, my brain generated the excuse that while I like [[https://www.lesswrong.com/posts/4y3qcbnhSmXrk6p34/running-by-default][running]] outside, I really don't like doing workouts with my dumbbells in my room even though that would be a more intense and therefore more useful workout. Somehow I ended up [[https://www.lesswrong.com/posts/dvzwqLbpSK2nD8Yvn/aversion-factoring][/actually/ thinking]] and asked myself why I don't just take the dumbbells with me outside. Which was of course met by resistance because it looks weird. It's even worse!: I don't know how to “properly” do curls or whatnot, and other people would judge me on that. I noticed that I don't actually care that much about people in my dorm judging me. These weirdness points have low cost. In addition, [[https://www.lesswrong.com/posts/CEGnJBHmkcwPTysb7/lonely-dissent][this muscle of rebellion]] seems useful to train, as I suspect it to be one of the bottlenecks that hinders me from writing posts like this one.
 
-(Though the aversions about this particular post were that these anecdotes
-just seem to need way too much context to establish (I guess writing needs
-practice who would have thought). As well as frustrations like not having
-implemented footnotes, so I need to choose between annoying my reader and
-cutting this section).
-
+(Though the aversions about this particular post were that these anecdotes just seem to need way too much context to establish (I guess writing needs practice, who would have thought). As well as frustrations like not having implemented footnotes, so I need to choose between annoying my reader and cutting this section).
 
