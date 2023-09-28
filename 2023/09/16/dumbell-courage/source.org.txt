@@ -6,6 +6,8 @@
 :CREATED: [2023-09-16 Sa 20:18]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2023-09-16 Sat 22:04]
+- State "TODO"       from "DONE"       [2023-09-16 Sat 22:04]
 - State "DONE"       from "TODO"       [2023-09-16 Sat 21:37]
 - State "TODO"       from "DONE"       [2023-09-16 Sat 21:37]
 - State "DONE"       from "TODO"       [2023-09-16 Sat 21:34]
