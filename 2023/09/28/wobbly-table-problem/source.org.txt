@@ -16,16 +16,16 @@ This investigation started with my frustration with the chair I am currently sit
 
 I thought once we have a table where one of the legs is shorter and the surface is flat, it's obvious that we cannot make the table stable. In my mind most wobbly chairs I encountered were broken like that (for example when one of their furniture glides gets lost).
 
-
 #+CAPTION: Chair on floor (big gap).
 #+ATTR_HTML: :align center :width 560 :linked-image-width 1500
-[[tsfile:wobbly_chair.jpg]]
+[[tsfile:wobbly_chair2.jpg]]
 
 After seeing this, I put the chair on another table (since I expected the table to be flatter) and it turns out the chair actually has much flatter legs than I had imagined.
 
 #+CAPTION: Chair on flat table (smaller gap)
 #+ATTR_HTML: :align center :width 560 :linked-image-width 1500
-[[tsfile:wobbly_chair2.jpg]]
+[[tsfile:wobbly_chair.jpg]]
+
 
 So essentially my assumption that the chair was to blame was incorrect. In hindsight, I could have checked and realized this earlier.
 
