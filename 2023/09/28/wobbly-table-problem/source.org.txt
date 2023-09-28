@@ -10,7 +10,7 @@
 
 It turns out the "wobbly table theorem" is less of just a math curiosity than I thought.
 
-The "wobbly table theorem" essentially says (ignoring [[https://haggainuchi.com/wobblytable.html ][caveats and different variants]]) that if you have a "table" with legs of equal length resting on a continuous surface with three legs touching the ground, you can find a rotation where the table rests on all four legs. I first encountered this years ago on [[Numberphile][https://www.youtube.com/watch?v=OuF-WB7mD6k]].
+The "wobbly table theorem" essentially says (ignoring [[https://haggainuchi.com/wobblytable.html ][caveats and different variants]]) that if you have a "table" with legs of equal length resting on a continuous surface with three legs touching the ground, you can find a rotation where the table rests on all four legs. I first encountered this years ago on [[https://www.youtube.com/watch?v=OuF-WB7mD6k][Numberphile]].
 
 This investigation started with my frustration with the chair I am currently sitting on and me thinking that the wobbly table theorem couldn't apply to my use-case. Surely the chair was too poorly built, given how wobbly it was! I assumed the floor in the room I'm in to be relatively flat. But, when I tried turning the chair around, it worked!?
 
@@ -31,7 +31,7 @@ So essentially my assumption that the chair was to blame was incorrect. In hinds
 
 Right before posting this, I realized that the chair was still to blame, to some degree. The chair I was sitting on was missing the black furniture glides at the back (those that you can see in the image above). So, at the back, the chair was essentially resting on multiple points out of pretty rigid metal. Switching to a chair with all furniture glides did in fact make the chair stable in any position I tried.
 
-I had underestimated how much the problem had been motivated by [[actually touching the territory][https://www.lesswrong.com/posts/y7wgtZ2ehfWuqzXfm/direct-observation]]:
+I had underestimated how much the problem had been motivated by [[https://www.lesswrong.com/posts/y7wgtZ2ehfWuqzXfm/direct-observation][actually touching the territory]]:
 
 #+begin_quote
 Many people eating lunch or drinking coffee on the terrace of the CERN cafeteria have had the following problem: the table is often not in a stable equilibrium position. It rests on three feet, and with very little energy, it can be made to wobble, spilling part of your coffee at best onto the saucer, or at worst onto the table. Why is this? Not because the table is poorly built, but because the ground is very irregular.
