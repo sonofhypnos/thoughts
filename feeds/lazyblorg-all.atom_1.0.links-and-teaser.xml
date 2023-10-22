@@ -7,13 +7,46 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-09-28T16:03:22+01:00</updated>
+  <updated>2023-10-22T17:50:21+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Remaping the Fn key on my keyboard</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2023/10/22/fn-remap' />
+    <published>2023-10-22T17:49:00+01:00</published>
+    <updated>2023-10-22T17:49:00+01:00</updated>
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/linux' term='linux' />
+    <category scheme='http://sonofhypnos.github.io/thoughts/tags/keyboard' term='keyboard' />
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+Today I tried remapping the Fn-key on my keyboard after my Ctrl-key stopped working reliably (I suspect it's a hardware issue). While I first suspected this to be not possible at all, because a lot of keyboards do not even send the Keypress Events from the Fn-keys to the kernel, for my laptop keyboard this seems to have not been the case, as I was able to see the keypresses with "xev". Next, I tried rebinding the key with xmodmap using its keycode (151): xmodmap -e 'keycode 151 = Control_L', but that did not work for mysterious reasons.
+
+</p>
+
+
+<p>
+
+After some more failed attempts, I tried using setkeycodes, which directly changes the map of the keyboard-driver to change which keycode would be returned upon pressing the scan-codes sent by the keyboard. Remapping the Fn key there did work, but for to me mysterious reasons, the keycodes for setkeycodes are offset by 8, so I ran "sudo setkeycodes e063 29" which successfully bound the key to keycode 37 according to xev when I ran it afterward. Apparently the keycodes sent by kernel are different than the ones by xev.
+
+</p>
+
+
+<p>
+
+Afterwards I realized I could have looked for the corresponding <a href="https://wiki.archlinux.org/title/Keyboard_input">archwiki entry about keyboard input</a> long ago to get an overview of how this roughly works on linux. It mentions <a href="https://wiki.archlinux.org/title/Keyboard_input#Identifying_keycodes_in_Xorg">complications like the offset</a> between kernel and Xorg keycodes.
+
+</p>
+</div>
+    </summary>
+    <id>https://sonofhypnos.github.io/thoughts/2023/10/22/fn-remap-from-feed-with-teaser</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Wobbly Table Theorem</title>
