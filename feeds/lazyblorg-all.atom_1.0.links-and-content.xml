@@ -7,7 +7,7 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2023-10-22T17:50:21+01:00</updated>
+  <updated>2023-10-22T17:52:03+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
@@ -26,7 +26,7 @@
 <div xmlns='http://www.w3.org/1999/xhtml'>
 <p>
 
-Today I tried remapping the Fn-key on my keyboard after my Ctrl-key stopped working reliably (I suspect it's a hardware issue). While I first suspected this to be not possible at all, because a lot of keyboards do not even send the Keypress Events from the Fn-keys to the kernel, for my laptop keyboard this seems to have not been the case, as I was able to see the keypresses with "xev". Next, I tried rebinding the key with xmodmap using its keycode (151): xmodmap -e 'keycode 151 = Control_L', but that did not work for mysterious reasons.
+Today I tried remapping the Fn-key on my keyboard after my Ctrl-key stopped working reliably (I suspect it's a hardware issue). While I first suspected this to not be possible at all, because a lot of keyboards do not even send the Keypress Events from the Fn-keys to the kernel, for my laptop keyboard this seems to have not been the case, as I was able to see the keypresses with "xev". Next, I tried rebinding the key with xmodmap using its keycode (151): xmodmap -e 'keycode 151 = Control_L', but that did not work for mysterious reasons.
 
 </p>
 
@@ -49,7 +49,7 @@ Afterwards I realized I could have looked for the corresponding <a href="https:/
 	
 <p>
 
-Today I tried remapping the Fn-key on my keyboard after my Ctrl-key stopped working reliably (I suspect it's a hardware issue). While I first suspected this to be not possible at all, because a lot of keyboards do not even send the Keypress Events from the Fn-keys to the kernel, for my laptop keyboard this seems to have not been the case, as I was able to see the keypresses with "xev". Next, I tried rebinding the key with xmodmap using its keycode (151): xmodmap -e 'keycode 151 = Control_L', but that did not work for mysterious reasons.
+Today I tried remapping the Fn-key on my keyboard after my Ctrl-key stopped working reliably (I suspect it's a hardware issue). While I first suspected this to not be possible at all, because a lot of keyboards do not even send the Keypress Events from the Fn-keys to the kernel, for my laptop keyboard this seems to have not been the case, as I was able to see the keypresses with "xev". Next, I tried rebinding the key with xmodmap using its keycode (151): xmodmap -e 'keycode 151 = Control_L', but that did not work for mysterious reasons.
 
 </p>
 
