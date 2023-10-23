@@ -17,4 +17,3 @@ After some more failed attempts, I tried using setkeycodes, which directly chang
 Afterwards I realized I could have looked for the corresponding [[https://wiki.archlinux.org/title/Keyboard_input][archwiki entry about keyboard input]] long ago to get an overview of how this roughly works on linux. It mentions [[https://wiki.archlinux.org/title/Keyboard_input#Identifying_keycodes_in_Xorg][complications like the offset]] between kernel and Xorg keycodes.
 
 
-
