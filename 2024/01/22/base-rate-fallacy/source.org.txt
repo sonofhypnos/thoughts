@@ -1,4 +1,4 @@
-* DONE The Base rate fallacy :blog:
+* DONE The Base Rate Fallacy :blog:
 #+TODO: TODO(b!) WAIT(w@/!) | DONE(d!) CANCELED(c@)
 #+PROPERTY: LOG_INTO_DRAWER LOGBOOK
 :PROPERTIES:
