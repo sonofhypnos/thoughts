@@ -1,4 +1,4 @@
-* DONE David Burns on the clearerthinking podcast :blog::hidden:
+* DONE David Burns on the Clearerthinking Podcast :blog::hidden:
 #+TODO: TODO(b!) WAIT(w@/!) | DONE(d!) CANCELED(c@)
 #+PROPERTY: LOG_INTO_DRAWER LOGBOOK
 :PROPERTIES:
