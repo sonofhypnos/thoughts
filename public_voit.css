@@ -8,6 +8,7 @@
 /* replacing #555 */
 
 
+
 body {
   background: #ffffff;
   color: #252525;
@@ -15,8 +16,42 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-top: 1em; }
 
-a {
-  text-decoration: none; }
+
+/* Header styles */
+.persistent-header {
+  background: #f9f9f9;
+  text-align: center;
+  padding: 1em 0;
+  margin: 0; /* Removes any margin around the persistent header */
+  border-bottom: 1px solid #ccc;
+}
+
+.persistent-header a {
+  color: #252525;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.persistent-header a:hover {
+  text-decoration: underline;
+}
+
+/* Remove margins and paddings that could affect the layout */
+.persistent-body, .persistent-body p, .persistent-body h1, .breadcrumbs, .section-title, .common-article-header-title, .common-tags, .entry-page-article .entry-page-article-tags, .tag-cloud ul, .tag-cloud a, .common-article, .entry-page-article, .back-references, .sidebar ul li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive sidebar adjustments */
+@media (max-width: 50em) {
+  .sidebar {
+    display: none; /* Hides sidebar on smaller screens */
+  }
+  /* Other mobile-specific styles here */
+}
+
+/* a { */
+/*   text-decoration: none; } */
 
 #show-sidebar-text {
   /* show/hide sidebar stolen from: https://css-tricks.com/off-canvas-menu-with-css-target/
@@ -42,7 +77,7 @@ a {
     padding-left: 1em;
     padding-right: 1em; }
 
-  .middle_section_wide, header, .reading-time-section, .published-on, footer, .temporal-article-header-nav, .month-overview-header-nav, .entrypage-article-header-nav, .persistent-article-header-nav {
+  .middle_section_wide, header, .reading-time-section, .published-on, footer, .month-overview-header-nav, .entrypage-article-header-nav {
     margin-left: auto;
     margin-right: auto;
     max-width: 45em; }
@@ -106,7 +141,7 @@ a {
     padding-left: 1em;
     padding-right: 1em; }
 
-  .middle_section_wide, header, .reading-time-section, .published-on, footer, .temporal-article-header-nav, .month-overview-header-nav, .entrypage-article-header-nav, .persistent-article-header-nav {
+  .middle_section_wide, header, .reading-time-section, .published-on, footer, .month-overview-header-nav, .entrypage-article-header-nav {
     margin-left: auto;
     margin-right: auto;
     max-width: 45em; }
@@ -133,115 +168,115 @@ a {
     border: 0;
     visibility: visible;
     height: 6em; } }
-@media (min-width: 57em) {
-  /* narrow maincolumn; middle sidebar */
-  .middle_section_narrow, .common-tags, .entry-page-article .entry-page-article-tags, .common-article, .entry-page-article, .common-article-header-title, blockquote, .example_code, .email-comment, #disqus_thread, .entry-page-greetings, .back-references {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 30em;
-    padding-left: 1em;
-    padding-right: 1em; }
+/* @media (min-width: 57em) { */
+/*   /\* narrow maincolumn; middle sidebar *\/ */
+/*   .middle_section_narrow, .common-tags, .entry-page-article .entry-page-article-tags, .common-article, .entry-page-article, .common-article-header-title, blockquote, .example_code, .email-comment, #disqus_thread, .entry-page-greetings, .back-references { */
+/*     margin-left: auto; */
+/*     margin-right: auto; */
+/*     max-width: 30em; */
+/*     padding-left: 1em; */
+/*     padding-right: 1em; } */
 
-  .middle_section_wide, header, .reading-time-section, .published-on, footer, .temporal-article-header-nav, .month-overview-header-nav, .entrypage-article-header-nav, .persistent-article-header-nav {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 45em; }
+/*   .middle_section_wide, header, .reading-time-section, .published-on, footer, .month-overview-header-nav, .entrypage-article-header-nav { */
+/*     margin-left: auto; */
+/*     margin-right: auto; */
+/*     max-width: 45em; } */
 
-  .sidebar {
-    max-width: 15em;
-    display: initial;
-    line-height: 24px;
-    position: relative;
-    font-size: 13px;
-    /* #search_form_homepage { */
-    /*     width: 115px; /\* original: 198px *\/ */
-    /* } */
-    /* #search_wrapper_homepage { */
-    /*     width: 30px; */
-    /* } */ }
+/*   .sidebar { */
+/*     max-width: 15em; */
+/*     display: initial; */
+/*     line-height: 24px; */
+/*     position: relative; */
+/*     font-size: 13px; */
+/*     /\* #search_form_homepage { *\/ */
+/*     /\*     width: 115px; /\\* original: 198px *\\/ *\/ */
+/*     /\* } *\/ */
+/*     /\* #search_wrapper_homepage { *\/ */
+/*     /\*     width: 30px; *\/ */
+/*     /\* } *\/ } */
 
-  #search-big {
-    border: 0;
-    visibility: hidden;
-    height: 0px; }
+/*   #search-big { */
+/*     border: 0; */
+/*     visibility: hidden; */
+/*     height: 0px; } */
 
-  #search-narrow {
-    border: 0;
-    visibility: visible;
-    height: 6em; } }
-@media (min-width: 60em) {
-  /* max maincolumn; narrow sidebar */
-  .middle_section_narrow, .common-tags, .entry-page-article .entry-page-article-tags, .common-article, .entry-page-article, .common-article-header-title, blockquote, .example_code, .email-comment, #disqus_thread, .entry-page-greetings, .back-references {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 40em; }
+/*   #search-narrow { */
+/*     border: 0; */
+/*     visibility: visible; */
+/*     height: 6em; } } */
+/* @media (min-width: 60em) { */
+/*   /\* max maincolumn; narrow sidebar *\/ */
+/*   .middle_section_narrow, .common-tags, .entry-page-article .entry-page-article-tags, .common-article, .entry-page-article, .common-article-header-title, blockquote, .example_code, .email-comment, #disqus_thread, .entry-page-greetings, .back-references { */
+/*     margin-left: auto; */
+/*     margin-right: auto; */
+/*     max-width: 40em; } */
 
-  .middle_section_wide, header, .reading-time-section, .published-on, footer, .temporal-article-header-nav, .month-overview-header-nav, .entrypage-article-header-nav, .persistent-article-header-nav {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 60em; }
+/*   .middle_section_wide, header, .reading-time-section, .published-on, footer, .month-overview-header-nav, .entrypage-article-header-nav { */
+/*     margin-left: auto; */
+/*     margin-right: auto; */
+/*     max-width: 60em; } */
 
-  .sidebar {
-    max-width: 10em;
-    display: initial;
-    line-height: 24px;
-    position: relative;
-    font-size: 13px;
-    /* #search_form_homepage { */
-    /*     width: 115px; /\* original: 198px *\/ */
-    /* } */
-    /* #search_wrapper_homepage { */
-    /*     width: 30px; */
-    /* } */ }
+/*   .sidebar { */
+/*     max-width: 10em; */
+/*     display: initial; */
+/*     line-height: 24px; */
+/*     position: relative; */
+/*     font-size: 13px; */
+/*     /\* #search_form_homepage { *\/ */
+/*     /\*     width: 115px; /\\* original: 198px *\\/ *\/ */
+/*     /\* } *\/ */
+/*     /\* #search_wrapper_homepage { *\/ */
+/*     /\*     width: 30px; *\/ */
+/*     /\* } *\/ } */
 
-  #search-big {
-    border: 0;
-    visibility: hidden;
-    height: 0px; }
+/*   #search-big { */
+/*     border: 0; */
+/*     visibility: hidden; */
+/*     height: 0px; } */
 
-  #search-narrow {
-    border: 0;
-    visibility: visible;
-    height: 6em; } }
-@media (min-width: 74em) {
-  /* wide enough: original design without @media */
-  .middle_section_narrow, .common-tags, .entry-page-article .entry-page-article-tags, .common-article, .entry-page-article, .common-article-header-title, blockquote, .example_code, .email-comment, #disqus_thread, .entry-page-greetings, .back-references {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 40em; }
+/*   #search-narrow { */
+/*     border: 0; */
+/*     visibility: visible; */
+/*     height: 6em; } } */
+/* @media (min-width: 74em) { */
+/*   /\* wide enough: original design without @media *\/ */
+/*   .middle_section_narrow, .common-tags, .entry-page-article .entry-page-article-tags, .common-article, .entry-page-article, .common-article-header-title, blockquote, .example_code, .email-comment, #disqus_thread, .entry-page-greetings, .back-references { */
+/*     margin-left: auto; */
+/*     margin-right: auto; */
+/*     max-width: 40em; } */
 
-  .middle_section_wide, header, .reading-time-section, .published-on, footer, .temporal-article-header-nav, .month-overview-header-nav, .entrypage-article-header-nav, .persistent-article-header-nav {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 60em; }
+/*   .middle_section_wide, header, .reading-time-section, .published-on, footer, .month-overview-header-nav, .entrypage-article-header-nav { */
+/*     margin-left: auto; */
+/*     margin-right: auto; */
+/*     max-width: 60em; } */
 
-  .sidebar {
-    max-width: initial;
-    display: initial;
-    line-height: initial;
-    position: initial;
-    font-size: initial; }
+/*   .sidebar { */
+/*     max-width: initial; */
+/*     display: initial; */
+/*     line-height: initial; */
+/*     position: initial; */
+/*     font-size: initial; } */
 
-  #search-big {
-    border: 0;
-    visibility: visible;
-    height: 6em; }
+/*   #search-big { */
+/*     border: 0; */
+/*     visibility: visible; */
+/*     height: 6em; } */
 
-  #search-narrow {
-    border: 0;
-    visibility: hidden;
-    height: 0px; } }
-.common-header-nav, .temporal-article-header-nav, .month-overview-header-nav, .entrypage-article-header-nav, .persistent-article-header-nav {
-  padding: 1em;
-  /*    padding-left: 13em;
-      padding-top: 1em;
-      padding-bottom: 1em;
-      padding-right: 1em;*/
-  border-radius: 1em;
-  box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3);
-  background: #f9f9f9;
-  margin-bottom: 20px;
-  /*    margin-left: -2em;*/ }
+/*   #search-narrow { */
+/*     border: 0; */
+/*     visibility: hidden; */
+/*     height: 0px; } } */
+/* .month-overview-header-nav, .entrypage-article-header-nav { */
+/*   padding: 1em; */
+/*   /\*    padding-left: 13em; */
+/*       padding-top: 1em; */
+/*       padding-bottom: 1em; */
+/*       padding-right: 1em;*\/ */
+/*   border-radius: 1em; */
+/*   box-shadow: inset 0 2px 0 rgba(188, 147, 200, 0.7), -5px -4px 25px rgba(0, 0, 0, 0.3); */
+/*   background: #f9f9f9; */
+/*   margin-bottom: 20px; */
+/*   /\*    margin-left: -2em;*\/ } */
 
 .common-orgsource {
   float: right;
@@ -594,3 +629,82 @@ footer {
     padding-bottom: 0px; }
 
 /*# sourceMappingURL=public_voit.css.map */
+/* #blog-title { */
+/*   text-align: center; */
+/*   font-size: 24px; /\* Adjust the size as needed *\/ */
+/*   margin-bottom: 0; /\* Removes the default bottom margin *\/ */
+/* } */
+
+/* .persistent-header hr { */
+/*   border: 0; */
+/*   height: 1px; */
+/*   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); /\* This creates a fading line *\/ */
+/* } */
+/* /\* Add or modify in your existing CSS *\/ */
+/* .persistent-header { */
+/*   text-align: center; */
+/*   padding: 1em 0; */
+/*   background: #f9f9f9; /\* Adjust background color if needed *\/ */
+/* } */
+
+/* .persistent-header a { */
+/*   color: #252525; /\* Or any color you want for the text *\/ */
+/*   font-size: 2em; /\* Adjust font size as needed *\/ */
+/*   text-decoration: none; /\* Removes underline from links *\/ */
+/* } */
+
+/* /\* Add a hover effect for the link for better user interaction *\/ */
+/* .persistent-header a:hover { */
+/*   text-decoration: underline; */
+/* } */
+
+/* /\* Add a border to the bottom of the header for the line *\/ */
+/* .persistent-header { */
+/*   border-bottom: 1px solid #ccc; /\* Change color as needed *\/ */
+/* } */
+
+/* /\* If your header requires a responsive design, make sure to add the rules inside the media queries too *\/ */
+/* @media (max-width: 50em) { */
+/*   /\* Adjustments for mobile view *\/ */
+/*   .persistent-header { */
+/*     /\* Your mobile-specific styles here *\/ */
+/*   } */
+/* } */
+
+/* @media (min-width: 50em) { */
+/*   /\* Adjustments for desktop view *\/ */
+/*   .persistent-header { */
+/*     /\* Your desktop-specific styles here *\/ */
+/*   } */
+/* } */
+/* .persistent-header { */
+/*   text-align: center; */
+/*   padding: 1em 0; /\* Retain padding at the top and bottom but not on the sides *\/ */
+/*   background: #f9f9f9; /\* Adjust background color if needed *\/ */
+/*   margin: 0; /\* This removes any margin around the persistent header *\/ */
+/*   border-bottom: 1px solid #ccc; /\* Adds a separating line at the bottom *\/ */
+/* } */
+
+/* .persistent-header a { */
+/*   color: #252525; /\* Or any color you want for the text *\/ */
+/*   font-size: 2em; /\* Adjust font size as needed *\/ */
+/*   text-decoration: none; /\* Removes underline from links *\/ */
+/* } */
+
+/* /\* Add a hover effect for the link for better user interaction *\/ */
+/* .persistent-header a:hover { */
+/*   text-decoration: underline; */
+/* } */
+
+/* /\* Adjust the media queries as well *\/ */
+/* @media (max-width: 50em) { */
+/*   .persistent-header { */
+/*     padding: 1em 0; /\* Adjust to make sure padding is only on top and bottom for mobile views *\/ */
+/*   } */
+/* } */
+
+/* @media (min-width: 50em) { */
+/*   .persistent-header { */
+/*     padding: 1em 0; /\* Adjust to make sure padding is only on top and bottom for desktop views *\/ */
+/*   } */
+/* } */
