@@ -7,13 +7,207 @@
   <id>https://sonofhypnos.github.io/thoughts/</id>
   <link href="http://sonofhypnos.github.io/thoughts" />
   <icon>/favicon.ico</icon>
-  <updated>2024-03-14T15:03:12+01:00</updated>
+  <updated>2024-08-28T13:09:02+01:00</updated>
   <author>
     <name>Tassilo Neubauer</name>
   </author>
   <subtitle type="text">Perfect is the enemy of sustainable</subtitle>
   <rights>All content written by Tassilo Neubauer</rights>
   <generator uri='https://github.com/novoid/lazyblorg'>Generated from Org-mode source code using lazyblorg which is written in Python. Industrial-strength technology, baby.</generator>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Mapping Keyboard shortcuts</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2023/08/13/veryshorttakes' />
+    <published>2023-08-13T15:56:00+01:00</published>
+    <updated>2024-08-28T13:06:00+01:00</updated>
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+This document is for small ideas similar to the lw shortform feature
+
+</p>
+
+<ul>
+<li>Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I care about is really annoying.
+<ul>
+<li>I now have a <a href="https://github.com/sonofhypnos/my-keyboard-layout/tree/main">keyboard map</a> to document my current layout for window-manager shorcuts</li>
+<li>How do I manage collisions between english and German keyboards?
+<ul>
+<li>Problematic keys: "[", "]", "\" and "/" are accessible without a modifier key on english keyboards and key combinations involving them tend to not work with a german keyboard layout</li>
+</ul></li>
+<li>What my current setup looks like (and how this factors into things)
+<ul>
+<li>Operating system
+<ul>
+<li>Browser/Firefox
+<ul>
+<li>Trydactyl (for vim keybinds and much more inside the browser)
+<ul>
+<li>webapps</li>
+<li>specific websites</li>
+</ul></li>
+</ul></li>
+<li>Text-Editor</li>
+<li>Other Applications</li>
+</ul></li>
+</ul></li>
+<li>Different platforms have different keyboard shortcut philosophy sets.
+<ul>
+<li>VSCode vs Emacs vs. Vim</li>
+</ul></li>
+<li>Example: Different</li>
+<li>Story:</li>
+<li>link: gwern has an interesting take on this.</li>
+</ul></li>
+</ul>
+</div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+This document is for small ideas similar to the lw shortform feature
+
+</p>
+
+<ul>
+<li>Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I care about is really annoying.
+<ul>
+<li>I now have a <a href="https://github.com/sonofhypnos/my-keyboard-layout/tree/main">keyboard map</a> to document my current layout for window-manager shorcuts</li>
+<li>How do I manage collisions between english and German keyboards?
+<ul>
+<li>Problematic keys: "[", "]", "\" and "/" are accessible without a modifier key on english keyboards and key combinations involving them tend to not work with a german keyboard layout</li>
+</ul></li>
+<li>What my current setup looks like (and how this factors into things)
+<ul>
+<li>Operating system
+<ul>
+<li>Browser/Firefox
+<ul>
+<li>Trydactyl (for vim keybinds and much more inside the browser)
+<ul>
+<li>webapps</li>
+<li>specific websites</li>
+</ul></li>
+</ul></li>
+<li>Text-Editor</li>
+<li>Other Applications</li>
+</ul></li>
+</ul></li>
+<li>Different platforms have different keyboard shortcut philosophy sets.
+<ul>
+<li>VSCode vs Emacs vs. Vim</li>
+</ul></li>
+<li>Example: Different</li>
+<li>Story:</li>
+<li>link: gwern has an interesting take on this.</li>
+</ul></li>
+</ul>
+
+      </div>
+    </content>
+    <id>https://sonofhypnos.github.io/thoughts/2023/08/13/veryshorttakes-from-feed-with-content</id>
+</entry>
+<!-- ############################################################################################# -->
+<entry>
+    <title type="text">Backing up ssh-keys</title>
+    <link href='http://sonofhypnos.github.io/thoughts/2024/05/21/ssh-keys-1password' />
+    <published>2024-05-21T22:55:00+01:00</published>
+    <updated>2024-05-21T22:55:00+01:00</updated>
+    <summary type='xhtml'>
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<p>
+
+After watching this <a href="https://www.youtube.com/watch?v=aolI_Rz0ZqY">excellent video on more advanced and new things in git</a>, I decided to setup signing my git commands through ssh.
+
+</p>
+
+
+<p>
+
+That is easily done through:
+
+</p>
+
+
+	  <div class="example_code">
+	  <pre>ssk-keygen -f ~/.ssh/git
+git config --global commit.gpgsign true
+git config --global user.signingkey ~/.ssh/git	  </pre>
+    </div>
+
+
+<p>
+
+Next I got a bit concerned though, because so far I had always just taken for granted that I might loose my ssh-keys if I start using a different device. I have backups and all, but it seemed prudent to put these into my password Manager also (I use 1password, because I started with that, but today I'd probably choose bitwarden instead as it's open source).
+
+</p>
+
+
+<p>
+
+You can add your ssh-key programmatically to 1password like so:
+
+</p>
+
+
+	  <div class="example_code">
+	  <pre>op item create --category=ssh-key --title="$key_name" \
+    --vault='Private' --session="$OP_SESSION" \
+    "Keys.private[password]=$private_key_content" \
+    "Keys.public[concealed]=$public_key_content"	  </pre>
+    </div>
+</div>
+    </summary>    <content type='xhtml'>
+      <div xmlns='http://www.w3.org/1999/xhtml'>
+	
+<p>
+
+After watching this <a href="https://www.youtube.com/watch?v=aolI_Rz0ZqY">excellent video on more advanced and new things in git</a>, I decided to setup signing my git commands through ssh.
+
+</p>
+
+
+<p>
+
+That is easily done through:
+
+</p>
+
+
+	  <div class="example_code">
+	  <pre>ssk-keygen -f ~/.ssh/git
+git config --global commit.gpgsign true
+git config --global user.signingkey ~/.ssh/git	  </pre>
+    </div>
+
+
+<p>
+
+Next I got a bit concerned though, because so far I had always just taken for granted that I might loose my ssh-keys if I start using a different device. I have backups and all, but it seemed prudent to put these into my password Manager also (I use 1password, because I started with that, but today I'd probably choose bitwarden instead as it's open source).
+
+</p>
+
+
+<p>
+
+You can add your ssh-key programmatically to 1password like so:
+
+</p>
+
+
+	  <div class="example_code">
+	  <pre>op item create --category=ssh-key --title="$key_name" \
+    --vault='Private' --session="$OP_SESSION" \
+    "Keys.private[password]=$private_key_content" \
+    "Keys.public[concealed]=$public_key_content"	  </pre>
+    </div>
+
+      </div>
+    </content>
+    <id>https://sonofhypnos.github.io/thoughts/2024/05/21/ssh-keys-1password-from-feed-with-content</id>
+</entry>
 <!-- ############################################################################################# -->
 <entry>
     <title type="text">Remaping the Fn key on my keyboard</title>
@@ -294,93 +488,6 @@ Two weeks ago, I've been dissatisfied with the amount of workouts I do. When I c
       </div>
     </content>
     <id>https://sonofhypnos.github.io/thoughts/2023/09/16/dumbell-courage-from-feed-with-content</id>
-</entry>
-<!-- ############################################################################################# -->
-<entry>
-    <title type="text">Mapping Keyboard shortcuts</title>
-    <link href='http://sonofhypnos.github.io/thoughts/2023/08/13/veryshorttakes' />
-    <published>2023-08-13T15:56:00+01:00</published>
-    <updated>2023-09-16T22:04:00+01:00</updated>
-    <summary type='xhtml'>
-<div xmlns='http://www.w3.org/1999/xhtml'>
-<p>
-
-This document is for small ideas similar to the lw shortform feature
-
-</p>
-
-<ul>
-<li>Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I care about is really annoying.
-<ul>
-<li>I feel like I don't have a good overview</li>
-<li>What my current setup looks like (and how this factors into things)
-<ul>
-<li>Operating system
-<ul>
-<li>Browser/Firefox
-<ul>
-<li>Trydactyl (for vim keybinds and much more inside the browser)
-<ul>
-<li>webapps</li>
-<li>specific websites</li>
-</ul></li>
-</ul></li>
-<li>Text-Editor</li>
-<li>Other Applications</li>
-</ul></li>
-</ul></li>
-<li>Different platforms have different keyboard shortcut philosophy sets.
-<ul>
-<li>VSCode vs Emacs vs. Vim</li>
-</ul></li>
-<li>Example: Different</li>
-<li>Story:</li>
-<li>link: gwern has an interesting take on this.</li>
-</ul></li>
-</ul>
-</div>
-    </summary>    <content type='xhtml'>
-      <div xmlns='http://www.w3.org/1999/xhtml'>
-	
-<p>
-
-This document is for small ideas similar to the lw shortform feature
-
-</p>
-
-<ul>
-<li>Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I care about is really annoying.
-<ul>
-<li>I feel like I don't have a good overview</li>
-<li>What my current setup looks like (and how this factors into things)
-<ul>
-<li>Operating system
-<ul>
-<li>Browser/Firefox
-<ul>
-<li>Trydactyl (for vim keybinds and much more inside the browser)
-<ul>
-<li>webapps</li>
-<li>specific websites</li>
-</ul></li>
-</ul></li>
-<li>Text-Editor</li>
-<li>Other Applications</li>
-</ul></li>
-</ul></li>
-<li>Different platforms have different keyboard shortcut philosophy sets.
-<ul>
-<li>VSCode vs Emacs vs. Vim</li>
-</ul></li>
-<li>Example: Different</li>
-<li>Story:</li>
-<li>link: gwern has an interesting take on this.</li>
-</ul></li>
-</ul>
-
-      </div>
-    </content>
-    <id>https://sonofhypnos.github.io/thoughts/2023/08/13/veryshorttakes-from-feed-with-content</id>
 </entry>
 <!-- ############################################################################################# -->
 <entry>
