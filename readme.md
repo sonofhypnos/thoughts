@@ -21,3 +21,4 @@ python -m http.server & firefox http://0.0.0.0:8000
 - [ ] https://github.com/gwern/archiver-bot could be useful for archiving my stuff?
 - [ ] Improve design
 - [ ] add page feature where you can see the original markdown file
+- [ ] automatically fix capitalization
