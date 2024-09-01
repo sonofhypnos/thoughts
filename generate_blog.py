@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 OUTPUT_DIR = "docs"
 TEMPLATE_DIR = "templates"
 POSTS_DIR = "posts"
+PREVIEW_LENGTH = 200
 
 
 def generate_preview(html_content):
