@@ -179,7 +179,7 @@ Summary
     negative emotions in two days.
 -   Placebo effects are common in most schools of therapy, but the
     speaker aims to develop more powerful treatments.
--   Cognitive therapy, as taught in the book \"Feeling Good,\" has shown
+-   Cognitive therapy, as taught in the book "Feeling Good," has shown
     positive outcomes in studies.
 -   Resistance is a factor that needs to be addressed in therapy to
     improve outcomes.

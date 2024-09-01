@@ -20,7 +20,7 @@ will display an exponential decay, because the rate at which the drug is
 removed and/or metabolized in the body is proportional to the amount of
 drug in the body. Usually because the choice of point is essentially
 arbitrary is my understanding, people decided for processes like these,
-we will call a process like this to be \"on\" when we have reached 1/2
+we will call a process like this to be "on" when we have reached 1/2
 of the peak concentration and we will say it has stopped working when
 the drug has diminished to 1/2 of the peak concentration again.
 

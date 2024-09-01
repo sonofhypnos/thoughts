@@ -26,7 +26,7 @@ Summary
 
 ### This book is aimed at people already buying the claims. They don't spend a lot of time convincing people sometimes.
 
-### Offence as a signal that you are in soldier mindset? (Maybe that is a better way to think about it?). I think there are cases where I would say I was clearly angry/in soldier mindset, but I would not say I was \"offended\".
+### Offence as a signal that you are in soldier mindset? (Maybe that is a better way to think about it?). I think there are cases where I would say I was clearly angry/in soldier mindset, but I would not say I was "offended".
 
 Intro (Write intro first or not?)
 ---------------------------------
@@ -155,7 +155,7 @@ Content
 
         1.  The authors call these their ideological trees.
 
-    2.  Everyone knows \"some\" intelligent seniors who seem to have
+    2.  Everyone knows "some" intelligent seniors who seem to have
         been stuck in the past (Examples?). In the analogy of an
         ideological tree these people have a withering tree
 
@@ -229,7 +229,7 @@ What I liked
 
         most people would probably find this behaviour weird even though
         I don't particularly mind, but if the only reason I do this is
-        for how it looks for other people and is not actually \" (flag
+        for how it looks for other people and is not actually " (flag
         rationalization)
 
 2.  ideological tree
@@ -278,8 +278,8 @@ What I liked
 
 1.  This is not your average self-help book that is trying to make you
     feel good. I really like the honesty of the authors in many places
-    to actually state: \"Yes this is hard and if it's not worth your
-    time maybe just don't bother\" (although they seem to be trying to
+    to actually state: "Yes this is hard and if it's not worth your
+    time maybe just don't bother" (although they seem to be trying to
     upset you in many places \[grounded in the believe that Offence as a
     detector for ideas to pay attention to\]
 
@@ -343,7 +343,7 @@ What I didn't like
     1.  Maybe interesting in a sense of Writing convincingly, but
         wrongly
 
-### Now I feel super overwhelmed and feel like to read the next book to get my priorities actually straight again. What areas of my life do I need to actually \"kill\"
+### Now I feel super overwhelmed and feel like to read the next book to get my priorities actually straight again. What areas of my life do I need to actually "kill"
 
 **\***
 

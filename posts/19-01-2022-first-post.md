@@ -23,7 +23,7 @@ blogging low effort, therefore making blogging a sustainable habit for
 me, it is definitely not the easiest solution to set up in the first
 place. I had already once tried to use it, but must have gotten stuck at
 some point that I don't even remember anymore. It still took me 4 hours
-yesterday to go from \"Ok lets finally do this\", to now where I managed
+yesterday to go from "Ok lets finally do this", to now where I managed
 to create this blogpost and be able to see it in the browser. I am
 honestly not quite sure what took me so long, but one thing that
 definitely was tricky, was getting all of the meta-data right, that is

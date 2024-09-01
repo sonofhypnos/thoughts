@@ -14,8 +14,8 @@ people\](<https://guzey.com/personal/friendship/>) and other peoples
 reflections on college there is this theme: "Try to not settle for the
 local optimum of always hanging out with the people you happen to
 stumble into, but to actively optimize for meeting awesome people."
-While reading these I felt like \"Yes this feels like something
-important, but how do you actually optimize for this in practice?\". As
+While reading these I felt like "Yes this feels like something
+important, but how do you actually optimize for this in practice?". As
 always with these things I feel like the best way would probably asking
 other people for help, but this is so scarry so I might as well worry
 about it The things written below are just me brainstorming on the
@@ -58,8 +58,8 @@ for other people.
                     up with some of the really intruiging people I met
                     there. At the same time I don't want to degrade the
                     quality of the whole website and it is nice that
-                    people there are there not \"just\" for
-                    \"`networking`\".
+                    people there are there not "just" for
+                    "`networking`".
             -   Going to big parties and just settling in a random
                 place, introducing myself while not interrupting people
                 actively in their conversations went great when I
@@ -75,20 +75,20 @@ for other people.
                 -   Yes I know... Maybe if I was being more strategic
                     the whole thing would work, but I feel this is an
                     area where I again and again failed with the
-                    \"trying harder\" approach. Yes my photos suck! I
+                    "trying harder" approach. Yes my photos suck! I
                     took some selfies outside. I did not go as far as
                     asking a friend to take some photos with me AND then
                     actually following through with that (because it
                     felt super awkward the \~4 times I pitched this to a
                     friend in conversation and I kind of waited for them
-                    to say \"yes\" lets do that (which of course never
+                    to say "yes" lets do that (which of course never
                     happened).)
                     -   I did not go as far as buying better looking
                         clothes because I think without someone who has
                         actual taste in this I would not be doing
                         particularly better than with the clothes
                         largely optimized for convencience and
-                        \"unauffällig\" averageness I have now.
+                        "unauffällig" averageness I have now.
     -   What is the current situation?
         -   There is about \~10-20 people I talk to during a regular
             week would be my guess. Maybe half of that are actually

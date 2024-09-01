@@ -12,8 +12,8 @@ Inspired by Gwern's article on Google search. I set up a Scratch window
 in i3, so now I have gpt4 just 2 simultaneous keypresses away.
 
 I feel like it is really nice to use GPT-4 to ask it about interpersonal
-stuff. \"GPT-4 I want to tell my supervisor X or I am considering
-writing Y how do you think this will come across\". You think it's a
+stuff. "GPT-4 I want to tell my supervisor X or I am considering
+writing Y how do you think this will come across". You think it's a
 good idea? It's also really nice for writing one-off plotting code in
 python and things along those lines. Things I haven't tried yet so far,
 but would be interested to hear from others, is using gpt-4 as sort of
@@ -71,7 +71,7 @@ How can I use it to push myself?
     interface, there's just a single prompt I use.
     -   Like usually I tell gpt-4 to be really informal with me, but
         that is counterproductive if I want it to correct my spelling.
--   I also feel like I want to get better at the sort of \"quickly
-    testing hypotheses thing\" that neel is sometimes talking about
+-   I also feel like I want to get better at the sort of "quickly
+    testing hypotheses thing" that neel is sometimes talking about
     (TODO: this is an instance where it would be nice to have the
     semantic search to find that comment)
