@@ -13,15 +13,16 @@ every day becomes boring for me really quickly. My new solution is to
 give myself a random prompt from a list of nice introspective questions
 I stole from <a href="https://clearerthinking.org">https://clearerthinking.org</a><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> . This is pretty easily
 implemented in Elisp <sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>:</p>
-<pre><code class="language-elisp">;list with your prompts
-(setq custom/journal-prompts '(&quot;What is on your mind?&quot;
-                               &quot;What did you achieve today?&quot;
-                               &quot;What worried you today?&quot;))
-(defun custom/random-phrase ()
-  &quot;command to insert prompt at cursor&quot;
-    (interactive)
-    (insert (seq-random-elt custom/journal-prompts)))
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="c1">;list with your prompts</span>
+<span class="p">(</span><span class="k">setq</span><span class="w"> </span><span class="nv">custom/journal-prompts</span><span class="w"> </span><span class="o">&#39;</span><span class="p">(</span><span class="s">&quot;What is on your mind?&quot;</span>
+<span class="w">                               </span><span class="s">&quot;What did you achieve today?&quot;</span>
+<span class="w">                               </span><span class="s">&quot;What worried you today?&quot;</span><span class="p">))</span>
+<span class="p">(</span><span class="nb">defun</span><span class="w"> </span><span class="nv">custom/random-phrase</span><span class="w"> </span><span class="p">()</span>
+<span class="w">  </span><span class="s">&quot;command to insert prompt at cursor&quot;</span>
+<span class="w">    </span><span class="p">(</span><span class="k">interactive</span><span class="p">)</span>
+<span class="w">    </span><span class="p">(</span><span class="nf">insert</span><span class="w"> </span><span class="p">(</span><span class="nv">seq-random-elt</span><span class="w"> </span><span class="nv">custom/journal-prompts</span><span class="p">)))</span>
+</code></pre></div>
+
 <p>Happy random journaling!</p>
 <h2>Footnotes</h2>
 <div class="footnote">

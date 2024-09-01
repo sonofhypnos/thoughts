@@ -10,10 +10,14 @@
     <!-- <h1>My Blog</h1> -->
     <ul>
     {% for post in posts %}
-        <li>
-            <a href="{{ post.filename }}">{{ post.title }}</a>
-            <span>({{ post.date.strftime('%Y-%m-%d') }})</span>
-        </li>
+        <article>
+            <h2><a href="{{ post.filename }}">{{ post.title }}</a></h2>
+            <time datetime="{{ post.date.isoformat() }}">{{ post.date.strftime('%B %d, %Y') }}</time>
+            <div class="preview">
+                {{ post.preview | safe }}
+            </div>
+            <a href="{{ post.filename }}">Read more...</a>
+        </article>
     {% endfor %}
     </ul>
 </body>

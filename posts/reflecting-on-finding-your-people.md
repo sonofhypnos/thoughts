@@ -1,7 +1,7 @@
 ---
 title: Reflecting on Finding your people and 3 months at university during Corona
-tags: ["hidden"]
-id: "      reflecting-on-finding-your-people"
+tags: hidden
+id: "reflecting-on-finding-your-people"
 date: 2022-02-13
 ---
 

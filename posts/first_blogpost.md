@@ -1,6 +1,6 @@
 ---
 title: Migrating From Lazyblorg to Python
-date: 2024-08-30
+date: 2024-09-01
 ---
 
 Today I switched my blog away from [lazyblorg](https://github.com/novoid/lazyblorg). While I really liked the philosophy and the fact that I could just write a blogpost anywhere in my org files, I had become frustrated with all the features I couldn't use in lazyblorg, like footnotes. I then asked claude to write me a simple blogging site with markdown which taught me that python actually already has markdown support in it's standard library. So parsing markdown for a blogpost turned out as easy as:

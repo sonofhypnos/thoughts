@@ -1,7 +1,7 @@
 ---
 title: Thoughts on the pragmatist guide to live
-tags: ["hidden", "rationaliy", "book_review"]
-id: "      pragmatist-guide-to-live-review"
+tags: hidden rationaliy book_review
+id: "pragmatist-guide-to-live-review"
 date: 2022-01-30
 ---
 
@@ -13,7 +13,7 @@ I will not give an all encompassing review of this book.
 Structure
 ---------
 
-### Summarizing the whole book seems not worth the readers time in comparison to just reading the excellen summary by the authors (does this sound like an advertisement of the book?)
+### Summarizing the whole book seems not worth the readers time in comparison to just reading the excellen summary by the authors does this sound like an advertisement of the book?
 
 ### summarize each of the four sections individually and give your commentary.
 

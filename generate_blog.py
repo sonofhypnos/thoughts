@@ -2,11 +2,26 @@ import os
 import markdown
 import datetime
 from jinja2 import Environment, FileSystemLoader
+from bs4 import BeautifulSoup
 
 # Constants
 OUTPUT_DIR = "docs"
 TEMPLATE_DIR = "templates"
 POSTS_DIR = "posts"
+
+
+def generate_preview(html_content):
+    soup = BeautifulSoup(html_content, "html.parser")
+
+    # Find the first image
+    img_tag = soup.find("img")
+    img_html = str(img_tag) if img_tag else ""
+
+    # Get text content
+    text_content = soup.get_text()
+    text_preview = text_content[:PREVIEW_LENGTH].rsplit(" ", 1)[0] + "..."
+
+    return f"{img_html}<p>{text_preview}</p>"
 
 
 def read_markdown_file(file_path):
@@ -15,7 +30,9 @@ def read_markdown_file(file_path):
 
 
 def parse_markdown(content):
-    md = markdown.Markdown(extensions=["meta", "footnotes", "fenced_code"])
+    md = markdown.Markdown(
+        extensions=["meta", "footnotes", "fenced_code", "codehilite"]
+    )
     html = md.convert(content)
     return html, md.Meta
 
