@@ -98,7 +98,10 @@ def generate_blog():
                     "filename": os.path.join(
                         OUTPUT_DIR, os.path.splitext(filename)[0] + ".html"
                     ),
+                    "tags": metadata.get("tags", []),
                 }
+                print(f"Processing {filename}...")
+                print(f"Tags: {post['tags']}")
                 posts.append(post)
 
                 # Generate individual post pages
@@ -112,9 +115,11 @@ def generate_blog():
     # Sort posts by date
     posts.sort(key=lambda x: x["date"], reverse=True)
 
+    filtered_posts = [post for post in posts if "hidden" not in post["tags"]]
+
     # Generate index page in the root directory
-    index_output = index_template.render(posts=posts)
-    with open(os.path.join(OUTPUT_DIR, "index.html"), "w", encoding="utf-8") as file:
+    index_output = index_template.render(posts=filtered_posts)
+    with open(os.path.join("./", "index.html"), "w", encoding="utf-8") as file:
         file.write(index_output)
 
 
