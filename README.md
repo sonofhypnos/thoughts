@@ -23,3 +23,4 @@ python -m http.server & firefox http://0.0.0.0:8000
 - [x] automatically fix capitalization
 - [ ] Add tags
 - [ ] add page feature where you can see the original markdown file
+- [ ] ask before commiting non-blog files
