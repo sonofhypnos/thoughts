@@ -2,7 +2,7 @@
 title: "Favorites"
 tags: []
 id: "      reviews"
-created: "2023-08-13"
+date: 2023-08-13
 ---
 
 Reviews {#reviews id="reviews"}
@@ -16,7 +16,7 @@ Podcasts
 
 ### Write a review of your favorite podcasts and your favorite episodes:
 
-### [TODO]{.todo .TODO} Favorites [[blog]{.smallcaps}]{.tag tag-name="blog"} {#favorites}
+### 
 
 -   Podcasts
     -   [The 80k hours podcast](https://80000hours.org/podcast/)
@@ -43,10 +43,10 @@ Podcasts
                 Aella)](https://podcast.clearerthinking.org/episode/017/aella-enlightenment-and-sex-work/)
     -   [Innovative Minds with Audrey
         Tang](https://www.youtube.com/playlist?list=PLuWDtoKIa7WJGiw4SNeNDPlQa-FbwIgds)
-        (unfortunately there don\'t seem any new episodes to be comming
+        (unfortunately there don't seem any new episodes to be comming
         out)
         -   Favorite Episode:
-            -   [Interview with Estonias\' former President Toomas
+            -   [Interview with Estonias' former President Toomas
                 Hendrik
                 Ilves](https://www.youtube.com/watch?v=bWw_NDlk2uw&list=PLuWDtoKIa7WJGiw4SNeNDPlQa-FbwIgds&index=6&pp=iAQB)
 -   Software

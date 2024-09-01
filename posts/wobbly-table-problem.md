@@ -2,11 +2,11 @@
 title: "Wobbly Table Theorem"
 tags: []
 id: "wobbly-table-problem"
-created: "2023-09-28"
+date: 2023-09-28
 ---
 
-[DONE]{.done .DONE} Wobbly Table Theorem [[blog]{.smallcaps}]{.tag tag-name="blog"} {#wobbly-table-theorem}
-===================================================================================
+
+
 
 It turns out the \"wobbly table theorem\" is less of just a math
 curiosity than I thought.
@@ -20,16 +20,16 @@ ago on [Numberphile](https://www.youtube.com/watch?v=OuF-WB7mD6k).
 
 This investigation started with my frustration with the chair I am
 currently sitting on and me thinking that the wobbly table theorem
-couldn\'t apply to my use-case. Surely the chair was too poorly built,
-given how wobbly it was! I assumed the floor in the room I\'m in to be
+couldn't apply to my use-case. Surely the chair was too poorly built,
+given how wobbly it was! I assumed the floor in the room I'm in to be
 relatively flat. But, when I tried turning the chair around, it worked!?
 
 I thought once we have a table where one of the legs is shorter and the
-surface is flat, it\'s obvious that we cannot make the table stable. In
+surface is flat, it's obvious that we cannot make the table stable. In
 my mind most wobbly chairs I encountered were broken like that (for
 example when one of their furniture glides gets lost).
 
-![Chair on floor (big gap).](tsfile:wobbly_chair2.jpg){align="center"
+![Chair on floor (big gap).](/images/wobbly_chair2.jpg){align="center"
 width="560" linked-image-width="1500"}
 
 After seeing this, I put the chair on another table (since I expected
@@ -37,7 +37,7 @@ the table to be flatter) and it turns out the chair actually has much
 flatter legs than I had imagined.
 
 ![Chair on flat table (smaller
-gap)](tsfile:wobbly_chair.jpg){align="center" width="560"
+gap)](/images/wobbly_chair.jpg){align="center" width="560"
 linked-image-width="1500"}
 
 So essentially my assumption that the chair was to blame was incorrect.

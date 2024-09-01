@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuring out YASnippet</title>
+</head>
+<body>
+    <h1>Figuring out YASnippet</h1>
+    <p>Published on: March 19, 2022</p>
+    <p>Today I finally took the time to figure to the YASnippet Emacs package
+to create a template for my new blogposts. Turns out there was not a lot
+to understand. To create a new template you run `M-x`
+`yas-new-snippet`. In the then opening buffer you just enter your
+template in plain text and hit `C-c C-c` when you're done.</p>
+<p>The three other elements that I needed for my simple snippets:</p>
+<ul>
+<li>
+<p>`\$0` denotes where the cursor should end up after the snippet is
+    inserted.</p>
+</li>
+<li>
+<p>Emacs lisp code to be evaluated with the snipped can be inserted
+    within backquotes. Example: the following snippet enters the current
+    date in iso-format:</p>
+</li>
+</ul>
+<p><code>{.commonlisp org-language="emacs-lisp" tangle="yes"}
+`(format-time-string "%Y-%m-%d")` $0</code></p>
+<ul>
+<li>Elements to be completed at point are entered with {N: default
+    value} as an example here is the template for a for-loop in C:</li>
+</ul>
+<p><code>{.c tangle="yes"}
+for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) {
+    $0
+        }</code></p>
+    <p><a href="../index.html">Back to Home</a></p>
+</body>
+</html>

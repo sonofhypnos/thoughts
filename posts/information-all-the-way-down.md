@@ -2,10 +2,11 @@
 title: "Anthony Aguirre on the nature of reality is fascinating"
 tags: ["physics", "epistemology"]
 id: "      information-all-the-way-down"
+date: 2022-01-21
 ---
 
 [DONE]{.done .DONE} Anthony Aguirre on the nature of reality is fascinating [[blog]{.smallcaps}]{.tag tag-name="blog"} [[physics]{.smallcaps}]{.tag tag-name="physics"} [[epistemology]{.smallcaps}]{.tag tag-name="epistemology"} {#anthony-aguirre-on-the-nature-of-reality-is-fascinating id="information-all-the-way-down" created="[2022-01-21 Fr 18:40]"}
-==================================================================================================================================================================================================================================
+
 
 I recently stumbled upon [this
 episode](https://futureoflife.org/2020/01/31/fli-podcast-identity-information-the-nature-of-reality-with-anthony-aguirre/)
@@ -19,12 +20,12 @@ would be a better description?). In contrast to my regular believe
 crisis, while I definitely feel like this view should in some sense
 change how I think about the world/base reality there is another part
 that is just really reluctant to accept yet another complication in how
-I think about the world. I just can\'t manage to find anything in
+I think about the world. I just can't manage to find anything in
 particular that is different from this view compared to my previous
 view, except when I apply it to topics like consciousness or the nature
 of computation that make me really confused anyways. If you are reading
 this none of this is probably really \"new\". It is just like someone is
-spelling out this view that I\'ve sometimes seen people gesture at, but
+spelling out this view that I've sometimes seen people gesture at, but
 he is more explicit about it.
 
 > Quantum mechanics does say that there are particles in a sense, like

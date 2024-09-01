@@ -2,11 +2,11 @@
 title: "Thoughts on the pragmatist guide to live"
 tags: ["hidden", "rationaliy", "book_review"]
 id: "      pragmatist-guide-to-live-review"
-created: "2022-01-30"
+date: 2022-01-30
 ---
 
-[DONE]{.done .DONE} Thoughts on the pragmatist guide to live :blog::hidden::rationaliy: [[book\_review]{.smallcaps}]{.tag tag-name="book_review"} {#thoughts-on-the-pragmatist-guide-to-live-bloghiddenrationaliy id="pragmatist-guide-to-live-review" created="[2022-01-30 So 18:10]"}
-=================================================================================================================================================
+
+
 
 I will not give an all encompassing review of this book.
 
@@ -24,7 +24,7 @@ Summary
 
 1.  Implicitly Scoutmindset
 
-### This book is aimed at people already buying the claims. They don\'t spend a lot of time convincing people sometimes.
+### This book is aimed at people already buying the claims. They don't spend a lot of time convincing people sometimes.
 
 ### Offence as a signal that you are in soldier mindset? (Maybe that is a better way to think about it?). I think there are cases where I would say I was clearly angry/in soldier mindset, but I would not say I was \"offended\".
 
@@ -59,7 +59,7 @@ Intro (Write intro first or not?)
 ### Key assumption
 
 So the key assumptions this book is making, is that viewing your life a
-one big optimization problem (though they don\'t call it that
+one big optimization problem (though they don't call it that
 specifically) is a good way to view your life
 
 Content
@@ -69,7 +69,7 @@ Content
 
 ### The Details
 
-1.  Great summary so you don\'t actually have to read the whole book
+1.  Great summary so you don't actually have to read the whole book
 
 2.  Define your Objective Function
 
@@ -90,7 +90,7 @@ Content
 
     3.  Taking seriously
 
-        1.  Reminder to take them seriously (there\'s a slatestarcodex
+        1.  Reminder to take them seriously (there's a slatestarcodex
             thing about that)
 
         2.  This actually helped me not to get tripped up a few times
@@ -104,10 +104,10 @@ Content
             notion that their might only be this one weird trick/thing
             you value. I think this could be something that could trip
             up readers who are not really careful coming away with the
-            impression that actually nothing has value which I don\'t
-            think is what the authors believe although I\'d estimate to
+            impression that actually nothing has value which I don't
+            think is what the authors believe although I'd estimate to
             have some disagreements/non-shared confusions about what has
-            real value. (I don\'t really try to find an easily to cache
+            real value. (I don't really try to find an easily to cache
             out answer (does stating value is complex seem like an
             escape))
 
@@ -135,7 +135,7 @@ Content
                     overlay state.
 
                 4.  I honestly mostly came away from this section with
-                    the impression that most lives just aren\'t
+                    the impression that most lives just aren't
                     negative, but I might be wrong about that.
 
     5.  This section is trying to lead you through
@@ -162,21 +162,21 @@ Content
     3.  When the authors say ideology what they mean is a
         hypothesis/theory for how the world works.
 
-    4.  Elementary, didn\'t take away from it
+    4.  Elementary, didn't take away from it
 
     5.  What I did like is that I came away with a vivid justification
         for why you would want to challenge your beliefs (reference to
         other review).
 
     6.  I think this was the only section where I felt I took away
-        nothing from as it was too elementary. Though I\'ve seen myself
+        nothing from as it was too elementary. Though I've seen myself
 
 4.  Defining your identity
 
     1.  It basically makes a convincing case why you should be really be
         careful what you identify as, not only for obvious things like
         discussing god, but more subtle things, like not even
-        considering options because they don\'t seem like the kind of
+        considering options because they don't seem like the kind of
         thing your conception of yourself would do.
 
     2.  I think in general rationalists are less prone to this failure
@@ -193,7 +193,7 @@ Content
 
     2.  Flaws in your character
 
-        1.  Thing on presidents I don\'t buy
+        1.  Thing on presidents I don't buy
 
 What I liked
 ------------
@@ -225,10 +225,10 @@ What I liked
     1.  Example: I was standing in front of a traffic light at 1pm on a
         completely void street the other day, and I was immediately
         thinking (is this in line with my objective function?) (Though I
-        won\'t distract with my conclusion here.)
+        won't distract with my conclusion here.)
 
         most people would probably find this behaviour weird even though
-        I don\'t particularly mind, but if the only reason I do this is
+        I don't particularly mind, but if the only reason I do this is
         for how it looks for other people and is not actually \" (flag
         rationalization)
 
@@ -243,8 +243,8 @@ What I liked
 5.  offence as signal
 
     1.  I am not sure this has truly made me identify stuff. But I think
-        there are some areas where I noticed that my mind really didn\'t
-        like to go and to confront them that I didn\'t otherwise:
+        there are some areas where I noticed that my mind really didn't
+        like to go and to confront them that I didn't otherwise:
 
         1.  frugality
 
@@ -278,8 +278,8 @@ What I liked
 
 1.  This is not your average self-help book that is trying to make you
     feel good. I really like the honesty of the authors in many places
-    to actually state: \"Yes this is hard and if it\'s not worth your
-    time maybe just don\'t bother\" (although they seem to be trying to
+    to actually state: \"Yes this is hard and if it's not worth your
+    time maybe just don't bother\" (although they seem to be trying to
     upset you in many places \[grounded in the believe that Offence as a
     detector for ideas to pay attention to\]
 
@@ -299,10 +299,10 @@ What I liked
 
 ### Very particular perspective
 
-What I didn\'t like
+What I didn't like
 -------------------
 
-### Section wasn\'t for me personally
+### Section wasn't for me personally
 
 ### Objective function {#objective-function-1}
 
@@ -334,7 +334,7 @@ What I didn\'t like
 
 6.  Belief as anticipation
 
-### Pragmatism was sometimes to pragmatic for my personal tastes, but I feel like it is the kind of content I feel I\'d super much like to see more of on Lesswrong
+### Pragmatism was sometimes to pragmatic for my personal tastes, but I feel like it is the kind of content I feel I'd super much like to see more of on Lesswrong
 
 1.  Benefit on the other hand is that I can sell this better to friends
     who I feel would be careful to buy to technical ideas from me (since
@@ -350,5 +350,5 @@ What I didn\'t like
 Overall impressions
 -------------------
 
-Don\'t write in this line?
+Don't write in this line?
 --------------------------

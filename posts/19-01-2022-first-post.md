@@ -2,11 +2,11 @@
 title: "This is my first lazy blogpost"
 tags: ["lazyblorg", "software"]
 id: "19-01-2022-first-post"
-created: "2022-01-19"
+date: 2022-01-19
 ---
 
 [DONE]{.done .DONE} This is my first lazy blogpost [[blog]{.smallcaps}]{.tag tag-name="blog"} [[lazyblorg]{.smallcaps}]{.tag tag-name="lazyblorg"} [[software]{.smallcaps}]{.tag tag-name="software"} {#this-is-my-first-lazy-blogpost id="19-01-2022-first-post" created="[2022-01-19 Di 21:00]" last_repeat="[2022-01-20 Do 10:29]"}
-=====================================================================================================================================================================================================
+
 
 Today I finally managed to get a blogging setup with orgmode working.
 This has honestly been one of my more stressful projects so far.
@@ -22,7 +22,7 @@ In the end I decided to go with
 blogging low effort, therefore making blogging a sustainable habit for
 me, it is definitely not the easiest solution to set up in the first
 place. I had already once tried to use it, but must have gotten stuck at
-some point that I don\'t even remember anymore. It still took me 4 hours
+some point that I don't even remember anymore. It still took me 4 hours
 yesterday to go from \"Ok lets finally do this\", to now where I managed
 to create this blogpost and be able to see it in the browser. I am
 honestly not quite sure what took me so long, but one thing that

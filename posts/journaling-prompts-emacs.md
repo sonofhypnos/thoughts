@@ -2,10 +2,11 @@
 title: "Journal prompts in Emacs"
 tags: ["emacs", "journaling"]
 id: "      journaling-prompts-emacs"
+date: 2022-01-30
 ---
 
-[DONE]{.done .DONE} Journal prompts in Emacs :blog::emacs: [[journaling]{.smallcaps}]{.tag tag-name="journaling"} {#journal-prompts-in-emacs-blogemacs id="journaling-prompts-emacs" created="[2022-01-30 So 21:48]"}
-=================================================================================================================
+
+
 
 While I enjoy journaling in Emacs and, asking oneself the same questions
 every day becomes boring for me really quickly. My new solution is to
@@ -34,6 +35,6 @@ Footnotes
 
 [^2]: In the beginning I had high aspirations by weighting how often I
     get to see a prompt by how useful it was, but this (at least so far)
-    turned out to be an overengineered solution, because it\'s very easy
+    turned out to be an overengineered solution, because it's very easy
     to just generate a new prompt, so I did not bother with that in the
     end.

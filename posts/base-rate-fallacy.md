@@ -2,11 +2,11 @@
 title: "The Base Rate Fallacy"
 tags: []
 id: "base-rate-fallacy"
-created: "2024-01-22"
+date: 2024-01-22
 ---
 
-[TODO]{.todo .TODO} The Base Rate Fallacy [[blog]{.smallcaps}]{.tag tag-name="blog"} {#the-base-rate-fallacy}
-====================================================================================
+
+
 
 Imagine I am paying you \$5 to guess what subject I was studying at
 university.

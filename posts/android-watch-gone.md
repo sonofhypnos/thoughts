@@ -1,15 +1,16 @@
 ---
+title: My old smartwatch
 id: "android-watch-gone"
-created: "2022-03-18"
+date: 2022-03-18
 ---
 
-[DONE]{.done .DONE} My old smartwatch [[productivity]{.smallcaps}]{.tag tag-name="productivity"} [[smartwatch]{.smallcaps}]{.tag tag-name="smartwatch"} [[blog]{.smallcaps}]{.tag tag-name="blog"} {#my-old-smartwatch id="android-watch-gone" created="[2022-03-18 Fr 23:06]"}
-==================================================================================================================================================================================================
+
+
 
 Today I want to show you the amazing device that ran my life for...3
-years? It\'s this smart watch:
+years? It's this smart watch:
 
-[photo](tsfile:image.png)
+![photo](/images/old-smartwatch.png)
 
 The specific model is the ZGPAX S8. My father got it gifted at a
 conference and gave it to me after finding no use for it. First I
@@ -33,10 +34,10 @@ What I used the watch for:
 Search for a replacement
 ------------------------
 
-To this day I haven\'t found a more convenient way to run my timers and
-timetracking. By now I am just using the same apps on my phone. It\'s
+To this day I haven't found a more convenient way to run my timers and
+timetracking. By now I am just using the same apps on my phone. It's
 less convenient, but unfortunately Google stopped supporting the android
-version of this watch. I tried getting a new one, but it\'s hard to get
+version of this watch. I tried getting a new one, but it's hard to get
 full-android watches. I just recently bought a watch for 250€ ([the
 Brave3](https://store.rogbid.com/products/brave3)), because I thought it
 would be able to support this workflow, but for some reason I was then

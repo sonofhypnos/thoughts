@@ -2,13 +2,13 @@
 title: "Reflecting on Finding your people and 3 months at university during Corona"
 tags: ["hidden"]
 id: "      reflecting-on-finding-your-people"
-created: "2022-02-13"
+date: 2022-02-13
 ---
 
 [DONE]{.done .DONE} Reflecting on Finding your people and 3 months at university during Corona [[blog]{.smallcaps}]{.tag tag-name="blog"} [[hidden]{.smallcaps}]{.tag tag-name="hidden"} {#reflecting-on-finding-your-people-and-3-months-at-university-during-corona id="reflecting-on-finding-your-people" created="[2022-02-13 So 17:33]"}
-========================================================================================================================================================================================
 
-My second semester has just ended and I\'ve been reflecting on my goals
+
+My second semester has just ended and I've been reflecting on my goals
 for the last 1.5 years. While rereading \[Finding your
 people\](<https://guzey.com/personal/friendship/>) and other peoples
 reflections on college there is this theme: "Try to not settle for the
@@ -28,7 +28,7 @@ for other people.
         -   What worked
             -   I found an accountability partner by actively searching!
                 At some points one of my desperate attempts just ended
-                up working! (Let\'s see for how long this goes!)
+                up working! (Let's see for how long this goes!)
             -   Ask my accountability guy for advice about meeting
                 people?
             -   My local rationality group
@@ -42,7 +42,7 @@ for other people.
                 coworking sessions on focusmate even though my chest was
                 pounding like crazy and I felt like embarrassing myself
                 in front of these awesome people doing important stuff
-                every time. I don\'t think my smalltalk/de-awkwarding
+                every time. I don't think my smalltalk/de-awkwarding
                 skills improved lots during these sessions, but I feel
                 like my head slowly accepted that these very short
                 situations with strangers end up slightly awkward not
@@ -56,15 +56,15 @@ for other people.
                     is probably going to decline. Yay!
                 -   I feel like on the one hand I should probably follow
                     up with some of the really intruiging people I met
-                    there. At the same time I don\'t want to degrade the
+                    there. At the same time I don't want to degrade the
                     quality of the whole website and it is nice that
                     people there are there not \"just\" for
                     \"`networking`\".
             -   Going to big parties and just settling in a random
                 place, introducing myself while not interrupting people
                 actively in their conversations went great when I
-                literally didn\'t know anyone. Problem there haven\'t
-                been that many parties like this or I haven\'t been
+                literally didn't know anyone. Problem there haven't
+                been that many parties like this or I haven't been
                 invited to them.
         -   What did not work
             -   Online dating. None of my days this years have been as
@@ -126,7 +126,7 @@ for other people.
         -   These bar nights are dominated by the same kind of people
             often though. The big parties are things like people
             partying after their exams. That feels like the kind of
-            events you want to be at, but first I don\'t really know how
+            events you want to be at, but first I don't really know how
             to hear about them, if it is not my major (I guess this is
             intentional?)
             -   At the same time corona adds this second layer of
@@ -135,10 +135,10 @@ for other people.
                 being vaccinated, but really huge parties would still
                 probably be a thing to avoid? My strategy so far had
                 mostly been just going more with my antisocial side, so
-                I wouldn\'t have to think about the pandemic.
+                I wouldn't have to think about the pandemic.
                 -   It also adds this layer where it makes it hard to
                     talk with other people about this stuff because you
-                    don\'t want to seem like the reckless person.
+                    don't want to seem like the reckless person.
                     -   Am I being reckless? Maybe I do not have the
                         right perspective on this? To be honest I am
                         just really tired of this whole thing.

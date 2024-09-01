@@ -2,20 +2,20 @@
 title: "Remaping the Fn key on my keyboard"
 tags: ["linux", "keyboard"]
 id: "fn-remap"
-created: "2023-10-22"
+date: 2023-10-22
 ---
 
-[DONE]{.done .DONE} Remaping the Fn key on my keyboard [[blog]{.smallcaps}]{.tag tag-name="blog"} [[linux]{.smallcaps}]{.tag tag-name="linux"} [[keyboard]{.smallcaps}]{.tag tag-name="keyboard"} {#remaping-the-fn-key-on-my-keyboard}
-=================================================================================================================================================================================================
+
+
 
 Today I tried remapping the Fn-key on my keyboard after my Ctrl-key
-stopped working reliably (I suspect it\'s a hardware issue). While I
+stopped working reliably (I suspect it's a hardware issue). While I
 first suspected this to not be possible at all, because a lot of
 keyboards do not even send the Keypress Events from the Fn-keys to the
 kernel, for my laptop keyboard this seems to have not been the case, as
 I was able to see the keypresses with \"xev\". Next, I tried rebinding
-the key with xmodmap using its keycode (151): xmodmap -e \'keycode 151 =
-Control~L~\', but that did not work for mysterious reasons.
+the key with xmodmap using its keycode (151): xmodmap -e 'keycode 151 =
+Control~L~', but that did not work for mysterious reasons.
 
 After some more failed attempts, I tried using setkeycodes, which
 directly changes the map of the keyboard-driver to change which keycode

@@ -2,11 +2,11 @@
 title: "Vyvanse Half-life"
 tags: ["medication", "biology"]
 id: "vyvanse-half-life"
-created: "2024-08-21"
+date: 2024-08-21
 ---
 
-[TODO]{.todo .TODO} Vyvanse Half-life [[blog]{.smallcaps}]{.tag tag-name="blog"} [[medication]{.smallcaps}]{.tag tag-name="medication"} [[biology]{.smallcaps}]{.tag tag-name="biology"} {#vyvanse-half-life}
-========================================================================================================================================================================================
+
+
 
 Since I am 12 I have been taking Vyvanse. In the instructions it says
 the drugs should last on average for 13 hours and their onset is within
@@ -27,11 +27,11 @@ the drug has diminished to 1/2 of the peak concentration again.
 Because this is an exponential decay, calculating how much will be in
 your body after t amount of time is as easy as multiplying (1/2)\^ (t /
 t~halflife~). In other words, the concentration will keep decreasing by
-from it\'s current amount 1/2 every 12h.
+from it's current amount 1/2 every 12h.
 
 One thing that my adhd-psychologist recommended (not sure if that
 recommendation was endorsed by my psychiatrist) was to avoid citric
-fruits, because they\'d somehow interfere with the medication in a way
+fruits, because they'd somehow interfere with the medication in a way
 that would make it less effective (rather than cause any harmfull side
 effects). Apparently this advice applied to methylphenidate as well as
 to dextroamphetamine (I found that weird, why would it apply to such
@@ -49,7 +49,7 @@ so it was relatively easy to get actual data for this process online.
 -   Learn more about why things are half-life in the body? -\> Rate of
     removal is proportional to how much material is in the blood
 
--   I\'ve now gone 10 years in my life taking this medication and just
+-   I've now gone 10 years in my life taking this medication and just
     taking the 13h that it is supposed to work for granted.
 
 TODO open questions

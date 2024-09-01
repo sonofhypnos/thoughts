@@ -2,11 +2,11 @@
 title: "Mapping Keyboard shortcuts"
 tags: []
 id: "very short takes"
-created: "2023-08-13"
+date: 2023-08-13
 ---
 
-[DONE]{.done .DONE} Mapping Keyboard shortcuts [[blog]{.smallcaps}]{.tag tag-name="blog"} {#mapping-keyboard-shortcuts id="very short takes" created="[2023-08-13 Sun 15:56]"}
-=========================================================================================
+
+
 
 This document is for small ideas similar to the lw shortform feature
 

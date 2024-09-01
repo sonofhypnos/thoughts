@@ -2,11 +2,11 @@
 title: "Function of Human taste buds inside the body"
 tags: []
 id: "human-taste-buds"
-created: "2024-08-30Fri"
+date: 2024-08-30
 ---
 
-[TODO]{.todo .TODO} Function of Human taste buds inside the body [[blog]{.smallcaps}]{.tag tag-name="blog"} {#function-of-human-taste-buds-inside-the-body}
-===========================================================================================================
+
+
 
 My current best guess for the function of different human taste buds:
 

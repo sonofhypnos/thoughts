@@ -1,15 +1,17 @@
 ---
-id: "      figuring-out-yasnippet"
+title: Figuring out YASnippet
+id: "figuring-out-yasnippet"
+date: 2022-03-19
 ---
 
-[DONE]{.done .DONE} Figuring out YASnippet [[emacs]{.smallcaps}]{.tag tag-name="emacs"} [[blog]{.smallcaps}]{.tag tag-name="blog"} {#figuring-out-yasnippet id="figuring-out-yasnippet" created="[2022-03-19 Sa 21:20]"}
-==================================================================================================================================
+
+
 
 Today I finally took the time to figure to the YASnippet Emacs package
 to create a template for my new blogposts. Turns out there was not a lot
 to understand. To create a new template you run \`M-x\`
 \`yas-new-snippet\`. In the then opening buffer you just enter your
-template in plain text and hit \`C-c C-c\` when you\'re done.
+template in plain text and hit \`C-c C-c\` when you're done.
 
 The three other elements that I needed for my simple snippets:
 

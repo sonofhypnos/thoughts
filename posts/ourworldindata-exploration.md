@@ -2,11 +2,11 @@
 title: "ourworldindata"
 tags: []
 id: "ourworldindata-exploration"
-created: "2023-11-21"
+date: 2023-11-21
 ---
 
-[TODO]{.todo .TODO} ourworldindata [[blog]{.smallcaps}]{.tag tag-name="blog"} {#ourworldindata}
-=============================================================================
+
+
 
 -   india is about 9 Germanies
 -   the fact that the median age for the majority of human history is
