@@ -5,8 +5,7 @@ id: "ourworldindata-exploration"
 date: 2023-11-21
 ---
 
-
-
+Things I learned from exploring the data on [ourworldindata.org](https://ourworldindata.org/)
 
 -   india is about 9 Germanies
 -   the fact that the median age for the majority of human history is
