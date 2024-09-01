@@ -99,6 +99,7 @@ def generate_blog():
                         OUTPUT_DIR, os.path.splitext(filename)[0] + ".html"
                     ),
                     "tags": metadata.get("tags", []),
+                    "preview": generate_preview(html_content),
                 }
                 print(f"Processing {filename}...")
                 print(f"Tags: {post['tags']}")
