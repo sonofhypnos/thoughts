@@ -1,14 +1,75 @@
 import os
+import json
 import markdown
 import datetime
 from jinja2 import Environment, FileSystemLoader
 from bs4 import BeautifulSoup
+import nbformat
+from nbconvert import HTMLExporter
+
 
 # Constants
 OUTPUT_DIR = "docs"
 TEMPLATE_DIR = "templates"
 POSTS_DIR = "posts"
+NOTEBOOKS_DIR = "notebooks"
+NOTEBOOKS_HTML_DIR = "notebook_html"
 PREVIEW_LENGTH = 200
+
+# def parse_notebook(file_path):
+#     with open(file_path, "r", encoding="utf-8") as file:
+#         notebook_content = json.load(file)
+
+#     notebook = nbformat.from_dict(notebook_content)
+#     first_cell = notebook_content["cells"][0]
+#     if first_cell["cell_type"] != "markdown":
+#         raise ValueError("First cell must be markdown")
+
+#     title = first_cell["source"][0].strip("#").strip()
+#     if not title:
+#         raise ValueError(
+#             "Title must be provided in the first cell in the first line of the notebook."
+#         )
+
+#     # Extract metadata from the filename
+#     filename = os.path.basename(file_path)
+#     date_str, title = filename.split("-", 1)
+
+#     # Convert notebook to HTML
+#     html_exporter = nbconvert.HTMLExporter()
+#     html_exporter.template_name = "basic"
+#     html_content, _ = html_exporter.from_notebook_node(notebook)
+
+#     metadata = {"title": [title], "date": [date_str]}
+
+#     return html_content, metadata
+
+
+def read_file(file_path):
+    with open(file_path, "r", encoding="utf-8") as file:
+        return file.read()
+
+
+def parse_notebook(file_path):
+    with open(file_path, "r", encoding="utf-8") as file:
+        notebook_content = json.load(file)
+
+    # Create a NotebookNode object
+    notebook = nbformat.from_dict(notebook_content)
+
+    # Extract metadata from the filename
+    filename = os.path.basename(file_path)
+    date_str, title = filename.split("-", 1)
+    title = title.rsplit(".", 1)[0].replace("-", " ").title()
+
+    # Convert notebook to HTML
+    html_exporter = HTMLExporter()
+    html_exporter.template_name = "basic"
+    html_content, _ = html_exporter.from_notebook_node(notebook)
+
+    metadata = {"title": [title], "date": [date_str]}
+
+    return html_content, metadata
 
 
 def generate_preview(html_content):
@@ -109,10 +170,41 @@ def generate_blog():
                 output = post_template.render(post=post)
                 with open(post["filename"], "w", encoding="utf-8") as file:
                     file.write(output)
-            except (ValueError, IndexError) as e:
+            except (ValueError, IndexError, AttributeError) as e:
                 print(f"Error processing {filename}: {str(e)}")
                 continue
 
+    # Process Jupyter Notebooks
+    for filename in os.listdir(NOTEBOOKS_HTML_DIR):
+        if filename.endswith(".html"):
+            file_path = os.path.join(NOTEBOOKS_HTML_DIR, filename)
+            html_content = read_file(file_path)
+
+            # Extract date and title from filename (assuming YYYY-MM-DD-title.html format)
+            strings = filename.split("-")
+            date_str = "-".join(strings[0:3])
+            title = strings[3].split(".")[0]
+            print(title)
+
+            title = title.rsplit(".", 1)[0].replace("-", " ").title()
+
+            try:
+                post = {
+                    "title": to_title_case(title),
+                    "date": datetime.datetime.strptime(date_str, "%Y-%m-%d"),
+                    "content": html_content,
+                    "preview": generate_preview(html_content),
+                    "filename": os.path.join(OUTPUT_DIR, filename),
+                    "tags": ["notebook"],
+                }
+                posts.append(post)
+
+                # Copy the HTML file to the output directory
+                with open(post["filename"], "w", encoding="utf-8") as file:
+                    file.write(html_content)
+            except (ValueError, IndexError) as e:
+                print(f"Error processing {filename}: {str(e)}")
+                continue
     # Sort posts by date
     posts.sort(key=lambda x: x["date"], reverse=True)
 
