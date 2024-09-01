@@ -11,6 +11,9 @@ python = "^3.10"
 Jinja2 = "^3.1.4"
 
 
+[tool.poetry.group.dev.dependencies]
+pypandoc = "^1.13"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
