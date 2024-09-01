@@ -17,8 +17,8 @@ python -m http.server & firefox http://0.0.0.0:8000
 # Todos
 
 - [ ] think about alternative to RSS feed similar to here: https://github.com/gwern/gwern.net/issues/11
-- [ ] checkout how gwern is doing his link repository would be really interesting.
-- [ ] https://github.com/gwern/archiver-bot could be useful for archiving my stuff?
+- [ ] archive external links like Gwern.net? (write it in a way that someone else would want to use it?)
 - [ ] Improve design
+- [x] automatically fix capitalization
+- [ ] Add tags 
 - [ ] add page feature where you can see the original markdown file
-- [ ] automatically fix capitalization
