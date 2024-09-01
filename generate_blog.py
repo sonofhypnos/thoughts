@@ -3,22 +3,54 @@ import markdown
 import datetime
 from jinja2 import Environment, FileSystemLoader
 
-# Configuration
-POSTS_DIR = "posts"
+# Constants
 OUTPUT_DIR = "docs"
 TEMPLATE_DIR = "templates"
+POSTS_DIR = "posts"
 
 
 def read_markdown_file(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
-        content = file.read()
-    return content
+        return file.read()
 
 
 def parse_markdown(content):
     md = markdown.Markdown(extensions=["meta", "footnotes", "fenced_code"])
     html = md.convert(content)
     return html, md.Meta
+
+
+def to_title_case(title):
+    words = title.split()
+    minor_words = {
+        "a",
+        "an",
+        "and",
+        "as",
+        "at",
+        "but",
+        "by",
+        "for",
+        "in",
+        "nor",
+        "of",
+        "on",
+        "or",
+        "so",
+        "the",
+        "to",
+        "up",
+        "yet",
+    }
+
+    result = []
+    for i, word in enumerate(words):
+        if i == 0 or i == len(words) - 1 or word.lower() not in minor_words:
+            result.append(word.capitalize())
+        else:
+            result.append(word.lower())
+
+    return " ".join(result)
 
 
 def generate_blog():
@@ -38,33 +70,33 @@ def generate_blog():
             content = read_markdown_file(file_path)
             html_content, metadata = parse_markdown(content)
 
-            # TODO: add eror handeling for wrong format
-            print(f"filename: {filename}")
-            print(metadata.get("date", [""]))
-            print(metadata.get("date", [""])[0])
-            post = {
-                "title": metadata.get("title", [""])[0],
-                "date": datetime.datetime.strptime(
-                    metadata.get("date", [""])[0], "%Y-%m-%d"
-                ),
-                "content": html_content,
-                "filename": os.path.join(
-                    "docs", os.path.splitext(filename)[0] + ".html"
-                ),
-            }
-            posts.append(post)
+            try:
+                post = {
+                    "title": to_title_case(metadata.get("title", [""])[0]),
+                    "date": datetime.datetime.strptime(
+                        metadata.get("date", [""])[0], "%Y-%m-%d"
+                    ),
+                    "content": html_content,
+                    "filename": os.path.join(
+                        OUTPUT_DIR, os.path.splitext(filename)[0] + ".html"
+                    ),
+                }
+                posts.append(post)
 
-            # Generate individual post pages
-            output = post_template.render(post=post)
-            with open(post["filename"], "w", encoding="utf-8") as file:
-                file.write(output)
+                # Generate individual post pages
+                output = post_template.render(post=post)
+                with open(post["filename"], "w", encoding="utf-8") as file:
+                    file.write(output)
+            except (ValueError, IndexError) as e:
+                print(f"Error processing {filename}: {str(e)}")
+                continue
 
     # Sort posts by date
     posts.sort(key=lambda x: x["date"], reverse=True)
 
     # Generate index page in the root directory
     index_output = index_template.render(posts=posts)
-    with open("index.html", "w", encoding="utf-8") as file:
+    with open(os.path.join(OUTPUT_DIR, "index.html"), "w", encoding="utf-8") as file:
         file.write(index_output)
 
 
