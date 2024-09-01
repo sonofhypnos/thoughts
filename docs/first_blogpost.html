@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Migrating From Lazyblorg to Python</title>
+    <title>Migrating From Lazyblorg to Python + Markdown</title>
 </head>
 
 <body>
-    <h1>Migrating From Lazyblorg to Python</h1>
+    <h1>Migrating From Lazyblorg to Python + Markdown</h1>
     <p>Published on: September 01, 2024</p>
     <p>Today I switched my blog away from <a href="https://github.com/novoid/lazyblorg">lazyblorg</a>. While I really liked the philosophy and the fact that I could just write a blogpost anywhere in my org files, I had become frustrated with all the features I couldn't use in lazyblorg, like footnotes. I then asked claude to write me a simple blogging site with markdown which taught me that python actually already has markdown support in it's standard library. So parsing markdown for a blogpost turned out as easy as:</p>
 <div class="codehilite"><pre><span></span><code><span class="n">md</span> <span class="o">=</span> <span class="n">markdown</span><span class="o">.</span><span class="n">Markdown</span><span class="p">(</span><span class="n">extensions</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;meta&quot;</span><span class="p">,</span> <span class="s2">&quot;footnotes&quot;</span><span class="p">,</span> <span class="s2">&quot;fenced_code&quot;</span><span class="p">])</span>

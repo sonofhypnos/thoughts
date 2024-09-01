@@ -1,5 +1,5 @@
 ---
-title: Migrating From Lazyblorg to Python
+title: Migrating From Lazyblorg to Python + Markdown
 date: 2024-09-01
 ---
 

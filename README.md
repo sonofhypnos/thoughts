@@ -19,6 +19,7 @@ python -m http.server & firefox http://0.0.0.0:8000
 - [ ] think about alternative to RSS feed similar to here: https://github.com/gwern/gwern.net/issues/11
 - [ ] archive external links like Gwern.net? (write it in a way that someone else would want to use it?)
 - [ ] Improve design
+- [ ] Add header to return to main page for notebooks also
 - [x] automatically fix capitalization
-- [ ] Add tags 
+- [ ] Add tags
 - [ ] add page feature where you can see the original markdown file
