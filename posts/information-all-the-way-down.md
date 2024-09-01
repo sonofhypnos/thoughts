@@ -1,12 +1,9 @@
 ---
-title: "Anthony Aguirre on the nature of reality is fascinating"
+title: Anthony Aguirre on the nature of reality is fascinating
 tags: ["physics", "epistemology"]
 id: "      information-all-the-way-down"
 date: 2022-01-21
 ---
-
-[DONE]{.done .DONE} Anthony Aguirre on the nature of reality is fascinating [[blog]{.smallcaps}]{.tag tag-name="blog"} [[physics]{.smallcaps}]{.tag tag-name="physics"} [[epistemology]{.smallcaps}]{.tag tag-name="epistemology"} {#anthony-aguirre-on-the-nature-of-reality-is-fascinating id="information-all-the-way-down" created="[2022-01-21 Fr 18:40]"}
-
 
 I recently stumbled upon [this
 episode](https://futureoflife.org/2020/01/31/fli-podcast-identity-information-the-nature-of-reality-with-anthony-aguirre/)

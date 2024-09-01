@@ -1,5 +1,5 @@
 ---
-title: "David Burns on the Clearerthinking Podcast"
+title: David Burns on the Clearerthinking Podcast
 tags: ["hidden"]
 id: "david-burns-clearerthinking"
 date: 2024-01-15

@@ -1,12 +1,9 @@
 ---
-title: "Reflecting on Finding your people and 3 months at university during Corona"
+title: Reflecting on Finding your people and 3 months at university during Corona
 tags: ["hidden"]
 id: "      reflecting-on-finding-your-people"
 date: 2022-02-13
 ---
-
-[DONE]{.done .DONE} Reflecting on Finding your people and 3 months at university during Corona [[blog]{.smallcaps}]{.tag tag-name="blog"} [[hidden]{.smallcaps}]{.tag tag-name="hidden"} {#reflecting-on-finding-your-people-and-3-months-at-university-during-corona id="reflecting-on-finding-your-people" created="[2022-02-13 So 17:33]"}
-
 
 My second semester has just ended and I've been reflecting on my goals
 for the last 1.5 years. While rereading \[Finding your

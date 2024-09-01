@@ -1,5 +1,5 @@
 ---
-title: "Vyvanse Half-life"
+title: Vyvanse Half-life
 tags: ["medication", "biology"]
 id: "vyvanse-half-life"
 date: 2024-08-21

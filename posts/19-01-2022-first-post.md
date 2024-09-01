@@ -1,12 +1,9 @@
 ---
-title: "This is my first lazy blogpost"
+title: This is my first lazy blogpost
 tags: ["lazyblorg", "software"]
 id: "19-01-2022-first-post"
 date: 2022-01-19
 ---
-
-[DONE]{.done .DONE} This is my first lazy blogpost [[blog]{.smallcaps}]{.tag tag-name="blog"} [[lazyblorg]{.smallcaps}]{.tag tag-name="lazyblorg"} [[software]{.smallcaps}]{.tag tag-name="software"} {#this-is-my-first-lazy-blogpost id="19-01-2022-first-post" created="[2022-01-19 Di 21:00]" last_repeat="[2022-01-20 Do 10:29]"}
-
 
 Today I finally managed to get a blogging setup with orgmode working.
 This has honestly been one of my more stressful projects so far.

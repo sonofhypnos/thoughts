@@ -1,5 +1,5 @@
 ---
-title: "Journal prompts in Emacs"
+title: Journal prompts in Emacs
 tags: ["emacs", "journaling"]
 id: "      journaling-prompts-emacs"
 date: 2022-01-30

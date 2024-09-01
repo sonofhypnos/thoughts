@@ -1,5 +1,5 @@
 ---
-title: "Wobbly Table Theorem"
+title: Wobbly Table Theorem
 tags: []
 id: "wobbly-table-problem"
 date: 2023-09-28

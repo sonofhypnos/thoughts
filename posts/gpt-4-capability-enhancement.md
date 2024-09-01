@@ -1,5 +1,5 @@
 ---
-title: "Using GPT-4 for personal capability enhancement"
+title: Using GPT-4 for personal capability enhancement
 tags: []
 id: "gpt-4-capability-enhancement"
 date: 2023-10-17

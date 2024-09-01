@@ -1,7 +1,7 @@
 ---
-title: "Favorites"
+title: Favorites
 tags: []
-id: "      reviews"
+id: "reviews"
 date: 2023-08-13
 ---
 

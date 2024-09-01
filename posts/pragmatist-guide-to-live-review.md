@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on the pragmatist guide to live"
+title: Thoughts on the pragmatist guide to live
 tags: ["hidden", "rationaliy", "book_review"]
 id: "      pragmatist-guide-to-live-review"
 date: 2022-01-30

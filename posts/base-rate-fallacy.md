@@ -1,5 +1,5 @@
 ---
-title: "The Base Rate Fallacy"
+title: The Base Rate Fallacy
 tags: []
 id: "base-rate-fallacy"
 date: 2024-01-22

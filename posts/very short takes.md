@@ -1,5 +1,5 @@
 ---
-title: "Mapping Keyboard shortcuts"
+title: Mapping Keyboard shortcuts
 tags: []
 id: "very short takes"
 date: 2023-08-13
