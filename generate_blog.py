@@ -16,60 +16,29 @@ NOTEBOOKS_DIR = "notebooks"
 NOTEBOOKS_HTML_DIR = "notebook_html"
 PREVIEW_LENGTH = 200
 
-# def parse_notebook(file_path):
-#     with open(file_path, "r", encoding="utf-8") as file:
-#         notebook_content = json.load(file)
-
-#     notebook = nbformat.from_dict(notebook_content)
-#     first_cell = notebook_content["cells"][0]
-#     if first_cell["cell_type"] != "markdown":
-#         raise ValueError("First cell must be markdown")
-
-#     title = first_cell["source"][0].strip("#").strip()
-#     if not title:
-#         raise ValueError(
-#             "Title must be provided in the first cell in the first line of the notebook."
-#         )
-
-#     # Extract metadata from the filename
-#     filename = os.path.basename(file_path)
-#     date_str, title = filename.split("-", 1)
-
-#     # Convert notebook to HTML
-#     html_exporter = nbconvert.HTMLExporter()
-#     html_exporter.template_name = "basic"
-#     html_content, _ = html_exporter.from_notebook_node(notebook)
-
-#     metadata = {"title": [title], "date": [date_str]}
-
-#     return html_content, metadata
-
-
-def read_file(file_path):
-    with open(file_path, "r", encoding="utf-8") as file:
-        return file.read()
-
 
 def parse_notebook(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
         notebook_content = json.load(file)
 
-    # Create a NotebookNode object
-    notebook = nbformat.from_dict(notebook_content)
+    first_cell = notebook_content["cells"][0]
+    if first_cell["cell_type"] != "markdown":
+        raise ValueError("First cell must be markdown")
 
-    # Extract metadata from the filename
-    filename = os.path.basename(file_path)
-    date_str, title = filename.split("-", 1)
-    title = title.rsplit(".", 1)[0].replace("-", " ").title()
+    title = first_cell["source"][0].strip("#").strip()
+    if not title:
+        raise ValueError(
+            "Title must be provided in the first cell in the first line of the notebook."
+        )
 
-    # Convert notebook to HTML
-    html_exporter = HTMLExporter()
-    html_exporter.template_name = "basic"
-    html_content, _ = html_exporter.from_notebook_node(notebook)
+    metadata = {"title": title}
 
-    metadata = {"title": [title], "date": [date_str]}
+    return metadata
 
-    return html_content, metadata
+
+def read_file(file_path):
+    with open(file_path, "r", encoding="utf-8") as file:
+        return file.read()
 
 
 def generate_preview(html_content):
@@ -183,10 +152,10 @@ def generate_blog():
             # Extract date and title from filename (assuming YYYY-MM-DD-title.html format)
             strings = filename.split("-")
             date_str = "-".join(strings[0:3])
-            title = strings[3].split(".")[0]
-            print(title)
 
-            title = title.rsplit(".", 1)[0].replace("-", " ").title()
+            notebook_file_name = filename.replace(".html", ".ipynb")
+            notebook_path = os.path.join(NOTEBOOKS_DIR, notebook_file_name)
+            title = parse_notebook(notebook_path)["title"]
 
             try:
                 post = {
@@ -205,6 +174,7 @@ def generate_blog():
             except (ValueError, IndexError) as e:
                 print(f"Error processing {filename}: {str(e)}")
                 continue
+
     # Sort posts by date
     posts.sort(key=lambda x: x["date"], reverse=True)
 
