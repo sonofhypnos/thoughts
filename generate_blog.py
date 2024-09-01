@@ -44,23 +44,23 @@ def generate_blog():
                     metadata.get("date", [""])[0], "%Y-%m-%d"
                 ),
                 "content": html_content,
-                "filename": os.path.splitext(filename)[0] + ".html",
+                "filename": os.path.join(
+                    "docs", os.path.splitext(filename)[0] + ".html"
+                ),
             }
             posts.append(post)
 
             # Generate individual post pages
             output = post_template.render(post=post)
-            with open(
-                os.path.join(OUTPUT_DIR, post["filename"]), "w", encoding="utf-8"
-            ) as file:
+            with open(post["filename"], "w", encoding="utf-8") as file:
                 file.write(output)
 
     # Sort posts by date
     posts.sort(key=lambda x: x["date"], reverse=True)
 
-    # Generate index page
+    # Generate index page in the root directory
     index_output = index_template.render(posts=posts)
-    with open(os.path.join(OUTPUT_DIR, "index.html"), "w", encoding="utf-8") as file:
+    with open("index.html", "w", encoding="utf-8") as file:
         file.write(index_output)
 
 
