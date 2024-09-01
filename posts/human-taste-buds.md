@@ -1,6 +1,6 @@
 ---
 title: Function of Human taste buds inside the body
-tags: []
+tags: hidden
 id: "human-taste-buds"
 date: 2024-08-30
 ---
