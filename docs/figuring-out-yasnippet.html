@@ -25,16 +25,16 @@ template in plain text and hit `C-c C-c` when you're done.</p>
     date in iso-format:</p>
 </li>
 </ul>
-<p><code>{.commonlisp org-language="emacs-lisp" tangle="yes"}
-`(format-time-string "%Y-%m-%d")` $0</code></p>
+<pre><code class="language-commonlisp">`(format-time-string &quot;%Y-%m-%d&quot;)` $0
+</code></pre>
 <ul>
 <li>Elements to be completed at point are entered with {N: default
     value} as an example here is the template for a for-loop in C:</li>
 </ul>
-<p><code>{.c tangle="yes"}
-for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) {
+<pre><code class="language-c">for (${1:i = 0}; ${2:i &lt; N}; ${3:i++}) {
     $0
-        }</code></p>
+        }
+</code></pre>
     <p><a href="../index.html">Back to Home</a></p>
 </body>
 </html>

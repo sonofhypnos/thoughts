@@ -3,4 +3,7 @@ title: My First Blog Post
 date: 2024-08-30
 ---
 
-This is the content of my first blog post.
+This blogpost is testing my features on my blog[^1].
+
+
+[^1]: this is a footnote

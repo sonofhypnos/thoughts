@@ -16,7 +16,7 @@ def read_markdown_file(file_path):
 
 
 def parse_markdown(content):
-    md = markdown.Markdown(extensions=["meta"])
+    md = markdown.Markdown(extensions=["meta", "footnotes", "fenced_code"])
     html = md.convert(content)
     return html, md.Meta
 
