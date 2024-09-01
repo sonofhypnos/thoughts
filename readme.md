@@ -4,3 +4,5 @@
 - [ ] checkout how gwern is doing his link repository would be really interesting.
 - [ ] https://github.com/gwern/archiver-bot could be useful for archiving my stuff?
 - [ ] Add design
+- [ ] add page feature where you can see the original markdown file
+- [ ] add tests
