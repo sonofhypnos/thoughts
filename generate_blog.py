@@ -38,6 +38,10 @@ def generate_blog():
             content = read_markdown_file(file_path)
             html_content, metadata = parse_markdown(content)
 
+            # TODO: add eror handeling for wrong format
+            print(f"filename: {filename}")
+            print(metadata.get("date", [""]))
+            print(metadata.get("date", [""])[0])
             post = {
                 "title": metadata.get("title", [""])[0],
                 "date": datetime.datetime.strptime(
