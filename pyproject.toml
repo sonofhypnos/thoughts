@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "thoughts"
+version = "0.1.0"
+description = "Tassilo's blog"
+authors = ["Tassilo Neubauer <46806445+sonofhypnos@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Jinja2 = "^3.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
