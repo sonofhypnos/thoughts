@@ -1,6 +1,6 @@
 ---
 title: Favorites
-tags: []
+tags: hidden
 id: "reviews"
 date: 2023-08-13
 ---
