@@ -1,2 +1,2 @@
-# Used by make to keep state
-.change_status
+# Used by make to keep state for Make
+.blog.timestamp
