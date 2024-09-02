@@ -87,6 +87,34 @@ main {
     margin-top: 1rem;
 }
 
+.post-preview, .blog-post, .notebook {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* This prevents content from spilling out */
+}
+
+.post-content, .preview {
+    overflow: hidden; /* This prevents content from spilling out */
+}
+
+/* New rules for images */
+.post-content img, .preview img {
+    max-width: 100%; /* Ensures image is never wider than its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes any default inline spacing */
+    margin: 1rem auto; /* Centers the image and adds some vertical spacing */
+}
+
+/* Optional: Add a border and/or shadow to images */
+.post-content img, .preview img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 footer {
     background-color: #fff;
     padding: 1rem 0;
