@@ -13,6 +13,23 @@ POSTS_DIR = "posts"
 NOTEBOOKS_DIR = "notebooks"
 NOTEBOOKS_HTML_DIR = "notebook_html"
 PREVIEW_LENGTH = 200
+BASE_URL = "www.tassiloneubauer.com"
+BLOG_TITLE = "Tassilo Neubauer"
+
+
+def generate_description(html_content, max_length=200):
+    soup = BeautifulSoup(html_content, "html.parser")
+    text = soup.get_text()
+    description = " ".join(text.split()[:30])  # Get first 30 words
+    if len(description) > max_length:
+        description = description[: max_length - 3] + "..."
+    return description
+
+
+def extract_first_image(html_content):
+    soup = BeautifulSoup(html_content, "html.parser")
+    img = soup.find("img")
+    return img["src"] if img else ""
 
 
 def process_notebook_html(html_content):
@@ -175,7 +192,14 @@ def generate_blog():
                     "filename": os.path.join(OUTPUT_DIR, blogpost_id + ".html"),
                     "tags": metadata.get("tags", []),
                     "preview": generate_preview(html_content),
+                    "url": f"{BASE_URL}/{blogpost_id}.html",
+                    "description": metadata.get("description", [""])[0]
+                    or generate_description(html_content),
+                    "image": metadata.get("image", [""])[0]
+                    or extract_first_image(html_content),
+                    "blog_title": BLOG_TITLE,
                 }
+
                 print(f"Processing {filename}...")
                 print(f"Tags: {post['tags']}")
                 posts.append(post)
@@ -210,6 +234,10 @@ def generate_blog():
                     "preview": generate_preview(processed_html),
                     "filename": os.path.join(OUTPUT_DIR, filename),
                     "tags": ["notebook"],
+                    "url": f"{BASE_URL}/{filename}",
+                    "description": generate_description(processed_html),
+                    "image": extract_first_image(processed_html),
+                    "blog_title": BLOG_TITLE,
                 }
                 posts.append(post)
 

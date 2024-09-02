@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ post.title }} - Tassilo Neubauer</title>
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="{{ post.title }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ post.url }}">
+    <meta property="og:description" content="{{ post.description }}">
+    <meta property="og:site_name" content="Tassilo Neubauer">
+    {% if post.image %}
+    <meta property="og:image" content="{{ post.image }}">
+    {% endif %}
+
     <link rel="stylesheet" href="/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
