@@ -119,15 +119,15 @@ def generate_blog():
             html_content, metadata = parse_markdown(content)
 
             try:
+                # TODO: check that id is unique and otherwise throw warning
+                blogpost_id = metadata.get("id", [""])[0]
                 post = {
                     "title": to_title_case(metadata.get("title", [""])[0]),
                     "date": datetime.datetime.strptime(
                         metadata.get("date", [""])[0], "%Y-%m-%d"
                     ),
                     "content": html_content,
-                    "filename": os.path.join(
-                        OUTPUT_DIR, os.path.splitext(filename)[0] + ".html"
-                    ),
+                    "filename": os.path.join(OUTPUT_DIR, blogpost_id + ".html"),
                     "tags": metadata.get("tags", []),
                     "preview": generate_preview(html_content),
                 }
