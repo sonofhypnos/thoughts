@@ -2,15 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ post.title }}</title>
+    <title>{{ post.title }} - Tassilo Neubauer</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
+    <style>
+        .footnote-ref {
+            vertical-align: super;
+            font-size: smaller;
+        }
+        .footnotes {
+            border-top: 1px solid #ddd;
+            margin-top: 2em;
+            padding-top: 1em;
+        }
+    </style>
 </head>
-
 <body>
-    <h1>{{ post.title }}</h1>
-    <p>Published on: {{ post.date.strftime('%B %d, %Y') }}</p>
-    {{ post.content }}
-    <p><a href="../index.html">Back to Home</a></p>
+    {% include 'header.html' %}
+
+    <main class="container">
+        <article class="{% if 'notebook' in post.tags %}notebook{% else %}blog-post{% endif %}">
+            <h2>{{ post.title }}</h2>
+            <time datetime="{{ post.date.isoformat() }}">Published on: {{ post.date.strftime('%B %d, %Y') }}</time>
+            <div class="post-content">
+                {{ post.content | safe }}
+            </div>
+        </article>
+    </main>
+
+    {% include 'footer.html' %}
+
+    <script src="/script.js"></script>
 </body>
 </html>

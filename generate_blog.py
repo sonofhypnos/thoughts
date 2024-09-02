@@ -1,12 +1,10 @@
 import os
+import re
 import json
 import markdown
 import datetime
 from jinja2 import Environment, FileSystemLoader
 from bs4 import BeautifulSoup
-import nbformat
-from nbconvert import HTMLExporter
-
 
 # Constants
 OUTPUT_DIR = "docs"
@@ -15,6 +13,44 @@ POSTS_DIR = "posts"
 NOTEBOOKS_DIR = "notebooks"
 NOTEBOOKS_HTML_DIR = "notebook_html"
 PREVIEW_LENGTH = 200
+
+
+def process_notebook_html(html_content):
+    soup = BeautifulSoup(html_content, "html.parser")
+
+    # Process footnotes
+    footnote_refs = soup.find_all(string=re.compile(r"{% fn \d+ %}"))
+    footnote_details = soup.find_all(
+        "p", string=re.compile(r"{{.+?\| fndetail: \d+ }}")
+    )
+
+    footnotes = {}
+    for detail in footnote_details:
+        match = re.search(r"{{(.+?)\| fndetail: (\d+) }}", detail.string)
+        if match:
+            content, number = match.groups()
+            footnotes[number] = content.strip()
+        detail.decompose()  # Remove the original footnote detail
+
+    for ref in footnote_refs:
+        number = re.search(r"{% fn (\d+) %}", ref).group(1)
+        new_tag = soup.new_tag("sup", attrs={"class": "footnote-ref"})
+        new_tag.string = number
+        ref.replace_with(new_tag)
+
+    # Create footnotes section if there are any footnotes
+    if footnotes:
+        footnotes_section = soup.new_tag("section", attrs={"class": "footnotes"})
+        footnotes_section.append(soup.new_tag("h3", string="Footnotes"))
+        ol = soup.new_tag("ol")
+        for number, content in footnotes.items():
+            li = soup.new_tag("li", attrs={"id": f"fn{number}"})
+            li.append(BeautifulSoup(content, "html.parser"))
+            ol.append(li)
+        footnotes_section.append(ol)
+        soup.body.append(footnotes_section)
+
+    return str(soup)
 
 
 def parse_notebook(file_path):
@@ -121,6 +157,11 @@ def generate_blog():
             try:
                 # TODO: check that id is unique and otherwise throw warning
                 blogpost_id = metadata.get("id", [""])[0]
+                if blogpost_id[0] == '"':
+                    blogpost_id = blogpost_id[1:]
+                if blogpost_id[-1] == '"':
+                    blogpost_id = blogpost_id[:-1]
+
                 post = {
                     "title": to_title_case(metadata.get("title", [""])[0]),
                     "date": datetime.datetime.strptime(
@@ -152,25 +193,26 @@ def generate_blog():
             # Extract date and title from filename (assuming YYYY-MM-DD-title.html format)
             strings = filename.split("-")
             date_str = "-".join(strings[0:3])
-
-            notebook_file_name = filename.replace(".html", ".ipynb")
-            notebook_path = os.path.join(NOTEBOOKS_DIR, notebook_file_name)
-            title = parse_notebook(notebook_path)["title"]
+            title = "-".join(strings[3:]).replace(".html", "")
 
             try:
+                # Process the notebook HTML
+                processed_html = process_notebook_html(html_content)
+
                 post = {
                     "title": to_title_case(title),
                     "date": datetime.datetime.strptime(date_str, "%Y-%m-%d"),
-                    "content": html_content,
-                    "preview": generate_preview(html_content),
+                    "content": processed_html,
+                    "preview": generate_preview(processed_html),
                     "filename": os.path.join(OUTPUT_DIR, filename),
                     "tags": ["notebook"],
                 }
                 posts.append(post)
 
-                # Copy the HTML file to the output directory
+                # Generate individual notebook pages
+                output = post_template.render(post=post)
                 with open(post["filename"], "w", encoding="utf-8") as file:
-                    file.write(html_content)
+                    file.write(output)
             except (ValueError, IndexError) as e:
                 print(f"Error processing {filename}: {str(e)}")
                 continue
