@@ -1,7 +1,7 @@
 ---
 title: Anthony Aguirre on the nature of reality is fascinating
 tags: ["physics", "epistemology"]
-id: "      information-all-the-way-down"
+id: "information-all-the-way-down"
 date: 2022-01-21
 ---
 

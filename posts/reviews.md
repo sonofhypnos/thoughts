@@ -5,18 +5,14 @@ id: "reviews"
 date: 2023-08-13
 ---
 
-Reviews {#reviews id="reviews"}
-=======
+Reviews 
 
 Books
------
 
 Podcasts
---------
 
 ### Write a review of your favorite podcasts and your favorite episodes:
 
-### 
 
 -   Podcasts
     -   [The 80k hours podcast](https://80000hours.org/podcast/)

@@ -2,15 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vyvanse Metabolism</title>
+    <title>Vyvanse Metabolism - Tassilo Neubauer</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
+    <style>
+        .footnote-ref {
+            vertical-align: super;
+            font-size: smaller;
+        }
+        .footnotes {
+            border-top: 1px solid #ddd;
+            margin-top: 2em;
+            padding-top: 1em;
+        }
+    </style>
 </head>
-
 <body>
-    <h1>Vyvanse Metabolism</h1>
-    <p>Published on: August 21, 2024</p>
-    <p>Things I learned that surprised me from a deep dive into how the medication I've been taking for years (Vyvanse) actually gets metabolized:</p>
+    <header>
+    <nav>
+        <div class="container">
+            <h1><a href="/">Tassilo Neubauer</a></h1>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/archive.html">Archive</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <main class="container">
+        <article class="blog-post">
+            <h2>Vyvanse Metabolism</h2>
+            <time datetime="2024-08-21T00:00:00">Published on: August 21, 2024</time>
+            <div class="post-content">
+                <p>Things I learned that surprised me from a deep dive into how the medication I've been taking for years (Vyvanse) actually gets metabolized:</p>
 <ul>
 <li>It says in the instructions that it works for 13 hours, and my psychiatrist informed me that it has a slow onset of about an hour. What that actually means is that after ~1h you reach 1/2 the peak concentration and after 13 hours you are at 1/2 the peak concentration again, because the half-life is 12h (and someone decided at some point 1/2 is where we decide the exponential starts and ends?). Importantly, this means 1/4 of the medication is still present the next day! <img alt="Simple model" src="https://i.imgur.com/0aW9ktd.png" /></li>
 </ul>
@@ -31,6 +59,16 @@
 </li>
 </ol>
 </div>
-    <p><a href="../index.html">Back to Home</a></p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+    <div class="container">
+        <p>&copy; 2024 Tassilo Neubauer. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="/script.js"></script>
 </body>
 </html>
