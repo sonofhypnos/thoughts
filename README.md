@@ -24,3 +24,4 @@ python -m http.server & firefox http://0.0.0.0:8000
 - [ ] Add tags
 - [ ] add page feature where you can see the original markdown file
 - [ ] ask before commiting non-blog files
+- [ ] support quotes in markdown better
