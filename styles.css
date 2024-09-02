@@ -1,4 +1,145 @@
-# Code highlighting
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #fff;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h1 a {
+    color: #333;
+    text-decoration: none;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.post-preview, .blog-post, .notebook {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-preview h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.post-preview time, .blog-post time, .notebook time {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-post h2, .notebook h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.post-content {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footnote-ref {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.footnotes {
+    border-top: 1px solid #ddd;
+    margin-top: 2em;
+    padding-top: 1em;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header ul {
+        margin-top: 1rem;
+    }
+
+    header ul li {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .post-preview, .blog-post, .notebook {
+        padding: 1rem;
+    }
+}
+
+/* For larger screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .post-preview, .blog-post, .notebook {
+        padding: 3rem;
+    }
+}
+
+/* Code highlighting  */
+
 pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
 span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
