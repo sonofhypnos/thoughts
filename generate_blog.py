@@ -20,17 +20,21 @@ def process_notebook_html(html_content):
 
     # Process footnotes
     footnote_refs = soup.find_all(string=re.compile(r"{% fn \d+ %}"))
-    footnote_details = soup.find_all(
-        "p", string=re.compile(r"{{.+?\| fndetail: \d+ }}")
-    )
+
+    # Find all divs that might contain footnote details
+    footnote_detail_divs = soup.find_all("div", class_="jp-RenderedHTMLCommon")
 
     footnotes = {}
-    for detail in footnote_details:
-        match = re.search(r"{{(.+?)\| fndetail: (\d+) }}", detail.string)
-        if match:
-            content, number = match.groups()
-            footnotes[number] = content.strip()
-        detail.decompose()  # Remove the original footnote detail
+    for div in footnote_detail_divs:
+        # Look for footnote details within each div
+        for p in div.find_all("p"):
+            match = re.search(
+                r"{{\s*(.+?)\s*\|\s*fndetail:\s*(\d+)\s*}}", p.text, re.DOTALL
+            )
+            if match:
+                content, number = match.groups()
+                footnotes[number] = content.strip()
+                p.decompose()  # Remove the original footnote detail
 
     for ref in footnote_refs:
         number = re.search(r"{% fn (\d+) %}", ref).group(1)
