@@ -36,6 +36,7 @@ $(HTML_OUTPUT_DIR)/%.html: $(NOTEBOOKS_DIR)/%.ipynb
 blog: .blog.timestamp
 
 # Commit and push changes if only Markdown files changed
+# TODO: this needs to include the html folder html and index.html
 commit_and_push: blog
 	@if git status --porcelain | grep -q "$(MARKDOWN_DIR)" && [ $$(git status --porcelain | grep -v "$(MARKDOWN_DIR)" | wc -l) -eq 0 ]; then \
 		echo "Only Markdown files changed. Committing and pushing changes..."; \
