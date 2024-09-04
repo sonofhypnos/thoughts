@@ -29,7 +29,7 @@ surface is flat, it's obvious that we cannot make the table stable. In
 my mind most wobbly chairs I encountered were broken like that (for
 example when one of their furniture glides gets lost).
 
-![Chair on floor (big gap).](/images/wobbly_chair2.jpg){align="center"
+![Chair on floor (big gap).](/images/wobbly_chair2.png){align="center"
 width="560" linked-image-width="1500"}
 
 After seeing this, I put the chair on another table (since I expected
@@ -37,7 +37,7 @@ the table to be flatter) and it turns out the chair actually has much
 flatter legs than I had imagined.
 
 ![Chair on flat table (smaller
-gap)](/images/wobbly_chair.jpg){align="center" width="560"
+gap)](/images/wobbly_chair.png){align="center" width="560"
 linked-image-width="1500"}
 
 So essentially my assumption that the chair was to blame was incorrect.
