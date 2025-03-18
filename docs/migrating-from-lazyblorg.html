@@ -1,49 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Migrating From Lazyblorg to Python + Markdown - Tassilo Neubauer</title>
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Migrating From Lazyblorg to Python + Markdown">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="www.tassiloneubauer.com/migrating-from-lazyblorg.html">
-    <meta property="og:description" content="Today I switched my blog away from lazyblorg. While I really liked the philosophy and the fact that I could just write a blogpost anywhere in my org files, I">
-    <meta property="og:site_name" content="Tassilo Neubauer">
+    <meta property="og:title" content="Migrating From Lazyblorg to Python + Markdown" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.tassiloneubauer.com/migrating-from-lazyblorg.html" />
+    <meta property="og:description" content="Today I switched my blog away from lazyblorg. While I really liked the philosophy and the fact that I could just write a blogpost anywhere in my org files, I" />
+    <meta property="og:site_name" content="Tassilo Neubauer" />
     
 
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title=""
+      href="/feed.xml"
+    />
+  </head>
+  <body>
     <header>
-    <nav class="container">
-        <h1><a href="/">Tassilo Neubauer</a></h1>
-        <!-- <ul> -->
-        <!--     <li><a href="/">Home</a></li> -->
-        <!--     <li><a href="/about.html">About</a></li> -->
-        <!--     <li><a href="/archive.html">Archive</a></li> -->
-        <!-- </ul> -->
-    </nav>
+  <nav class="container">
+    <h1><a href="/">Tassilo Neubauer</a></h1>
+    <!-- <ul> -->
+    <!--     <li><a href="/">Home</a></li> -->
+    <!--     <li><a href="/about.html">About</a></li> -->
+    <!--     <li><a href="/archive.html">Archive</a></li> -->
+    <!-- </ul> -->
+  </nav>
 </header>
 
     <main class="container">
-        <article class="blog-post">
-            <h2>Migrating From Lazyblorg to Python + Markdown</h2>
-            <time datetime="2024-09-01T00:00:00">Published on: September 01, 2024</time>
-            <div class="post-content">
-                <p>Today I switched my blog away from <a href="https://github.com/novoid/lazyblorg">lazyblorg</a>. While I really liked the philosophy and the fact that I could just write a blogpost anywhere in my org files, I had become frustrated with all the features I couldn't use in lazyblorg, like footnotes. I then asked claude to write me a simple blogging site with markdown which taught me that python actually already has markdown support in it's standard library. So parsing markdown for a blogpost turned out as easy as:</p>
+      <article
+        class="blog-post"
+      >
+        <h2>Migrating From Lazyblorg to Python + Markdown</h2>
+        <time datetime="2024-09-01T00:00:00"
+          >Published on: September 01, 2024</time
+        >
+        <div class="post-content"><p>Today I switched my blog away from <a href="https://github.com/novoid/lazyblorg">lazyblorg</a>. While I really liked the philosophy and the fact that I could just write a blogpost anywhere in my org files, I had become frustrated with all the features I couldn't use in lazyblorg, like footnotes. I then asked claude to write me a simple blogging site with markdown which taught me that python actually already has markdown support in it's standard library. So parsing markdown for a blogpost turned out as easy as:</p>
 <div class="codehilite"><pre><span></span><code><span class="n">md</span> <span class="o">=</span> <span class="n">markdown</span><span class="o">.</span><span class="n">Markdown</span><span class="p">(</span><span class="n">extensions</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;meta&quot;</span><span class="p">,</span> <span class="s2">&quot;footnotes&quot;</span><span class="p">,</span> <span class="s2">&quot;fenced_code&quot;</span><span class="p">])</span>
 <span class="n">html</span> <span class="o">=</span> <span class="n">md</span><span class="o">.</span><span class="n">convert</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
 <span class="k">return</span> <span class="n">html</span><span class="p">,</span> <span class="n">md</span><span class="o">.</span><span class="n">Meta</span>
 </code></pre></div>
 
 <p>where the metadata currently only contains the title and the date of the blogpost.</p>
-<p>Another reason I decided to switch to markdown, is that it would make it easier to manually post my writing on lesswrong as well as here (since I can just paste the markdown into the editor on lesswrong). Sure I could connect my blog to my lesswrong account via RSS, but I like only writing more "important" things as full blogposts on lesswrong and writing lots of small post on my main blog and then maybe posting them as a shortform on lesswrong. <a href="(https://raw.githubusercontent.com/sonofhypnos/thoughts/63ac38e2525e58042232fb7cf79c303b41c36eff/generate_blog.py)">Here</a> is the full source file as of me writing this post and <a href="/generate_blog.py">here</a> is the current one (if it still exists). I am currently using jinja for convenience for the templates, but maybe I decide later I want python as my only dependency.</p>
-            </div>
-        </article>
+<p>Another reason I decided to switch to markdown, is that it would make it easier to manually post my writing on lesswrong as well as here (since I can just paste the markdown into the editor on lesswrong). Sure I could connect my blog to my lesswrong account via RSS, but I like only writing more "important" things as full blogposts on lesswrong and writing lots of small post on my main blog and then maybe posting them as a shortform on lesswrong. <a href="(https://raw.githubusercontent.com/sonofhypnos/thoughts/63ac38e2525e58042232fb7cf79c303b41c36eff/generate_blog.py)">Here</a> is the full source file as of me writing this post and <a href="/generate_blog.py">here</a> is the current one (if it still exists). I am currently using jinja for convenience for the templates, but maybe I decide later I want python as my only dependency.</p></div>
+      </article>
     </main>
 
     <footer>
@@ -53,5 +64,5 @@
 </footer>
 
     <script src="/script.js"></script>
-</body>
+  </body>
 </html>

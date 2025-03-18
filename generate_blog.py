@@ -13,8 +13,10 @@ POSTS_DIR = "posts"
 NOTEBOOKS_DIR = "notebooks"
 NOTEBOOKS_HTML_DIR = "notebook_html"
 PREVIEW_LENGTH = 200
-BASE_URL = "www.tassiloneubauer.com"
+BASE_URL = "https://www.tassiloneubauer.com"  # Added https:// for valid URLs
 BLOG_TITLE = "Tassilo Neubauer"
+BLOG_DESCRIPTION = "Tassilo Neubauer's Blog"  # Add a description for your blog
+BLOG_AUTHOR = "Tassilo Neubauer"  # Add your name as the author
 
 
 def generate_description(html_content, max_length=200):
@@ -158,6 +160,42 @@ def to_title_case(title):
     return " ".join(result)
 
 
+def strip_html_tags(html_content):
+    """Strip HTML tags from content for RSS description"""
+    soup = BeautifulSoup(html_content, "html.parser")
+    return soup.get_text()
+
+
+def generate_rss(posts):
+    """Generate RSS feed XML from posts"""
+    env = Environment(loader=FileSystemLoader(TEMPLATE_DIR))
+    rss_template = env.get_template("rss.xml")
+
+    # Make a copy of posts and modify for RSS compatibility
+    rss_posts = []
+    for post in posts:
+        rss_post = post.copy()
+        # Ensure full URL for content
+        rss_post["full_url"] = f"{BASE_URL}/{os.path.basename(post['filename'])}"
+        # Strip HTML tags for description
+        rss_post["plain_description"] = strip_html_tags(post["description"])
+        rss_posts.append(rss_post)
+
+    # Generate RSS feed
+    rss_output = rss_template.render(
+        posts=rss_posts,
+        blog_title=BLOG_TITLE,
+        blog_description=BLOG_DESCRIPTION,
+        blog_url=BASE_URL,
+        build_date=datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000"),
+        author=BLOG_AUTHOR,
+    )
+
+    # Write RSS file
+    with open(os.path.join("./", "feed.xml"), "w", encoding="utf-8") as file:
+        file.write(rss_output)
+
+
 def generate_blog():
     # Ensure output directory exists
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -258,6 +296,9 @@ def generate_blog():
     index_output = index_template.render(posts=filtered_posts)
     with open(os.path.join("./", "index.html"), "w", encoding="utf-8") as file:
         file.write(index_output)
+
+    # Generate RSS feed
+    generate_rss(filtered_posts)
 
 
 if __name__ == "__main__":

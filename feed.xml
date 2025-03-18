@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tassilo Neubauer</title>
+    <description>Tassilo Neubauer's Blog</description>
+    <link>https://www.tassiloneubauer.com</link>
+    <atom:link href="https://www.tassiloneubauer.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 18 Mar 2025 22:58:11 +0000</pubDate>
+    <lastBuildDate>Tue, 18 Mar 2025 22:58:11 +0000</lastBuildDate>
+    <generator>Python RSS Generator</generator>
+    
+    <item>
+      <title>Benchmarking Generalists and Experts</title>
+      <description>If legibility of expertise is a bottleneck to progress and adequacy of civilization, it seems like creating better benchmarks for knowledge and expertise for humans might be a valuable public</description>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/expertise-benchmark.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/expertise-benchmark.html</guid>
+      
+      
+      <category>expertise</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Gwern’s Most Important Posts</title>
+      <description>I went through Gwern’s posts and collected all the posts with priority 8 and higher as of 2024-09-04 in case someone else was searching for something like this. 10 How</description>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/gwern.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/gwern.html</guid>
+      
+      
+      <category>list-of-links</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Migrating From Lazyblorg to Python + Markdown</title>
+      <description>Today I switched my blog away from lazyblorg. While I really liked the philosophy and the fact that I could just write a blogpost anywhere in my org files, I</description>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/migrating-from-lazyblorg.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/migrating-from-lazyblorg.html</guid>
+      
+    </item>
+    
+    <item>
+      <title>Vyvanse Metabolism</title>
+      <description>Things I learned that surprised me from a deep dive into how the medication I've been taking for years (Vyvanse) actually gets metabolized: It says in the instructions that it</description>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/vyvanse-half-life.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/vyvanse-half-life.html</guid>
+      
+      
+      <category>["medication", "biology"]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Backing up Ssh-keys</title>
+      <description>After watching this excellent video on more advanced and new things in git, I decided to setup signing my git commands through ssh. That is easily done through: ssk-keygen -f</description>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/ssh-keys-1password.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/ssh-keys-1password.html</guid>
+      
+      
+      <category>[]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Using Language Models for Fermi Estimates</title>
+      <description>TLDR: I looked into how much it would take to fine-tune gpt-4 to do Fermi estimates better. If you liked the post/paper on fine-tuning Language models to make predictions you</description>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/fermi-estimates-gpt.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/fermi-estimates-gpt.html</guid>
+      
+      
+      <category>["LLM"]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Search Engine Evaluations Are Underexplored</title>
+      <description>While there is currently a lot of attention on assessing language models, it puzzles me that no one seems to be independently assessing the quality of different search engines and</description>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/search-engine-evaluation.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/search-engine-evaluation.html</guid>
+      
+      
+      <category>["LLM"]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>The Base Rate Fallacy</title>
+      <description>Imagine I am paying you \$5 to guess what subject I was studying at university. It might help for you to make a guess right now! It might be even</description>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/base-rate-fallacy.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/base-rate-fallacy.html</guid>
+      
+      
+      <category>[]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Ourworldindata</title>
+      <description>Things I learned from exploring the data on ourworldindata.org india is about 9 Germanies the fact that the median age for the majority of human history is actually super young</description>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/ourworldindata-exploration.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/ourworldindata-exploration.html</guid>
+      
+      
+      <category>[]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Remaping the Fn Key on My Keyboard</title>
+      <description>Today I tried remapping the Fn-key on my keyboard after my Ctrl-key stopped working reliably (I suspect it's a hardware issue). While I first suspected this to not be possible</description>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/fn-remap.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/fn-remap.html</guid>
+      
+      
+      <category>["linux", "keyboard"]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Using Gpt-4 for Personal Capability Enhancement</title>
+      <description>Inspired by Gwern's article on Google search. I set up a Scratch window in i3, so now I have gpt4 just 2 simultaneous keypresses away. I feel like it is</description>
+      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/gpt-4-capability-enhancement.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/gpt-4-capability-enhancement.html</guid>
+      
+      
+      <category>[]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Wobbly Table Theorem</title>
+      <description>It turns out the \"wobbly table theorem\" is less of just a math curiosity than I thought. The \"wobbly table theorem\" essentially says (ignoring caveats and different variants) that if</description>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/wobbly-table-problem.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/wobbly-table-problem.html</guid>
+      
+      
+      <category>[]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Running With Dumbbells</title>
+      <description>Two weeks ago, I've been dissatisfied with the amount of workouts I do. When I considered how to solve the issue, my brain generated the excuse that while I like</description>
+      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/dumbell-courage.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/dumbell-courage.html</guid>
+      
+      
+      <category>["courage", "habits"]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Mapping Keyboard Shortcuts</title>
+      <description>This document is for small ideas similar to the lw shortform feature Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I</description>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/very short takes.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/very short takes.html</guid>
+      
+      
+      <category>[]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Things</title>
+      <description>Electronics Thinkpad E15 Pixel 4 Stationery Lamy Safari (nibsize EF) Twsbi eco (nibsize F) uni-ball signo 307 Software Operating system: regolith Emacs more specifically Doom Emacs tridactyl (vim k...</description>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/2023-08-13-things.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/2023-08-13-things.html</guid>
+      
+      
+      <category>[]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Causaldiscovery</title>
+      <description>2023-04-10-causalDiscovery Experimenting with Causal discovery algorithms (draft)¶ In [1]: import pandas as pd import matplotlib.pyplot as plt import seaborn as sns from causallearn.search.Constrai...</description>
+      <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/2023-04-10-causalDiscovery.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/2023-04-10-causalDiscovery.html</guid>
+      
+      
+      <category>notebook</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Figuring Out Yasnippet</title>
+      <description>Today I finally took the time to figure to the YASnippet Emacs package to create a template for my new blogposts. Turns out there was not a lot to understand.</description>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/figuring-out-yasnippet.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/figuring-out-yasnippet.html</guid>
+      
+    </item>
+    
+    <item>
+      <title>My Old Smartwatch</title>
+      <description>Today I want to show you the amazing device that ran my life for...3 years? It's this smart watch: The specific model is the ZGPAX S8. My father got it</description>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/android-watch-gone.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/android-watch-gone.html</guid>
+      
+    </item>
+    
+    <item>
+      <title>Journal Prompts in Emacs</title>
+      <description>While I enjoy journaling in Emacs and, asking oneself the same questions every day becomes boring for me really quickly. My new solution is to give myself a random prompt</description>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/journaling-prompts-emacs.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/journaling-prompts-emacs.html</guid>
+      
+      
+      <category>["emacs", "journaling"]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Taming Emacs to Make Writing More Pleasant</title>
+      <description>Right after creating my blog with Lazyblorg, I had a hard time using Emacs to write my Blogposts instead of just using the markdown editor on lesswrong. Truth is Emacs</description>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/taming-emacs.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/taming-emacs.html</guid>
+      
+      
+      <category>["emacs"]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Time Until Graduation for Picking German Universities</title>
+      <description>If you are in high school and struggle with decision-making, please don't take this too seriously. If you're into EA maybe apply for 1-1 advice here? Choosing a university without</description>
+      <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/time-until-graduation.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/time-until-graduation.html</guid>
+      
+      
+      <category>[]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Anthony Aguirre on the Nature of Reality Is Fascinating</title>
+      <description>I recently stumbled upon this episode of the future of life institute podcast on \"the nature of reality\" and keep coming back to thinking about it. I am still not</description>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/information-all-the-way-down.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/information-all-the-way-down.html</guid>
+      
+      
+      <category>["physics", "epistemology"]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>This Is My First Lazy Blogpost</title>
+      <description>Today I finally managed to get a blogging setup with orgmode working. This has honestly been one of my more stressful projects so far. According to my timetracking data, I</description>
+      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/19-01-2022-first-post.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/19-01-2022-first-post.html</guid>
+      
+      
+      <category>["lazyblorg", "software"]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Bachelortime</title>
+      <description>2021-09-14-bachelorTime Investigating variation in proportion of students who finish there bachelor in time by university¶ This isn't actually meant to be read by anybody. I'll fix this once I've f...</description>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/2021-09-14-bachelorTime.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/2021-09-14-bachelorTime.html</guid>
+      
+      
+      <category>notebook</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Sp500</title>
+      <description>2021-01-30-sp500 Will the S&P 500 go above index 3800 by March 1st 2021?¶ So most of the time when I make predictions, I'll spend a couple of minutes trying to</description>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/2021-01-30-sp500.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/2021-01-30-sp500.html</guid>
+      
+      
+      <category>notebook</category>
+      
+      
+    </item>
+    
+  </channel>
+</rss>

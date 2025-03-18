@@ -1,39 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ post.title }} - Tassilo Neubauer</title>
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="{{ post.title }}">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="{{ post.url }}">
-    <meta property="og:description" content="{{ post.description }}">
-    <meta property="og:site_name" content="Tassilo Neubauer">
+    <meta property="og:title" content="{{ post.title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{ post.url }}" />
+    <meta property="og:description" content="{{ post.description }}" />
+    <meta property="og:site_name" content="Tassilo Neubauer" />
     {% if post.image %}
-    <meta property="og:image" content="{{ post.image }}">
+    <meta property="og:image" content="{{ post.image }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/styles.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ blog_title }}"
+      href="{{ blog_url }}/feed.xml"
+    />
+  </head>
+  <body>
     {% include 'header.html' %}
 
     <main class="container">
-        <article class="{% if 'notebook' in post.tags %}notebook{% else %}blog-post{% endif %}">
-            <h2>{{ post.title }}</h2>
-            <time datetime="{{ post.date.isoformat() }}">Published on: {{ post.date.strftime('%B %d, %Y') }}</time>
-            <div class="post-content">
-                {{ post.content | safe }}
-            </div>
-        </article>
+      <article
+        class="{% if 'notebook' in post.tags %}notebook{% else %}blog-post{% endif %}"
+      >
+        <h2>{{ post.title }}</h2>
+        <time datetime="{{ post.date.isoformat() }}"
+          >Published on: {{ post.date.strftime('%B %d, %Y') }}</time
+        >
+        <div class="post-content">{{ post.content | safe }}</div>
+      </article>
     </main>
 
     {% include 'footer.html' %}
 
     <script src="/script.js"></script>
-</body>
+  </body>
 </html>
