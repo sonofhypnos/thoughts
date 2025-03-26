@@ -7,14 +7,14 @@ date: 2024-03-6
 
 While there is currently a lot of attention on assessing language models, it puzzles me that no one seems to be independently assessing the quality of different search engines and recommender systems. Shouldn't this be easy to do? 
 The only thing I could find related to this is this [Russian site](http://www.analyzethis.ru/?lang=en&location=ru) (It might be propaganda from Yandex, as it is listed as the top quality site?). Taking their [“overall search quality”](http://www.analyzethis.ru/?page=1&analyzer=summary&interval=alltime&lang=en&location=en&view=) rating at face value does seem to support [the popular hypothesis](https://danluu.com/seo-spam/) that search quality of Google has slightly deteriorated over the last 10 years (although compared to 2009-2012, quality has been basically the same according to this measure). 
-![Overall search result quality.](https://i.imgur.com/bbrcXfF.png)
+![Overall search result quality.](/images/seopress_site_2.png)
 
 The gpt-4 translated version of their blog states that they gave up actively maintaining this project in 2014, because search engine quality had become reasonable according to them:  
 > For the first time in the history of the project, we have decided to shut down one of the analyzers: SEO pressing as a phenomenon has essentially become a thing of the past, and the results of the analyzer have ceased to be interesting.
 
 > Despite the fact that search engine optimization as an industry continues to thrive, search engine developers have made significant progress in combating the clutter of search results with specially promoted commercial results. The progress of search engines is evident to the naked eye, including in the graph of our analyzer over the entire history of measurements:
 
-![commercial results](https://imgur.com/QrJi08D.png)
+![commercial results](/mnt/ssd2/repos/thoughts/images/seopress_site_all.png)
 
 > SEO Pressing Analyzer Graph
 

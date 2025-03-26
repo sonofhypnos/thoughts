@@ -13,7 +13,7 @@ First, I found this [Fermi estimate dataset](https://github.com/allenai/fermi). 
 
 Next I looked at [this paper](https://ceur-ws.org/Vol-3551/paper9.pdf), where people used among other gpt-3.5 and gpt-4 on this benchmark. Clearly these people weren't even trying, though, because gpt-4 does worse than gpt-3.5. One of the main issues I saw was that they were trying to make the LLM output the answer as a program in the domain specific language used in that dataset. They couldn't even get the LLM to output valid programs more than 60% of the time (their metric compares on a log scale, if the answer by the LLM is within 3 orders of magnitude of the real answer. 1 is best 0 is more than 3 orders of magnitude away: fp-score(x) = max(0,1-1/3 * | log_10(prediction/answer)|)).
 
-![image](https://i.imgur.com/sS6keul.png)
+![image](images/fermi-estimate-gpt.png)
 
 My conjecture was that just using python instead should give you better results.(This turned out to be true). I get a mean score of ~0.57 on 100 sample problems, so as good results with gpt-4-turbo as they get when they first provide “context” by giving the llm the values for the key variables needed to compute the answer (why would this task even still be hard at all?).
 
