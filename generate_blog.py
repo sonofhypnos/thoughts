@@ -3,6 +3,7 @@ import re
 import json
 import markdown
 import datetime
+from typing import Dict, List, Tuple, Any, Optional, Union
 from jinja2 import Environment, FileSystemLoader
 from bs4 import BeautifulSoup
 
@@ -19,7 +20,7 @@ BLOG_DESCRIPTION = "Tassilo Neubauer's Blog"  # Add a description for your blog
 BLOG_AUTHOR = "Tassilo Neubauer"  # Add your name as the author
 
 
-def generate_description(html_content, max_length=200):
+def generate_description(html_content: str, max_length: int = 200) -> str:
     soup = BeautifulSoup(html_content, "html.parser")
     text = soup.get_text()
     description = " ".join(text.split()[:30])  # Get first 30 words
@@ -28,13 +29,13 @@ def generate_description(html_content, max_length=200):
     return description
 
 
-def extract_first_image(html_content):
+def extract_first_image(html_content: str) -> str:
     soup = BeautifulSoup(html_content, "html.parser")
     img = soup.find("img")
     return img["src"] if img else ""
 
 
-def process_notebook_html(html_content):
+def process_notebook_html(html_content: str) -> str:
     soup = BeautifulSoup(html_content, "html.parser")
 
     # Process footnotes
@@ -43,7 +44,7 @@ def process_notebook_html(html_content):
     # Find all divs that might contain footnote details
     footnote_detail_divs = soup.find_all("div", class_="jp-RenderedHTMLCommon")
 
-    footnotes = {}
+    footnotes: Dict[str, str] = {}
     for div in footnote_detail_divs:
         # Look for footnote details within each div
         for p in div.find_all("p"):
@@ -76,7 +77,7 @@ def process_notebook_html(html_content):
     return str(soup)
 
 
-def parse_notebook(file_path):
+def parse_notebook(file_path: str) -> Dict[str, str]:
     with open(file_path, "r", encoding="utf-8") as file:
         notebook_content = json.load(file)
 
@@ -90,17 +91,17 @@ def parse_notebook(file_path):
             "Title must be provided in the first cell in the first line of the notebook."
         )
 
-    metadata = {"title": title}
+    metadata: Dict[str, str] = {"title": title}
 
     return metadata
 
 
-def read_file(file_path):
+def read_file(file_path: str) -> str:
     with open(file_path, "r", encoding="utf-8") as file:
         return file.read()
 
 
-def generate_preview(html_content):
+def generate_preview(html_content: str) -> str:
     soup = BeautifulSoup(html_content, "html.parser")
 
     # Find the first image
@@ -114,12 +115,12 @@ def generate_preview(html_content):
     return f"{img_html}<p>{text_preview}</p>"
 
 
-def read_markdown_file(file_path):
+def read_markdown_file(file_path: str) -> str:
     with open(file_path, "r", encoding="utf-8") as file:
         return file.read()
 
 
-def parse_markdown(content):
+def parse_markdown(content: str) -> Tuple[str, Dict[str, List[str]]]:
     md = markdown.Markdown(
         extensions=["meta", "footnotes", "fenced_code", "codehilite"]
     )
@@ -127,7 +128,7 @@ def parse_markdown(content):
     return html, md.Meta
 
 
-def to_title_case(title):
+def to_title_case(title: str) -> str:
     words = title.split()
     minor_words = {
         "a",
@@ -160,13 +161,13 @@ def to_title_case(title):
     return " ".join(result)
 
 
-def strip_html_tags(html_content):
+def strip_html_tags(html_content: str) -> str:
     """Strip HTML tags from content for RSS description"""
     soup = BeautifulSoup(html_content, "html.parser")
     return soup.get_text()
 
 
-def generate_rss(posts):
+def generate_rss(posts: List[Dict[str, Any]]) -> None:
     """Generate RSS feed XML from posts"""
     env = Environment(loader=FileSystemLoader(TEMPLATE_DIR))
     rss_template = env.get_template("rss.xml")
@@ -196,7 +197,7 @@ def generate_rss(posts):
         file.write(rss_output)
 
 
-def generate_blog():
+def generate_blog() -> None:
     # Ensure output directory exists
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -206,7 +207,7 @@ def generate_blog():
     index_template = env.get_template("index.html")
 
     # Process all markdown files
-    posts = []
+    posts: List[Dict[str, Any]] = []
     for filename in os.listdir(POSTS_DIR):
         if filename.endswith(".md"):
             file_path = os.path.join(POSTS_DIR, filename)
