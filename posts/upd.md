@@ -28,7 +28,7 @@ Uniparental disomy means someone has a chromosome twice from the same parent, ra
 
 20% of the time{% fn 3 %} however, UPD comes with heterozygous chromosomes, so the affected chromosomes are just the same as those of one of the parents (or the same chromosomes, but crossed over). Even in those cases, UPD is still not a perfect "treatment group" for the effects of imprinting, since UPDs are most often the result of "rescued" trisomies: trisomies that get accidentally corrected by an error during chromosome segregation, turning one cell disomic and the other one tetrasomic for that specific chromosome. The more healthy disomic cells then outcompete the aneuploid cell, such that the embryo is completely or mostly made up of euploid cells (aneuploid cells tend to form the placenta instead). Analogously, UPD can be the product of a rescued monosomy{% fn 4 %}. In practice, this means, that when looking at a cohort of UPD patients, any symptoms they have in common could also be due to trisomy or monosomy in the placenta or even in some tissues of the patient.{% fn 5 %}
 
-![images/diagram_upd.jpg](https://www.tassiloneubauer.com/images/diagram_upd.jpg)
+![images/diagram_upd.jpg](images/diagram_upd.jpg)
 
 UPD resulting from trisomie illustrated. The image is an edited version of Figure 1 in  [(Nakka et al., 2019)](https://linkinghub.elsevier.com/retrieve/pii/S0002-9297(19)30356-8)
 
