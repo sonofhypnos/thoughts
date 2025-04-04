@@ -16,9 +16,11 @@ python -m http.server & firefox http://0.0.0.0:8000
 
 # Documentation
 - to hide a blogpost, add "hidden" to the tags
+- look at example blogpost to get an introduction to how blogposts are formatted.
 
 # Todos
 
+- [ ] in the header of the post, include a small link to the plane markdown form of the post (this should be easy.)
 - [ ] Add rss feed
 - [ ] think about alternative to RSS feed similar to here: https://github.com/gwern/gwern.net/issues/11
 - [ ] update documentation: 
