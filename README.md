@@ -6,24 +6,17 @@ For installation run:
 poetry install
 ```
 
-To install poetry and python, there is a shell.nix file in the root directory. You can use it to create a shell with the correct dependencies. To enter the shell run:
-```
-nix-shell
-```
-
 # Running locally
 
 To run and see the blog locally, run:
 
 ```
-nix-shell
 poetry run python -m http.server & firefox http://0.0.0.0:8000
 ```
 
 To run the jupyter-notebook run:
 
 ``` shell
-nix-shell
 poetry run jupyter-lab
 ```
 
@@ -32,7 +25,6 @@ poetry run jupyter-lab
 
 To generate html files from the markdown files and to then publish the latest changes run:
 ``` shell
-nix-shell
 make all
 ```
 
