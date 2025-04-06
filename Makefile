@@ -53,6 +53,6 @@ commit_and_push: blog
 	git add feed.xml
 	git add index.html
 	git commit -m "Update blog"; \
-	git push; \
+	git push origin main; \
 
 .PHONY: all blog clean convert_notebooks commit_and_push
