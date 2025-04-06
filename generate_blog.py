@@ -35,48 +35,6 @@ def extract_first_image(html_content: str) -> str:
     return img["src"] if img else ""
 
 
-def process_notebook_html(html_content: str) -> str:
-    soup = BeautifulSoup(html_content, "html.parser")
-
-    # Process footnotes
-    footnote_refs = soup.find_all(string=re.compile(r"{% fn \d+ %}"))
-
-    # Find all divs that might contain footnote details
-    footnote_detail_divs = soup.find_all("div", class_="jp-RenderedHTMLCommon")
-
-    footnotes: Dict[str, str] = {}
-    for div in footnote_detail_divs:
-        # Look for footnote details within each div
-        for p in div.find_all("p"):
-            match = re.search(
-                r"{{\s*(.+?)\s*\|\s*fndetail:\s*(\d+)\s*}}", p.text, re.DOTALL
-            )
-            if match:
-                content, number = match.groups()
-                footnotes[number] = content.strip()
-                p.decompose()  # Remove the original footnote detail
-
-    for ref in footnote_refs:
-        number = re.search(r"{% fn (\d+) %}", ref).group(1)
-        new_tag = soup.new_tag("sup", attrs={"class": "footnote-ref"})
-        new_tag.string = number
-        ref.replace_with(new_tag)
-
-    # Create footnotes section if there are any footnotes
-    if footnotes:
-        footnotes_section = soup.new_tag("section", attrs={"class": "footnotes"})
-        footnotes_section.append(soup.new_tag("h3", string="Footnotes"))
-        ol = soup.new_tag("ol")
-        for number, content in footnotes.items():
-            li = soup.new_tag("li", attrs={"id": f"fn{number}"})
-            li.append(BeautifulSoup(content, "html.parser"))
-            ol.append(li)
-        footnotes_section.append(ol)
-        soup.body.append(footnotes_section)
-
-    return str(soup)
-
-
 def parse_notebook(file_path: str) -> Dict[str, str]:
     with open(file_path, "r", encoding="utf-8") as file:
         notebook_content = json.load(file)
@@ -212,7 +170,7 @@ def generate_blog() -> None:
         if filename.endswith(".md"):
             file_path = os.path.join(POSTS_DIR, filename)
             content = read_markdown_file(file_path)
-            html_content, metadata = parse_markdown(content)
+            processed_html, metadata = parse_markdown(content)
 
             try:
                 # TODO: check that id is unique and otherwise throw warning
@@ -227,15 +185,15 @@ def generate_blog() -> None:
                     "date": datetime.datetime.strptime(
                         metadata.get("date", [""])[0], "%Y-%m-%d"
                     ),
-                    "content": html_content,
+                    "content": processed_html,
                     "filename": os.path.join(OUTPUT_DIR, blogpost_id + ".html"),
                     "tags": metadata.get("tags", []),
-                    "preview": generate_preview(html_content),
+                    "preview": generate_preview(processed_html),
                     "url": f"{BASE_URL}/{blogpost_id}.html",
                     "description": metadata.get("description", [""])[0]
-                    or generate_description(html_content),
+                    or generate_description(processed_html),
                     "image": metadata.get("image", [""])[0]
-                    or extract_first_image(html_content),
+                    or extract_first_image(processed_html),
                     "blog_title": BLOG_TITLE,
                 }
 
@@ -255,7 +213,7 @@ def generate_blog() -> None:
     for filename in os.listdir(NOTEBOOKS_HTML_DIR):
         if filename.endswith(".html"):
             file_path = os.path.join(NOTEBOOKS_HTML_DIR, filename)
-            html_content = read_file(file_path)
+            processed_html = read_file(file_path)
 
             # Extract date and title from filename (assuming YYYY-MM-DD-title.html format)
             strings = filename.split("-")
@@ -263,9 +221,6 @@ def generate_blog() -> None:
             title = "-".join(strings[3:]).replace(".html", "")
 
             try:
-                # Process the notebook HTML
-                processed_html = process_notebook_html(html_content)
-
                 post = {
                     "title": to_title_case(title),
                     "date": datetime.datetime.strptime(date_str, "%Y-%m-%d"),
