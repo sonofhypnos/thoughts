@@ -52,21 +52,26 @@ Conclusion
 So overall, while we do not have a complete understanding of all imprints, we have *probably* identified the most detrimental ones. Exceptions are UPD7, where we do not know which gene(s) causes Silver-Russel syndrome. We are also still in the dark about maternal UPD19, which might be deadly to embryos.
 *Thanks to Tsvi Benson-Tilsen for discussion and* [*Gene Smith*](https://www.lesswrong.com/users/genesmith?from=search_autocomplete)  *for employing me to do this research.*
 
-<div class="footnotes">
-<hr>
-<ol>
-<li id="fn1">Bar, S., Schachter, M., Eldar-Geva, T., & Benvenisty, N. (2017). Large-Scale Analysis of Loss of Imprinting in Human Pluripotent Stem Cells. Cell Reports, 19(5), 957–968. https://doi.org/10.1016/j.celrep.2017.04.020<a href="#fnref1">↩</a></li>
-<li id="fn2">The following list is often cited, but a lot of imprints in it are only "predicted": Geneimprint: Genes. (n.d.). Retrieved March 28, 2025, from https://www.geneimprint.com/site/genes-by-species<a href="#fnref2">↩</a></li>
-<li id="fn3">See table 1 in <a href="#fn1">1</a><a href="#fnref3">↩</a></li>
-<li id="fn4">Rudd, M. K., Schleede, J. B., Williams, S. R., Lee, K., Laffin, J., Pasion, R., & Papenhausen, P. R. (2018). Monosomy X rescue explains discordant NIPT results and leads to uniparental isodisomy. Prenatal Diagnosis, 38(12), 920–923. https://doi.org/10.1002/pd.5349<a href="#fnref4">↩</a></li>
-<li id="fn5">Another way UPD can develop is if sperm and eggs are accidentally disomic and nullisomic in the same chromosome, cancelling out each other's mistakes. <a href="#fn13">13</a><a href="#fn12">12</a> If we get such an accidental UPD case that also happens to be a heterodisomy (presumably 50% of these cases are heterodisomy?) that would be quite close to isolating the effects just due to imprinting and not due to any mosaic trisomie in either the embryo or the placenta. Unfortunately this is not going to happen often.<a href="#fn12">12</a><a href="#fnref5">↩</a></li>
-<li id="fn6">There are a lot of other theories how imprinting evolved, but the consensus seems correct on this one. Read this one for more: Spencer, H. G., & Clark, A. G. (2014). Non-conflict theories for the evolution of genomic imprinting. Heredity, 113(2), 112–118. https://doi.org/10.1038/hdy.2013.129<a href="#fnref6">↩</a></li>
-<li id="fn7">Moore, T., & Haig, D. (1991). Genomic imprinting in mammalian development: A parental tug-of-war. Trends in Genetics, 7(2), 45–49. https://doi.org/10.1016/0168-9525(91)90230-N<a href="#fnref7">↩</a><a href="#fnref7-2">↩</a></li>
-<li id="fn8">Jelinic, P., & Shaw, P. (2007). Loss of imprinting and cancer. The Journal of Pathology, 211(3), 261–268. https://doi.org/10.1002/path.2116<a href="#fnref8">↩</a></li>
-<li id="fn9">Kurup, U., Lim, D. B. N., Palau, H., Maharaj, A. V., Ishida, M., Davies, J. H., & Storr, H. L. (2024). Approach to the Patient With Suspected Silver-Russell Syndrome. The Journal of Clinical Endocrinology and Metabolism, 109(10), e1889–e1901. https://doi.org/10.1210/clinem/dgae423<a href="#fnref9">↩</a><a href="#fnref9-2">↩</a></li>
-<li id="fn10">Access via Internet archive: Beechey CV, Cattanach BM, Blake A , Peters J (2008), MRC Mammalian Genetics Unit, Harwell, Oxfordshire. World Wide Web Site - Mouse Imprinting Data and References - http://www.har.mrc.ac.uk/research/genomic_imprinting<a href="#fnref10">↩</a></li>
-<li id="fn11">See https://cs-tl.de/DB/CA/UPD/18-UPDp.html and https://cs-tl.de/DB/CA/UPD/18-UPDm.html<a href="#fnref11">↩</a></li>
-<li id="fn12">Nakka, P., Smith, S. P., O'Donnell-Luria, A. H., McManus, K. F., Agee, M., Auton, A., Bell, R. K., Bryc, K., Elson, S. L., Fontanillas, P., Furlotte, N. A., Hicks, B., Hinds, D. A., Jewett, E. M., Jiang, Y., Lin, K.-H., McCreight, J. C., Huber, K. E., Kleinman, A., … Sathirapongsasuti, J. F. (2019). Characterization of Prevalence and Health Consequences of Uniparental Disomy in Four Million Individuals from the General Population. The American Journal of Human Genetics, 105(5), 921–932. https://doi.org/10.1016/j.ajhg.2019.09.016<a href="#fnref5">↩</a></li>
-<li id="fn13">Robinson, W. P. (2000). Mechanisms leading to uniparental disomy and their clinical consequences. BioEssays, 22(5), 452–459. https://doi.org/10.1002/(SICI)1521-1878(200005)22:5<452::AID-BIES7>3.0.CO;2-K<a href="#fnref5">↩</a></li>
-</ol>
-</div>
+[^bzszbf4ybw]: Bar, S., Schachter, M., Eldar-Geva, T., & Benvenisty, N. (2017). Large-Scale Analysis of Loss of Imprinting in Human Pluripotent Stem Cells. *Cell Reports, 19*(5), 957–968. https://doi.org/10.1016/j.celrep.2017.04.020
+
+[^s1t55u1o35c]: The following list is often cited, but a lot of imprints in it are only "predicted": Geneimprint: Genes. (n.d.). Retrieved March 28, 2025, from https://www.geneimprint.com/site/genes-by-species
+
+[^srvplo600zm]: See table 1 in [^bhs0c4rfhbc].
+
+[^95m152lpgf5]: Rudd, M. K., Schleede, J. B., Williams, S. R., Lee, K., Laffin, J., Pasion, R., & Papenhausen, P. R. (2018). Monosomy X rescue explains discordant NIPT results and leads to uniparental isodisomy. *Prenatal Diagnosis, 38*(12), 920–923. https://doi.org/10.1002/pd.5349
+
+[^kvttz6w51ip]: Another way UPD can develop is if sperm and eggs are accidentally disomic and nullisomic in the same chromosome, cancelling out each other's mistakes (see [Robinson, 2000](https://doi.org/10.1002/(SICI)1521-1878(200005)22:5<452::AID-BIES7>3.0.CO;2-K)). If we get such an accidental UPD case that also happens to be a heterodisomy (presumably 50% of these cases are heterodisomy?) that would be quite close to isolating the effects just due to imprinting and not due to any mosaic trisomy in either the embryo or the placenta. Unfortunately this is not going to happen often. UPD at conception is rare for most chromosomes except for those that frequently mis-segregate, like the X-chromosome (which is aneuploid in ~0.5% of healthy sperm; [Spriggs et al., 1996](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1914964/)). I couldn't find really good numbers on oocytes, but they tend to be aneuploid more frequently — somewhere between 3–10× more often than sperm.
+
+[^2cys0cpjj4s]: There are a lot of other theories how imprinting evolved, but the consensus seems correct on this one. Read this one for more: Spencer, H. G., & Clark, A. G. (2014). Non-conflict theories for the evolution of genomic imprinting. *Heredity, 113*(2), 112–118. https://doi.org/10.1038/hdy.2013.129
+
+[^kpm0f9n1u8c]: Moore, T., & Haig, D. (1991). Genomic imprinting in mammalian development: A parental tug-of-war. *Trends in Genetics, 7*(2), 45–49. https://doi.org/10.1016/0168-9525(91)90230-N
+
+[^0v1tdhdbiytm]: Jelinic, P., & Shaw, P. (2007). Loss of imprinting and cancer. *The Journal of Pathology, 211*(3), 261–268. https://doi.org/10.1002/path.2116
+
+[^64stc14kae]: Kurup, U., Lim, D. B. N., Palau, H., Maharaj, A. V., Ishida, M., Davies, J. H., & Storr, H. L. (2024). Approach to the Patient With Suspected Silver-Russell Syndrome. *The Journal of Clinical Endocrinology and Metabolism, 109*(10), e1889–e1901. https://doi.org/10.1210/clinem/dgae423
+
+[^xm7gkvpix6]: Access via Internet Archive: Beechey CV, Cattanach BM, Blake A, Peters J (2008), MRC Mammalian Genetics Unit, Harwell, Oxfordshire. World Wide Web Site – Mouse Imprinting Data and References – http://www.har.mrc.ac.uk/research/genomic_imprinting
+
+[^61o5wzr6edv]: See https://cs-tl.de/DB/CA/UPD/18-UPDp.html and https://cs-tl.de/DB/CA/UPD/18-UPDm.html
+
+[^bhs0c4rfhbc]: Nakka, P., Smith, S. P., O’Donnell-Luria, A. H., McManus, K. F., Agee, M., Auton, A., Bell, R. K., Bryc, K., Elson, S. L., Fontanillas, P., Furlotte, N. A., Hicks, B., Hinds, D. A., Jewett, E. M., Jiang, Y., Lin, K.-H., McCreight, J. C., Huber, K. E., Kleinman, A., … Sathirapongsasuti, J. F. (2019). Characterization of Prevalence and Health Consequences of Uniparental Disomy in Four Million Individuals from the General Population. *The American Journal of Human Genetics, 105*(5), 921–932. https://doi.org/10.1016/j.ajhg.2019.09.016
