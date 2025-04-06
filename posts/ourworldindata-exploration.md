@@ -1,6 +1,6 @@
 ---
 title: ourworldindata
-tags: []
+tags:
 id: "ourworldindata-exploration"
 date: 2023-11-21
 ---

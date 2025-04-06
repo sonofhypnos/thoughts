@@ -5,8 +5,8 @@
     <description>Tassilo Neubauer's Blog</description>
     <link>https://www.tassiloneubauer.com</link>
     <atom:link href="https://www.tassiloneubauer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Apr 2025 13:47:11 +0000</pubDate>
-    <lastBuildDate>Sun, 06 Apr 2025 13:47:11 +0000</lastBuildDate>
+    <pubDate>Sun, 06 Apr 2025 13:53:22 +0000</pubDate>
+    <lastBuildDate>Sun, 06 Apr 2025 13:53:22 +0000</lastBuildDate>
     <generator>Python RSS Generator</generator>
     
     <item>
@@ -17,7 +17,9 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/uniparental-disomy.html</guid>
       
       
-      <category>["biology", "epigenetics"]</category>
+      <category>biology</category>
+      
+      <category>epigenetics</category>
       
       
     </item>
@@ -65,7 +67,9 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/vyvanse-half-life.html</guid>
       
       
-      <category>["medication", "biology"]</category>
+      <category>medication</category>
+      
+      <category>biology</category>
       
       
     </item>
@@ -78,7 +82,7 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/ssh-keys-1password.html</guid>
       
       
-      <category>[]</category>
+      <category></category>
       
       
     </item>
@@ -91,7 +95,7 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/fermi-estimates-gpt.html</guid>
       
       
-      <category>["LLM"]</category>
+      <category>LLM</category>
       
       
     </item>
@@ -117,7 +121,7 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/base-rate-fallacy.html</guid>
       
       
-      <category>[]</category>
+      <category></category>
       
       
     </item>
@@ -130,7 +134,7 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/ourworldindata-exploration.html</guid>
       
       
-      <category>[]</category>
+      <category></category>
       
       
     </item>
@@ -143,7 +147,9 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/fn-remap.html</guid>
       
       
-      <category>["linux", "keyboard"]</category>
+      <category>linux</category>
+      
+      <category>keyboard</category>
       
       
     </item>
@@ -156,7 +162,7 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/gpt-4-capability-enhancement.html</guid>
       
       
-      <category>[]</category>
+      <category></category>
       
       
     </item>
@@ -169,7 +175,9 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/wobbly-table-problem.html</guid>
       
       
-      <category>[]</category>
+      <category>mathematics</category>
+      
+      <category>physics</category>
       
       
     </item>
@@ -182,7 +190,9 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/dumbell-courage.html</guid>
       
       
-      <category>["courage", "habits"]</category>
+      <category>courage</category>
+      
+      <category>habits</category>
       
       
     </item>
@@ -195,7 +205,7 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/very short takes.html</guid>
       
       
-      <category>[]</category>
+      <category></category>
       
       
     </item>
@@ -208,7 +218,7 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/2023-08-13-things.html</guid>
       
       
-      <category>[]</category>
+      <category></category>
       
       
     </item>
@@ -252,7 +262,9 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/journaling-prompts-emacs.html</guid>
       
       
-      <category>["emacs", "journaling"]</category>
+      <category>emacs</category>
+      
+      <category>journaling</category>
       
       
     </item>
@@ -278,7 +290,7 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/time-until-graduation.html</guid>
       
       
-      <category>[]</category>
+      <category></category>
       
       
     </item>
@@ -306,7 +318,9 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/19-01-2022-first-post.html</guid>
       
       
-      <category>["lazyblorg", "software"]</category>
+      <category>lazyblorg</category>
+      
+      <category>software</category>
       
       
     </item>

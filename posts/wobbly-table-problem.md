@@ -1,6 +1,7 @@
 ---
 title: Wobbly Table Theorem
-tags: []
+tags: mathematics
+    physics
 id: "wobbly-table-problem"
 date: 2023-09-28
 ---

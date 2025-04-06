@@ -1,6 +1,7 @@
 ---
 title: Vyvanse Metabolism
-tags: ["medication", "biology"]
+tags: medication
+    biology
 id: "vyvanse-half-life"
 date: 2024-08-21
 ---

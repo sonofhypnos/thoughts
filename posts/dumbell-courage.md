@@ -1,6 +1,7 @@
 ---
 title: Running with dumbbells
-tags: ["courage", "habits"]
+tags: courage
+    habits
 id: "dumbell-courage"
 date: 2023-09-16
 ---

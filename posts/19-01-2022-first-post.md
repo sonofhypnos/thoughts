@@ -1,6 +1,7 @@
 ---
 title: This is my first lazy blogpost
-tags: ["lazyblorg", "software"]
+tags: lazyblorg 
+    software
 id: "19-01-2022-first-post"
 date: 2022-01-19
 ---

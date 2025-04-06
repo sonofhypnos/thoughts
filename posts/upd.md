@@ -1,6 +1,7 @@
 ---
 title: What Uniparental Disomy Tells Us About Improper Imprinting in Humans
-tags: ["biology", "epigenetics"]
+tags: biology 
+    epigenetics
 id: "uniparental-disomy"
 description: "An exploration of genetic imprinting disorders and their implications for germline engineering"
 date: 2025-03-28

@@ -1,6 +1,7 @@
 ---
 title: Remaping the Fn key on my keyboard
-tags: ["linux", "keyboard"]
+tags: linux
+    keyboard
 id: "fn-remap"
 date: 2023-10-22
 ---

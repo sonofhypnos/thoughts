@@ -1,6 +1,6 @@
 ---
 title: Time until Graduation for picking German universities
-tags: []
+tags:
 id: "time-until-graduation"
 date: 2022-01-24
 ---

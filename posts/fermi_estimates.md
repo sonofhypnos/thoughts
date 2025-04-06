@@ -1,6 +1,6 @@
 ---
 title: Using Language Models for Fermi Estimates
-tags: ["LLM"]
+tags: LLM
 id: "fermi-estimates-gpt"
 date: 2024-03-21
 ---
