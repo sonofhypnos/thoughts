@@ -19,7 +19,7 @@ MARKDOWN_FILES := $(wildcard $(MARKDOWN_DIR)/*.md)
 TEMPLATE_FILES := $(wildcard $(TEMPLATE_DIR)/*)
 
 # Default target
-all: blog
+all: convert_notebooks blog
 
 # Rule: convert a notebook if it's been updated
 $(HTML_OUTPUT_DIR)/%.html: $(NOTEBOOKS_DIR)/%.ipynb
@@ -38,7 +38,7 @@ convert_notebooks: $(HTML_NOTEBOOKS)
 	@touch .blog.timestamp
 	@echo "Blog regenerated."
 
-blog: convert_notebooks .blog.timestamp
+blog: convert_notebooks commit_and_push .blog.timestamp
 
 # Rule: clean everything
 clean:
