@@ -1,6 +1,7 @@
 ---
 title: This is an example post
-tags: ["hidden"]
+tags: hidden
+    example
 id: "example-post"
 description: "This description is the only optional attribute in this post. It is shown in link previews for this post"
 date: 2025-03-28

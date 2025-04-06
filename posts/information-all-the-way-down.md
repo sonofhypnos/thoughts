@@ -1,9 +1,11 @@
 ---
 title: Anthony Aguirre on the nature of reality is fascinating
-tags: ["physics", "epistemology"]
+tags: physics
+      epistemology
 id: "information-all-the-way-down"
 date: 2022-01-21
 ---
+
 
 I recently stumbled upon [this
 episode](https://futureoflife.org/2020/01/31/fli-podcast-identity-information-the-nature-of-reality-with-anthony-aguirre/)

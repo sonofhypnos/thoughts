@@ -1,6 +1,6 @@
 ---
 title: Taming Emacs to make writing more pleasant
-tags: ["emacs"]
+tags: emacs
 id: "taming-emacs"
 date: 2022-01-30
 ---

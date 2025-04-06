@@ -1,6 +1,6 @@
 ---
 title: Search Engine Evaluations are Underexplored
-tags: ["LLM"]
+tags: LLM
 id: "search-engine-evaluation"
 date: 2024-03-6
 ---
