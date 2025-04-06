@@ -1,9 +1,14 @@
 # Installation
-Dependencies: python==3.10 and jinja. I use poetry for dependency management.
+Dependencies: python>=3.10 and jinja. I use poetry for dependency management.
 
 For installation run:
 ```
 poetry install
+```
+
+To install poetry and python, there is a shell.nix file in the root directory. You can use it to create a shell with the correct dependencies. To enter the shell run:
+```
+nix-shell
 ```
 
 # Running locally
@@ -11,25 +16,41 @@ poetry install
 To run and see the blog locally, run:
 
 ```
-python -m http.server & firefox http://0.0.0.0:8000
+nix-shell
+poetry run python -m http.server & firefox http://0.0.0.0:8000
+```
+
+To run the jupyter-notebook run:
+
+``` shell
+nix-shell
+poetry run jupyter-lab
 ```
 
 # Pushing latest updates
 
-Run:
 
+To generate html files from the markdown files and to then publish the latest changes run:
 ``` shell
-publish.sh
+nix-shell
+make all
 ```
 
-to generate html files from the markdown files and to then publish the latest changes.
+To only generate html files run:
+
 
 
 
 
 # Documentation
 - to hide a blogpost, add "hidden" to the tags
-- look at example blogpost to get an introduction to how blogposts are formatted.
+- look at the blogpost `posts/example.md` to get an introduction to how blogposts are formatted.
+
+
+## Markdown
+[Markdown docs](https://python-markdown.github.io/index.html#python-markdown)
+For anything related to markdown extensions (this includes the metadata headers) see:
+[Markdown extension docs](https://python-markdown.github.io/extensions/)
 
 # Todos
 
