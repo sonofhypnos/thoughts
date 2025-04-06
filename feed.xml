@@ -5,9 +5,35 @@
     <description>Tassilo Neubauer's Blog</description>
     <link>https://www.tassiloneubauer.com</link>
     <atom:link href="https://www.tassiloneubauer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 18 Mar 2025 22:59:56 +0000</pubDate>
-    <lastBuildDate>Tue, 18 Mar 2025 22:59:56 +0000</lastBuildDate>
+    <pubDate>Sun, 06 Apr 2025 11:06:57 +0000</pubDate>
+    <lastBuildDate>Sun, 06 Apr 2025 11:06:57 +0000</lastBuildDate>
     <generator>Python RSS Generator</generator>
+    
+    <item>
+      <title>This Is an Example Post</title>
+      <description>"This description is the only optional attribute in this post. It is shown in link previews for this post"</description>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/example-post.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/example-post.html</guid>
+      
+      
+      <category>["hidden"]</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>What Uniparental Disomy Tells Us About Improper Imprinting in Humans</title>
+      <description>"An exploration of genetic imprinting disorders and their implications for germline engineering"</description>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/uniparental-disomy.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/uniparental-disomy.html</guid>
+      
+      
+      <category>["biology", "epigenetics"]</category>
+      
+      
+    </item>
     
     <item>
       <title>Benchmarking Generalists and Experts</title>
@@ -278,7 +304,9 @@
       <guid isPermaLink="true">https://www.tassiloneubauer.com/information-all-the-way-down.html</guid>
       
       
-      <category>["physics", "epistemology"]</category>
+      <category>physics</category>
+      
+      <category>epistemology</category>
       
       
     </item>
