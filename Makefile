@@ -46,15 +46,13 @@ clean:
 	rm -rf $(DOCS_DIR)
 	rm -f .blog.timestamp
 
-# Rule: commit + push if only Markdown changed
+# Exclude source code from what is commited by default.
 commit_and_push: blog
-	@if git status --porcelain | grep -q "$(MARKDOWN_DIR)" && [ $$(git status --porcelain | grep -v "$(MARKDOWN_DIR)" | wc -l) -eq 0 ]; then \
-		echo "Only Markdown changed, committing and pushing..."; \
-		git add .; \
-		git commit -m "Update blog"; \
-		git push; \
-	else \
-		echo "Review changes manually before committing."; \
-	fi
+	git add docs
+	git add posts
+	git add feed.xml
+	git add index.html
+	git commit -m "Update blog"; \
+	git push; \
 
 .PHONY: all blog clean convert_notebooks commit_and_push
