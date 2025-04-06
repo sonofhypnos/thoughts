@@ -1,5 +1,3 @@
-# Makefile for blog generation
-
 # Directories
 NOTEBOOKS_DIR := notebooks
 HTML_OUTPUT_DIR := notebook_html
@@ -9,52 +7,54 @@ TEMPLATE_DIR := templates
 
 # Python script
 GENERATE_SCRIPT := generate_blog.py
+PYTHON := poetry run python
+JUPYTER := poetry run jupyter
 
-# Python interpreter (using Poetry's virtual environment)
-PYTHON := /home/tassilo/.cache/pypoetry/virtualenvs/thoughts-nVi2q3I2-py3.10/bin/python
-
-# Find all Jupyter notebooks, Markdown files, and templates
+# Notebooks to HTML
 NOTEBOOKS := $(wildcard $(NOTEBOOKS_DIR)/*.ipynb)
 HTML_NOTEBOOKS := $(patsubst $(NOTEBOOKS_DIR)/%.ipynb,$(HTML_OUTPUT_DIR)/%.html,$(NOTEBOOKS))
+
+# Markdown and templates
 MARKDOWN_FILES := $(wildcard $(MARKDOWN_DIR)/*.md)
 TEMPLATE_FILES := $(wildcard $(TEMPLATE_DIR)/*)
 
 # Default target
 all: blog
 
-# Convert Jupyter notebooks to HTML
+# Rule: convert a notebook if it's been updated
 $(HTML_OUTPUT_DIR)/%.html: $(NOTEBOOKS_DIR)/%.ipynb
 	@mkdir -p $(HTML_OUTPUT_DIR)
-	jupyter nbconvert --to html $< --output-dir=$(HTML_OUTPUT_DIR)
+	$(JUPYTER) nbconvert --to html $< --output-dir=$(HTML_OUTPUT_DIR) --output=$*.html
+	@echo "Converted $< -> $(HTML_OUTPUT_DIR)/$*.html"
 
-# Generate blog
+# Rule: convert all notebooks
+convert_notebooks: $(HTML_NOTEBOOKS)
+	@echo "All notebook HTML up to date."
+
+# Rule: generate blog if inputs changed
 .blog.timestamp: $(MARKDOWN_FILES) $(HTML_NOTEBOOKS) $(TEMPLATE_FILES) $(GENERATE_SCRIPT)
 	@mkdir -p $(DOCS_DIR)
 	$(PYTHON) $(GENERATE_SCRIPT)
-	@touch $@
+	@touch .blog.timestamp
+	@echo "Blog regenerated."
 
-blog: .blog.timestamp
+blog: convert_notebooks .blog.timestamp
 
-# Commit and push changes if only Markdown files changed
-# TODO: this needs to include the html folder html and index.html
-commit_and_push: blog
-	@if git status --porcelain | grep -q "$(MARKDOWN_DIR)" && [ $$(git status --porcelain | grep -v "$(MARKDOWN_DIR)" | wc -l) -eq 0 ]; then \
-		echo "Only Markdown files changed. Committing and pushing changes..."; \
-		git add .; \
-		git commit -m "Update blog"; \
-		git push; \
-		echo "Changes pushed successfully."; \
-	elif git status --porcelain | grep -q .; then \
-		echo "Multiple file types changed. Please review changes and commit manually."; \
-	else \
-		echo "No changes to commit."; \
-	fi
-
-# Clean generated files
+# Rule: clean everything
 clean:
 	rm -rf $(HTML_OUTPUT_DIR)
 	rm -rf $(DOCS_DIR)
 	rm -f .blog.timestamp
 
-# Phony targets
-.PHONY: all blog clean commit_and_push
+# Rule: commit + push if only Markdown changed
+commit_and_push: blog
+	@if git status --porcelain | grep -q "$(MARKDOWN_DIR)" && [ $$(git status --porcelain | grep -v "$(MARKDOWN_DIR)" | wc -l) -eq 0 ]; then \
+		echo "Only Markdown changed, committing and pushing..."; \
+		git add .; \
+		git commit -m "Update blog"; \
+		git push; \
+	else \
+		echo "Review changes manually before committing."; \
+	fi
+
+.PHONY: all blog clean convert_notebooks commit_and_push
