@@ -14,13 +14,29 @@ To run and see the blog locally, run:
 python -m http.server & firefox http://0.0.0.0:8000
 ```
 
+# Pushing latest updates
+
+Run:
+
+``` shell
+publish.sh
+```
+
+to generate html files from the markdown files and to then publish the latest changes.
+
+
+
+
 # Documentation
 - to hide a blogpost, add "hidden" to the tags
 - look at example blogpost to get an introduction to how blogposts are formatted.
 
 # Todos
 
-- [ ] in the header of the post, include a small link to the plane markdown form of the post (this should be easy.)
+- [ ] thoughts on making this a general tool
+  - [ ] I like having idiosyncratic things in here and I don't have to worry about supporting anything
+  - [ ] my features are probably too idiosyncratic to be useful for other people.
+ - [ ] in the header of the post, include a small link to the plane markdown form of the post (this should be easy.)
 - [ ] Add rss feed
 - [ ] think about alternative to RSS feed similar to here: https://github.com/gwern/gwern.net/issues/11
 - [ ] update documentation: 
