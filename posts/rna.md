@@ -5,7 +5,9 @@ id: rna-introduction
 date: 2025-01-07
 ---
 
-I have been learning more about biology recently and one thing that was initially confusing to me, was that RNA, this molecule that I remembered from high schol biology as this sort of executable intermediate between DNA and proteins. This type of RNA (messenger RNA or short mRNA) is actually not the only kind of RNA there is! It doesn't even make up the majority of RNA inside the cell! I thought it might be cool to have one post that gives a short introduction to each kind of RNA and it's purpose. 
+(If I go back to this blostpost. See rna composition in mammalian cells for more details on this)
+
+I have been learning more about biology recently and one thing that was initially confusing to me, was that RNA, this molecule that I remembered from high schol biology as this sort of executable intermediate between DNA and proteins. This type of RNA (messenger RNA or short mRNA) is actually not the only kind of RNA there is! It doesn't even make up the majority of RNA inside the cell! I thought it might be cool to have one post that gives a short introduction to each kind of RNA and what defines it (as far as that is possible)
 
 - My initial idea here is that I will roughly order them by how frequent this type of RNA is in the cell (not sure if by weight or by number of snippets (in case that makes a difference sometimes))
 - Another funny thing that people like to do when naming these RNA strands is putting an abbreviation for the type of RNA in short letters before the actual RNA. 
@@ -17,10 +19,18 @@ I have been learning more about biology recently and one thing that was initiall
 - tRNA: In order to recognize codons, there are small snippets of RNA that lock into the correct position on the Ribosome to read it. Because RNA is read all the time, these snippets have to float around a lot.
 - piRNA: 
 - siRNA
+- miRNA
 - small nuclear RNA
 - small nucleolar RNA
 - lncRNA: long non-coding Rna
 - investigate roles of dna
+
+Wikipedia is excellent:
+Transfer-messenger RNA (tmRNA) is found in many bacteria and plastids. It tags proteins encoded by mRNAs that lack stop codons for degradation and prevents the ribosome from stalling.[41] 
+
+
+eRNA enhancing?
+The third major group of regulatory RNAs is called enhancer RNAs.[48]  It is not clear at present whether they are a unique category of RNAs of various lengths or constitute a distinct subset of lncRNAs.  In any case, they are transcribed from enhancers, which are known regulatory sites in the DNA near genes they regulate.[48][49]  They up-regulate the transcription of the gene(s) under control of the enhancer from which they are transcribed
 
 
 
