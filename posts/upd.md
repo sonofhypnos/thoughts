@@ -87,7 +87,7 @@ segregation, turning one cell disomic and the other one tetrasomic for
 that specific chromosome. The more healthy disomic cells then outcompete
 the aneuploid cell, such that the embryo is completely or mostly made up
 of euploid cells (aneuploid cells tend to form the placenta instead).
-Analogously, UPD can be the product of a rescued monosomy[^4]. In
+Analogously, UPD can be the product of a rescued monosomy.[^4] In
 practice, this means, that when looking at a cohort of UPD patients, any
 symptoms they have in common could also be due to trisomy or monosomy in
 the placenta or even in some tissues of the patient.[^5]
@@ -282,7 +282,7 @@ Pasion, R., & Papenhausen, P. R. (2018). Monosomy X rescue explains
 discordant NIPT results and leads to uniparental isodisomy. Prenatal
 Diagnosis, 38(12), 920–923. https://doi.org/10.1002/pd.5349
 
-[^5] Another way UPD can develop is if sperm and eggs are accidentally disomic and nullisomic in the same chromosome, cancelling out each other's mistakes (see [Robinson, 2000](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1521-1878(200005)22:5%3C452::AID-BIES7%3E3.0.CO;2-K)). If we get such an accidental UPD case that also happens to be a heterodisomy (presumably 50% of these cases are heterodisomy?) that would be quite close to isolating the effects just due to imprinting and not due to any mosaic trisomy in either the embryo or the placenta. Unfortunately this is not going to happen often. UPD at conception is rare for most chromosomes except for those that frequently mis-segregate, like the X-chromosome (which is aneuploid in ~0.5% of healthy sperm; [Spriggs et al., 1996]:(https://pmc.ncbi.nlm.nih.gov/articles/PMC1914964/)). I couldn't find really good numbers on oocytes, but they tend to be aneuploid more frequently — somewhere between 3–10× more often than sperm.
+[^5]: Another way UPD can develop is if sperm and eggs are accidentally disomic and nullisomic in the same chromosome, cancelling out each other's mistakes (see [Robinson, 2000](https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1521-1878(200005)22:5%3C452::AID-BIES7%3E3.0.CO;2-K)). If we get such an accidental UPD case that also happens to be a heterodisomy (presumably 50% of these cases are heterodisomy?) that would be quite close to isolating the effects just due to imprinting and not due to any mosaic trisomy in either the embryo or the placenta. Unfortunately this is not going to happen often. UPD at conception is rare for most chromosomes except for those that frequently mis-segregate, like the X-chromosome (which is aneuploid in ~0.5% of healthy sperm; [Spriggs et al., 1996]:(https://pmc.ncbi.nlm.nih.gov/articles/PMC1914964/)). I couldn't find really good numbers on oocytes, but they tend to be aneuploid more frequently — somewhere between 3–10× more often than sperm.
 
 [^6]: There are a lot of other theories how imprinting evolved, but the
 consensus seems correct on this one. Read this one for more: Spencer, H.
