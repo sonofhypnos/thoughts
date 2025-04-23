@@ -46,6 +46,7 @@ For anything related to markdown extensions (this includes the metadata headers)
 
 # Todos
 
+- [ ] Just add pandoc to your pipeline, because this integrates well with citation features from zotero!
 - [ ] thoughts on making this a general tool
   - [ ] I like having idiosyncratic things in here and I don't have to worry about supporting anything
   - [ ] my features are probably too idiosyncratic to be useful for other people.
