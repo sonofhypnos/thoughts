@@ -213,7 +213,7 @@ def generate_blog() -> None:
     for filename in os.listdir(NOTEBOOKS_HTML_DIR):
         if filename.endswith(".html"):
             file_path = os.path.join(NOTEBOOKS_HTML_DIR, filename)
-            processed_html = read_file(file_path)
+            html_content = read_file(file_path)
 
             # Extract date and title from filename (assuming YYYY-MM-DD-title.html format)
             strings = filename.split("-")
@@ -224,13 +224,13 @@ def generate_blog() -> None:
                 post = {
                     "title": to_title_case(title),
                     "date": datetime.datetime.strptime(date_str, "%Y-%m-%d"),
-                    "content": processed_html,
-                    "preview": generate_preview(processed_html),
+                    "content": html_content,
+                    "preview": generate_preview(html_content),
                     "filename": os.path.join(OUTPUT_DIR, filename),
                     "tags": ["notebook"],
                     "url": f"{BASE_URL}/{filename}",
-                    "description": generate_description(processed_html),
-                    "image": extract_first_image(processed_html),
+                    "description": generate_description(html_content),
+                    "image": extract_first_image(html_content),
                     "blog_title": BLOG_TITLE,
                 }
                 posts.append(post)
