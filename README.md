@@ -46,6 +46,8 @@ For anything related to markdown extensions (this includes the metadata headers)
 
 # Todos
 
+- [ ] Add image from analyzethis.ru back
+- [ ] make tags visible on Tassilo's blog
 - [ ] Just add pandoc to your pipeline, because this integrates well with citation features from zotero!
 - [ ] thoughts on making this a general tool
   - [ ] I like having idiosyncratic things in here and I don't have to worry about supporting anything
@@ -57,6 +59,7 @@ For anything related to markdown extensions (this includes the metadata headers)
   - [ ] explain how to add tags properly
 - [ ] Add a page where you can add small miscelaneous thoughts like the thoughts that you are having on configuration related things.
 - [ ] archive external links like Gwern.net? (write the software in a way that someone else would want to use it?). There is a more general idea there, how you might want to handle the fact that it is difficult to write in a lot of different small and big formats right now and how you could handle this with language models. The first idea as I understand it is trying to distinguish when to trigger an RSS notification based on if the new change is a substantial or a small one.
+- [ ] checkout how gwern saves references with yaml
 - [ ] fix images that were created with imgur, which turns out to deprecate your images?
 - [ ] add page 
 - [ ] Improve design
