@@ -1,60 +1,25 @@
 ---
-title: writing-day-one draft
-tags: hidden
-id: writing-day-one-draft
+title: Writing is hard
+tags: writing
+id: writing-day-one
 date: 2025-05-08
 ---
 
-** On not publishing things from the start.
-*** Iteration 1 of this post
-**** One thing that I find surprising is that a lot of people give this advice to write a lot, or that on the margin it might be worth it for more people to write more, but what seems to be also implicit is that not publishing your work on the internet is a failure or at least advice that I hear little is that it is completely fine to have like 10 drafts you don't publish for every draft that you do publish.
-**** If it is mostly about getting practice with writing your thoughts down (potentially with an audience in mind) and you expect the first iterations to be bad, then I think it should be completely justifiable to do a lot of this practice just in one of your folders and deciding that yes this draft does not meet the standard that you want to publish online.
-**** A lot of the time when I write, the feedback that I receive for writing is not actually that great, but writing on lesswrong is associated with a lot of anxiety with making a mistake and wanting things to be polished.
-**** I guess I will write this on twitter.
-*** Iteration 2 of this post
-**** It is time that I apply the principle of more dakka and just start writing more. The advice that if you just want to do something you need to do it badly and then just keep going with doing the thing is very common advice. I find it still very hard to do.
-***** For example when writing this short snippet I ran into a few different frustrations.
-	- It's hard to decide what to write about.
-	- I get anxiety about writing something that is not good enough.
-	- Topics that go into my head about what to write about revolve mostly about how it is hard to write. 
-	- Some of the writers that I admire would see it as below their standard to write a post like that? Or to at least write it as a proper post? bhauth.com comes to mind.
-	  - I don't like that my mind admires this person and I see that this person would also not admire that I do this.
-	  - I then get stuck somewhere here in the loop. The last part of this thought process is not really something I verbalized before necessarily?
-	  - It's partially informed by Steven Byrnes's post on [liking and admiring]().
-	  - Taking this toy model of how my mind works for granted for the moment. What is the next thing my mind naturally jumps to next?
-	  - Telling myself that if I had already done this in the past, then I would be worthy of doing this now.
-	  - I notice these are all thought patterns that if people spell them out to me, I would roll my eyes internally at them for not being mature enough.
-	  - So I guess part of this is that I don't live up to my own standards.
-	  - What would I want this thought process to look like instead?
-	  	- I think deciding that I want to strictly stick with 1 hour of writing and just publishing what I have at that point sounds safe to my brain.
-		 - It sounds like if I am going to stick to this pattern, then I can keep doing this without getting lost.
-		- This is another failure mode I run into. I get lost either starting 3-4 different drafts. Or I want to check even more details.
-		- I also spend a lot of time thinking about whether the thing I am writing is worthy to be written about on lesswrong. 
-		  - Then I think about writing it on twitter.
-		    - Then I think writing it on Twitter is going to distract me, because Twitter is distracting.
-		  - Then sometimes I consider putting it up on my own blog.
-		    - This also doesn't seem appealing. I don't immeadiately know why.
-		    completion from copilot"- I think part of it is that I don't want to be seen as someone who is just writing a lot of stuff and not really having a clear point."
-		      - funny.
-		    - For my own blog, writing an entire post that is just tweet length feels off.
-	 - Things I am noticing are helping me along with the process more well this time around:
-	  - I just listened to this video with Eugene Gendlin and I noticed better when some internal nag was comping up.
-	  - I noticed for example an internal nag comming up, because the typing is currently laggy and it is because my backup with borg backup is hogging my cpu. I then decided to stop writing this in emacs and to write it in vim instead. Seems like this gave an improvment on the margin.
-	  - Anyway. My hour is getting to an end and I need to decide what I am going to publish. I think I am going to publish this entire tree with disclaimer as a tree and otherwise I am going to just write a list of things that made it hard to write this.
-Iteration 3:
-It is time that I apply the principle of more dakka and just start writing more. The advice that if you just want to do something you need to do it badly and then just keep going with doing the thing is very common advice. I find it still very hard to do.
+It is time that I apply the principle of [more dakka](https://www.lesswrong.com/tag/more-dakka) and just start writing (or rather publishing) more. I know deliberate practice works for writing. If you want to be good at something, you need to do it badly and then just keep going with doing the thing is very common advice. I still find it very hard to do.
 - Things I ran into when writing before that stopped me:
   - It's hard to decide what to write about
   - I get anxiety about writing something that is not good enough
   - Topics that go into my head about what to write about revolve mostly about how it is hard to write.
   - Some of the writers that I admire would see it as below their standard to write a post like that? Lots of unproductive self-reinforcing status anxiety follows.
   - Perfectionism around writing and what I can do on the platform that I am writing on.
-- Things that worked in my favor this time so I ended up publishing this.
-  - I decided to stick with 1 hour of writing and just publishing what I have at that point sounds safe to my brain.
-  - I decided to just put it on twitter and hope for the best on the distraction front.
-  - Instead of editing my earlier drafts, I gave each draft an iteration number (progress!) and then I just started writing again and completing things with copilot.
-  - I decided to stick with a nested list format, which is my favorite format for writing.
-  - I decided no actually this nested list doesn't work on twitter, so I will put this on my blog and I will put the original draft into it's own post that I can link at the end of the final draft, because I remember liking thought transparency like this from people I liked reading (validating facts, but for learning reasons).
-  - At the end I still did some editing to add links and change the order of items in the final draft.
 
-****** Notice pattern: If I think a thought more than 4 times, maybe I should reevaluate what to do about it. It might be a sign that I am not doing the 
+  - The real pain: All the small decisions at the end. "Do I also post this on my blog or is it too much work?", deciding to try and in the worst case I can eliminate that part of the process tomorrow. Noticing those annoyances could also be added to the post, then noticing how this is taking over the post
+  - At the end, I fell for the trap of editing again (I could have been done in 1h, and now it is 1h 46 minutes).
+- Things that worked in my favor this time, so I ended up publishing this.
+  - I decided to stick with 1 hour of writing and just publishing what I have at that point sounds safe to my brain.
+  - I decided to just put it on Twitter and hope for the best on the distraction front.
+  - Instead of editing my earlier drafts, I gave each draft an iteration number (feels more like progress!) and then I just started writing again and completing things with copilot. (This was draft 3)
+  - I decided to stick with a nested list format, which is my favorite format for writing.
+  - I decided no actually this nested list doesn't work on Twitter, so I will put this in an lw shortform
+  - gave up on adding more relevant links. That is valuable in general, and maybe I can find ways to make this easier and less distraction prone (I end up searching for a specific blogpost I like and then don't end up finding it and read something else interesting from that blog). 
+
