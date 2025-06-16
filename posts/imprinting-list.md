@@ -221,7 +221,7 @@ are false positives, but some of them are probably real. Additional
 placenta samples will hopefully show which of these are genuine in the
 future.
 
-![image](images/imprint_placenta.jpg)
+![image](https://www.tassiloneubauer.com/images/imprint_placenta.jpg)
 
 *An image of the two novel DMRs discovered by Kindlova et al. (2023). The upper image shows the DMR on an exon of ILDR2 and the lower image shows the atypically looking DMR around the RASA1 promoter.*
 
