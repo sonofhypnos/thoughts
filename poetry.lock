@@ -1394,21 +1394,6 @@ docs = ["mdx-gh-links (>=0.2)", "mkdocs (>=1.5)", "mkdocs-gen-files", "mkdocs-li
 testing = ["coverage", "pyyaml"]
 
 [[package]]
-name = "markdown-strikethrough"
-version = "0.1.2"
-description = "support strikethrough in markdown"
-optional = false
-python-versions = "*"
-groups = ["main"]
-files = [
-    {file = "markdown-strikethrough-0.1.2.tar.gz", hash = "sha256:35923b1f286923333f6f4c5e8c176eb4e8116e1f5316783ff419e638ff17f23c"},
-    {file = "markdown_strikethrough-0.1.2-py2.py3-none-any.whl", hash = "sha256:e9469261a71fbde4fead4615b553ccb5263dd3023b87990aa176badb6b47d58a"},
-]
-
-[package.dependencies]
-Markdown = "*"
-
-[[package]]
 name = "markupsafe"
 version = "2.1.5"
 description = "Safely add untrusted strings to HTML/XML markup."
@@ -2158,6 +2143,25 @@ files = [
 
 [package.extras]
 windows-terminal = ["colorama (>=0.4.6)"]
+
+[[package]]
+name = "pymdown-extensions"
+version = "10.15"
+description = "Extension pack for Python Markdown."
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "pymdown_extensions-10.15-py3-none-any.whl", hash = "sha256:46e99bb272612b0de3b7e7caf6da8dd5f4ca5212c0b273feb9304e236c484e5f"},
+    {file = "pymdown_extensions-10.15.tar.gz", hash = "sha256:0e5994e32155f4b03504f939e501b981d306daf7ec2aa1cd2eb6bd300784f8f7"},
+]
+
+[package.dependencies]
+markdown = ">=3.6"
+pyyaml = "*"
+
+[package.extras]
+extra = ["pygments (>=2.19.1)"]
 
 [[package]]
 name = "pypandoc"
@@ -3095,4 +3099,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "242d0e42381e4ea21fe55c88041f11f615d66bf84ab89a5f3ab10bb9dfee5db9"
+content-hash = "2e07cb57db70cf1f00aa69d4c81b34b7892bc5044238da28140a7446dd80165e"
