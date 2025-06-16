@@ -46,6 +46,7 @@ For anything related to markdown extensions (this includes the metadata headers)
 
 # Todos
 
+- [ ] Add pipeline to 1-shot translate my posts to German via Claude?
 - [ ] Add image from analyzethis.ru back
 - [ ] make tags visible on Tassilo's blog
 - [ ] Just add pandoc to your pipeline, because this integrates well with citation features from zotero!
