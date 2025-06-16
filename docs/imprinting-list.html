@@ -58,8 +58,8 @@ Bootstrap Bio AKA <a href="https://www.lesswrong.com/users/kman">kman</a> and
     adults and in the human placenta is going to get us close to that
     goal.</strong></li>
 <li><strong>Measuring DNA methylation in a low input DNA context is really
-    annoying, because usually we can’t amplify methylated DNA. I explore
-    the only way that appears tractable to me to amplify methylated DNA by combining Phi29 and DNMT1. This could be useful for building an atlas of early embryo
+    annoying, because usually we can’t amplify methylated DNA. (Edit 2025-06-16: This method is probably not as good as the <a href="https://www.nature.com/articles/s41587-023-02034-w">improved bisulfite sequencing method</a> I mention below) ~~I explore
+    the only way that appears tractable to me to amplify methylated DNA by combining Phi29 and DNMT1.~~ This could be useful for building an atlas of early embryo
     development and for epigenetic preimplantation embryo screening.</strong></li>
 <li><strong>Correct imprinting seems particularly achievable in <a href="https://www.lesswrong.com/posts/2w6hjptanQ3cDyDw7/methods-for-strong-human-germline-engineering#Hulk_sperm">Hulk
     sperm</a></strong></li>
@@ -240,7 +240,7 @@ studies that show affinity for ZFP57. It’s possible that a lot of these
 are false positives, but some of them are probably real. Additional
 placenta samples will hopefully show which of these are genuine in the
 future.</p>
-<p><img alt="image" src="https://www.biorxiv.org/content/biorxiv/early/2023/02/13/2023.02.13.528289/F5.large.jpg" /></p>
+<p><img alt="image" src="images/imprint_placenta.jpg" /></p>
 <p><em>An image of the two novel DMRs discovered by Kindlova et al. (2023). The upper image shows the DMR on an exon of ILDR2 and the lower image shows the atypically looking DMR around the RASA1 promoter.</em></p>
 <h1>Fixing paternal imprinting might be easier than fixing maternal imprinting</h1>
 <p>Most imprints are maternally methylated and paternally unmethylated.
@@ -282,7 +282,8 @@ bisulfite sequencing. Overall both methods do not solve the problem that
 any procedure that we perform before amplifying the DNA is going to lead
 to unrecoverable losses in breadth of coverage.</p>
 <p>So for this reason, if we want breadth of coverage with ultra-low input
-DNA, we need a method to amplify our methylated DNA. I see one tractable
+DNA, we need a method to amplify our methylated DNA. (EDIT 2025-06-16: The method I mention here has been abandoned by that lab for a better method where they <a href="https://www.nature.com/articles/s41587-023-02034-w">improve standard bisulfite sequencing by using ammonium instead of sodium in their salt</a>. The method has been commercialized by <a href="https://ellisbio.com/">Ellis Bio</a>. Someone with more chemistry knowledge than me could probably look into if there is further tractable improvements possible here.) 
+~~I see one tractable
 way to do this that hasn’t been extensively tried before: 
 Use the same molecules human cells use, the enzyme DNMT1 and the reagent SAM to maintain methylation during PCR. For both
 of these there don’t exist alternative natural molecules that can
@@ -299,7 +300,7 @@ positive and false negative rate, but not fatally so if we get more
 coverage in return.<sup id="fnref:8"><a class="footnote-ref" href="#fn:8">8</a></sup> Overall their results are confusing in some
 areas, so I remain unsure if this method is any good. For example, Liu
 et al. (2020) get lower breadth coverage out of their amplified 10pg
-samples, compared to their unamplified controls.<sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup></p>
+samples, compared to their unamplified controls.<sup id="fnref:9"><a class="footnote-ref" href="#fn:9">9</a></sup>~~</p>
 <p>If it turns out the idea above isn’t really tractable or Liu et al.
 (2020) aren’t willing to license their idea at a reasonable price, my
 best guess is that methylation sequencing isn’t going to be high

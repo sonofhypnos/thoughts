@@ -5,8 +5,8 @@
     <description>Tassilo Neubauer's Blog</description>
     <link>https://www.tassiloneubauer.com</link>
     <atom:link href="https://www.tassiloneubauer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 May 2025 11:51:06 +0000</pubDate>
-    <lastBuildDate>Thu, 08 May 2025 11:51:06 +0000</lastBuildDate>
+    <pubDate>Mon, 16 Jun 2025 17:43:59 +0000</pubDate>
+    <lastBuildDate>Mon, 16 Jun 2025 17:43:59 +0000</lastBuildDate>
     <generator>Python RSS Generator</generator>
     
     <item>
@@ -226,11 +226,11 @@
     </item>
     
     <item>
-      <title>Mapping Keyboard Shortcuts</title>
-      <description>This document is for small ideas similar to the lw shortform feature Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I</description>
+      <title>Things</title>
+      <description>Electronics Thinkpad E15 Pixel 4 Stationery Lamy Safari (nibsize EF) Twsbi eco (nibsize F) uni-ball signo 307 Software Operating system: regolith Package Management: Nix + Apt Emacs more specifical...</description>
       <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
-      <link>https://www.tassiloneubauer.com/very short takes.html</link>
-      <guid isPermaLink="true">https://www.tassiloneubauer.com/very short takes.html</guid>
+      <link>https://www.tassiloneubauer.com/2023-08-13-things.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/2023-08-13-things.html</guid>
       
       
       <category></category>
@@ -239,11 +239,11 @@
     </item>
     
     <item>
-      <title>Things</title>
-      <description>Electronics Thinkpad E15 Pixel 4 Stationery Lamy Safari (nibsize EF) Twsbi eco (nibsize F) uni-ball signo 307 Software Operating system: regolith Emacs more specifically Doom Emacs tridactyl (vim k...</description>
+      <title>Mapping Keyboard Shortcuts</title>
+      <description>This document is for small ideas similar to the lw shortform feature Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I</description>
       <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
-      <link>https://www.tassiloneubauer.com/2023-08-13-things.html</link>
-      <guid isPermaLink="true">https://www.tassiloneubauer.com/2023-08-13-things.html</guid>
+      <link>https://www.tassiloneubauer.com/very short takes.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/very short takes.html</guid>
       
       
       <category></category>
@@ -283,6 +283,19 @@
     </item>
     
     <item>
+      <title>Taming Emacs to Make Writing More Pleasant</title>
+      <description>Right after creating my blog with Lazyblorg, I had a hard time using Emacs to write my Blogposts instead of just using the markdown editor on lesswrong. Truth is Emacs</description>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/taming-emacs.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/taming-emacs.html</guid>
+      
+      
+      <category>emacs</category>
+      
+      
+    </item>
+    
+    <item>
       <title>Journal Prompts in Emacs</title>
       <description>While I enjoy journaling in Emacs and, asking oneself the same questions every day becomes boring for me really quickly. My new solution is to give myself a random prompt</description>
       <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
@@ -293,19 +306,6 @@
       <category>emacs</category>
       
       <category>journaling</category>
-      
-      
-    </item>
-    
-    <item>
-      <title>Taming Emacs to Make Writing More Pleasant</title>
-      <description>Right after creating my blog with Lazyblorg, I had a hard time using Emacs to write my Blogposts instead of just using the markdown editor on lesswrong. Truth is Emacs</description>
-      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-      <link>https://www.tassiloneubauer.com/taming-emacs.html</link>
-      <guid isPermaLink="true">https://www.tassiloneubauer.com/taming-emacs.html</guid>
-      
-      
-      <category>emacs</category>
       
       
     </item>
