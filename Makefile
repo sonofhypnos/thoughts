@@ -7,8 +7,8 @@ TEMPLATE_DIR := templates
 
 # Python script
 GENERATE_SCRIPT := generate_blog.py
-PYTHON := poetry run python
-JUPYTER := poetry run jupyter
+PYTHON := nix-shell -p poetry --run "poetry run python"
+JUPYTER := nix-shell -p poetry --run "poetry run jupyter"
 
 # Notebooks to HTML
 NOTEBOOKS := $(wildcard $(NOTEBOOKS_DIR)/*.ipynb)
