@@ -80,7 +80,12 @@ def read_markdown_file(file_path: str) -> str:
 
 def parse_markdown(content: str) -> Tuple[str, Dict[str, List[str]]]:
     md = markdown.Markdown(
-        extensions=["meta", "footnotes", "fenced_code", "codehilite"]
+        extensions=["meta", #For the meta blocks at the start of a markdown document to add meta-data
+                    "footnotes", #For footnotes
+                    "fenced_code", #For code blocks
+                    "codehilite", #For code highlighting in code blocks
+                    "pymdownx.tilde" #For strikethrough with double tilde
+                    ]
     )
     html = md.convert(content)
     return html, md.Meta
