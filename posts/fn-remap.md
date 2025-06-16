@@ -16,7 +16,7 @@ keyboards do not even send the Keypress Events from the Fn-keys to the
 kernel, for my laptop keyboard this seems to have not been the case, as
 I was able to see the keypresses with "xev". Next, I tried rebinding
 the key with xmodmap using its keycode (151): xmodmap -e 'keycode 151 =
-Control~L~', but that did not work for mysterious reasons.
+Control\~L\~', but that did not work for mysterious reasons.
 
 After some more failed attempts, I tried using setkeycodes, which
 directly changes the map of the keyboard-driver to change which keycode
