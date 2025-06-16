@@ -16,8 +16,8 @@ Bootstrap Bio AKA [kman](https://www.lesswrong.com/users/kman) and
     adults and in the human placenta is going to get us close to that
     goal.**
 -   **Measuring DNA methylation in a low input DNA context is really
-    annoying, because usually we can’t amplify methylated DNA. I explore
-    the only way that appears tractable to me to amplify methylated DNA by combining Phi29 and DNMT1. This could be useful for building an atlas of early embryo
+    annoying, because usually we can’t amplify methylated DNA. (Edit 2025-06-16: This method is probably not as good as the [improved bisulfite sequencing method](https://www.nature.com/articles/s41587-023-02034-w) I mention below) ~~I explore
+    the only way that appears tractable to me to amplify methylated DNA by combining Phi29 and DNMT1.~~ This could be useful for building an atlas of early embryo
     development and for epigenetic preimplantation embryo screening.**
 -   **Correct imprinting seems particularly achievable in [Hulk
     sperm](https://www.lesswrong.com/posts/2w6hjptanQ3cDyDw7/methods-for-strong-human-germline-engineering#Hulk_sperm)**
@@ -270,7 +270,8 @@ any procedure that we perform before amplifying the DNA is going to lead
 to unrecoverable losses in breadth of coverage.
 
 So for this reason, if we want breadth of coverage with ultra-low input
-DNA, we need a method to amplify our methylated DNA. I see one tractable
+DNA, we need a method to amplify our methylated DNA. (EDIT 2025-06-16: The method I mention here has been abandoned by that lab for a better method where they [improve standard bisulfite sequencing by using ammonium instead of sodium in their salt](https://www.nature.com/articles/s41587-023-02034-w). The method has been commercialized by [Ellis Bio](https://ellisbio.com/). Someone with more chemistry knowledge than me could probably look into if there is further tractable improvements possible here.) 
+~~I see one tractable
 way to do this that hasn’t been extensively tried before: 
 Use the same molecules human cells use, the enzyme DNMT1 and the reagent SAM to maintain methylation during PCR. For both
 of these there don’t exist alternative natural molecules that can
@@ -287,7 +288,7 @@ positive and false negative rate, but not fatally so if we get more
 coverage in return.[^8] Overall their results are confusing in some
 areas, so I remain unsure if this method is any good. For example, Liu
 et al. (2020) get lower breadth coverage out of their amplified 10pg
-samples, compared to their unamplified controls.[^9]
+samples, compared to their unamplified controls.[^9]~~
 
 If it turns out the idea above isn’t really tractable or Liu et al.
 (2020) aren’t willing to license their idea at a reasonable price, my
