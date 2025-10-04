@@ -2,7 +2,7 @@
 title: Some Biology Related Things I Found Interesting
 tags: biology
 id: fun-biology
-date: 2025-01-07
+date: 2025-10-02
 ---
 
 Here are some things I learned over the last year that past me would have found somewhat non-obvious or that were surprising to me at the time:
