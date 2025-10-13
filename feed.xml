@@ -5,9 +5,74 @@
     <description>Tassilo Neubauer's Blog</description>
     <link>https://www.tassiloneubauer.com</link>
     <atom:link href="https://www.tassiloneubauer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Jun 2025 18:06:04 +0000</pubDate>
-    <lastBuildDate>Mon, 16 Jun 2025 18:06:04 +0000</lastBuildDate>
+    <pubDate>Mon, 13 Oct 2025 22:34:49 +0000</pubDate>
+    <lastBuildDate>Mon, 13 Oct 2025 22:34:49 +0000</lastBuildDate>
     <generator>Python RSS Generator</generator>
+    
+    <item>
+      <title>Patience and Willingness to Be Slow</title>
+      <description>Epistamic status: Journal One thing I love about the rationality community is the munchkinism and aiming for really high standards. Don't just arrive at the truth, but arrive at the</description>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/patience.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/patience.html</guid>
+      
+      
+      <category>journal</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Notes on "homology, Genes and Evolutionary Innovation"</title>
+      <description>I have been reading and skimming through Homology, Genes and Evolutionary Innovation after seeing the book being recommended by TsviBT. Two things I learned from this book: The whole book</description>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/homology-wagner.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/homology-wagner.html</guid>
+      
+      
+      <category>biology</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Consider Getting up and Walking or Moving at Least Every 2 Hours</title>
+      <description>Standard advice clauses: This is going to apply more to you the more similar you are to me: A young mentally and physically healthy introvert knowledge worker who works on</description>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/walks-at-work.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/walks-at-work.html</guid>
+      
+      
+      <category>productivity</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Consider Small Walks at Work</title>
+      <description>Standard advice clauses: This is going to apply more to you the more similar you are to me: A young mentally and physically healthy introvert knowledge worker who works on</description>
+      <pubDate>Sat, 04 Oct 2025 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/work-walks.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/work-walks.html</guid>
+      
+      
+      <category>work</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Some Biology Related Things I Found Interesting</title>
+      <description>Here are some things I learned over the last year that past me would have found somewhat non-obvious or that were surprising to me at the time: New genes are</description>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/fun-biology.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/fun-biology.html</guid>
+      
+      
+      <category>biology</category>
+      
+      
+    </item>
     
     <item>
       <title>Writing Is Hard</title>
@@ -226,11 +291,11 @@
     </item>
     
     <item>
-      <title>Things</title>
-      <description>Electronics Thinkpad E15 Pixel 4 Stationery Lamy Safari (nibsize EF) Twsbi eco (nibsize F) uni-ball signo 307 Software Operating system: regolith Package Management: Nix + Apt Emacs more specifical...</description>
+      <title>Mapping Keyboard Shortcuts</title>
+      <description>This document is for small ideas similar to the lw shortform feature Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I</description>
       <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
-      <link>https://www.tassiloneubauer.com/2023-08-13-things.html</link>
-      <guid isPermaLink="true">https://www.tassiloneubauer.com/2023-08-13-things.html</guid>
+      <link>https://www.tassiloneubauer.com/very short takes.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/very short takes.html</guid>
       
       
       <category></category>
@@ -239,11 +304,11 @@
     </item>
     
     <item>
-      <title>Mapping Keyboard Shortcuts</title>
-      <description>This document is for small ideas similar to the lw shortform feature Keyboard shortcuts are great. But figuring out how to set them well for applications or across applications I</description>
+      <title>Things</title>
+      <description>Electronics Thinkpad E15 Pixel 4 Stationery Lamy Safari (nibsize EF) Twsbi eco (nibsize F) uni-ball signo 307 Software Operating system: regolith Package Management: Nix + Apt Emacs more specifical...</description>
       <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
-      <link>https://www.tassiloneubauer.com/very short takes.html</link>
-      <guid isPermaLink="true">https://www.tassiloneubauer.com/very short takes.html</guid>
+      <link>https://www.tassiloneubauer.com/2023-08-13-things.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/2023-08-13-things.html</guid>
       
       
       <category></category>
@@ -283,19 +348,6 @@
     </item>
     
     <item>
-      <title>Taming Emacs to Make Writing More Pleasant</title>
-      <description>Right after creating my blog with Lazyblorg, I had a hard time using Emacs to write my Blogposts instead of just using the markdown editor on lesswrong. Truth is Emacs</description>
-      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
-      <link>https://www.tassiloneubauer.com/taming-emacs.html</link>
-      <guid isPermaLink="true">https://www.tassiloneubauer.com/taming-emacs.html</guid>
-      
-      
-      <category>emacs</category>
-      
-      
-    </item>
-    
-    <item>
       <title>Journal Prompts in Emacs</title>
       <description>While I enjoy journaling in Emacs and, asking oneself the same questions every day becomes boring for me really quickly. My new solution is to give myself a random prompt</description>
       <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
@@ -306,6 +358,19 @@
       <category>emacs</category>
       
       <category>journaling</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Taming Emacs to Make Writing More Pleasant</title>
+      <description>Right after creating my blog with Lazyblorg, I had a hard time using Emacs to write my Blogposts instead of just using the markdown editor on lesswrong. Truth is Emacs</description>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/taming-emacs.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/taming-emacs.html</guid>
+      
+      
+      <category>emacs</category>
       
       
     </item>
