@@ -1,5 +1,5 @@
 ---
-title: My computer setup
+title: Software Setup
 tags: linux 
 id: computer-setup
 date: 2025-10-14
@@ -13,7 +13,7 @@ Linux solved my issue with Windows, where I was disturbed to learn that Windows 
 I haven't been tempted to switch back ever since, except when I couldn't get Trackmania to work on my laptop (even though I had a friend with the exact same laptop and operating system who had it working on Steam).
 I still use i3, but if not for switching costs, I would go with Xmonad instead, which is presumably easier to extend. I used to have all types of issues getting Bluetooth or audio to work when I was using i3, but essentially all of these issues were solved when I switched to using [Regolith](https://regolith-desktop.com/), which is an Ubuntu derivative that takes care of all the issues that come with using Gnome and i3 at the same time. 
 One of my favourite features in i3 is the [Scratchpad](https://i3wm.org/docs/userguide.html#_scratchpad) (A small overlay window that you can make appear and disappear with 1 keyboard shortcut at any time). Pretty early after ChatGPT came out, I set up a scratch pad, so that I could have LLMs just 1 keyboard shortcut away:
-[image](images/scratchpad.png)
+![image](https://www.tassiloneubauer.com/images/scratchpad.png)
 This probably tripled my LLM usage, which made me pretty competent at using them. Just like [googling](https://gwern.net/search), I think quick LLM queries to check things are underrated and yes, sycophancy is a problem, but leading queries can get you in trouble with Google or humans too and in practice, one of the main benefits other than better search I get from LLMs is them pointing out stupid errors I make.
 
 In the early days, configuring [my dotfiles](https://github.com/sonofhypnos/dotfiles) for my operating system would take a lot of my time, but these days I rarely change things. By now, almost everything is configured just the way I like it :).
