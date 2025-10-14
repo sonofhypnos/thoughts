@@ -5,9 +5,6 @@ id: "taming-emacs"
 date: 2022-01-30
 ---
 
-
-
-
 Right after [creating my blog with Lazyblorg](id:19-01-2022-first-post),
 I had a hard time using Emacs to write my Blogposts instead of just
 using the markdown editor on [lesswrong](https://lesswrong.com). Truth
