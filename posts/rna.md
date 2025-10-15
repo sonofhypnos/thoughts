@@ -20,7 +20,7 @@ I have been learning more about biology recently and one thing that was initiall
 - piRNA: 
 - siRNA
 - miRNA
-- small nuclear RNA
+- small nuclear RNA (RNA involved in the Spliceosome machinery)
 - small nucleolar RNA
 - lncRNA: long non-coding Rna
 - investigate roles of dna

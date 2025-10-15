@@ -1,5 +1,5 @@
 ---
-title: Software Setup
+title: My Software Setup
 tags: linux 
 id: computer-setup
 date: 2025-10-14
