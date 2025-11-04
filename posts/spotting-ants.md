@@ -2,7 +2,7 @@
 title: Keeping Ants and Spotting Queens
 tags: ants
 id: keeping-ants
-date: 2025-11-04
+date: 2025-11-05
 ---
 
 Keeping ants is a fun hobby if you like seeing things grow. As a teenager [I kept three colonies of ants](https://www.suedkurier.de/region/kreis-konstanz/stockach/Tassilo-Neubauer-regiert-in-seiner-Jahresarbeit-fuer-die-Waldorfschule-ueber-drei-Ameisen-Voelker;art372461,10013384). To get started with ant-keeping, you do not really need that much material. When I first got started with this hobby, I got a medium-sized [formicarium] (https://en.wikipedia.org/wiki/Formicarium) with a water-dispenser and everything. Then I caught my own ant-queen outside and waited a few months for the queen's first workers to develop. Turns out very small colonies are not really active and in the first few months, my ants were extremely shy and didn't need much space. This is the norm unless you live in a place with tropical climate. For food, I went with honey mixed with water, mosquitoes and other insects I caught.
