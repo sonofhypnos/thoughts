@@ -5,9 +5,48 @@
     <description>Tassilo Neubauer's Blog</description>
     <link>https://www.tassiloneubauer.com</link>
     <atom:link href="https://www.tassiloneubauer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 Oct 2025 16:12:36 +0000</pubDate>
-    <lastBuildDate>Wed, 15 Oct 2025 16:12:36 +0000</lastBuildDate>
+    <pubDate>Wed, 05 Nov 2025 16:28:40 +0000</pubDate>
+    <lastBuildDate>Wed, 05 Nov 2025 16:28:40 +0000</lastBuildDate>
     <generator>Python RSS Generator</generator>
+    
+    <item>
+      <title>Keeping Ants and Spotting Queens</title>
+      <description>Keeping ants is a fun hobby if you like seeing things grow. As a teenager I kept three colonies of ants. To get started with ant-keeping, you do not really</description>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/keeping-ants.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/keeping-ants.html</guid>
+      
+      
+      <category>ants</category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Why Do We Sleep?</title>
+      <description>Having a post that is continously updated on what I think about sleep would be cool. Perhaps I could design my website around that. Also sounds like work though. Perhaps</description>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/unique-identifier.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/unique-identifier.html</guid>
+      
+      
+      <category></category>
+      
+      
+    </item>
+    
+    <item>
+      <title>Cheap Labor Everywhere</title>
+      <description>Here's one of my favorite quotes from Yudkowsky on Facebook Add quote here: This is what the inside of my perspective would look like, if, as in BBC's Sherlock, my</description>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/unique-identifier.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/unique-identifier.html</guid>
+      
+      
+      <category></category>
+      
+      
+    </item>
     
     <item>
       <title>My Software Setup</title>
