@@ -1,7 +1,7 @@
 ---
 title: Moroccan Cous Cous
 tags: hidden
-id: unique-identifier
+id: cous-cous
 date: 2025-10-05
 ---
 

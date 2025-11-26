@@ -1,7 +1,7 @@
 ---
-title: 
+title: On Competitiveness
 tags: hidden
-id: unique-identifier
+id: competitiveness 
 date: 2025-10-18
 ---
 

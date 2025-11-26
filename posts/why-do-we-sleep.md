@@ -1,7 +1,7 @@
 ---
 title: Why do we sleep?
-tags: 
-id: unique-identifier
+tags: hidden
+id: why-do-we-sleep
 date: 2025-11-01
 ---
 

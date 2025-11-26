@@ -1,7 +1,7 @@
 ---
 title: Cheap Labour Everywhere 
 tags: 
-id: unique-identifier
+id: cheap-labour-everywhere
 date: 2025-10-16
 ---
 
