@@ -38,7 +38,7 @@ convert_notebooks: $(HTML_NOTEBOOKS)
 	@touch .blog.timestamp
 	@echo "Blog regenerated."
 
-blog: convert_notebooks commit_and_push .blog.timestamp
+blog: convert_notebooks .blog.timestamp
 
 # Rule: clean everything
 clean:
