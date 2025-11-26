@@ -5,8 +5,8 @@
     <description>Tassilo Neubauer's Blog</description>
     <link>https://www.tassiloneubauer.com</link>
     <atom:link href="https://www.tassiloneubauer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Nov 2025 16:30:20 +0000</pubDate>
-    <lastBuildDate>Wed, 05 Nov 2025 16:30:20 +0000</lastBuildDate>
+    <pubDate>Wed, 26 Nov 2025 19:01:36 +0000</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2025 19:01:36 +0000</lastBuildDate>
     <generator>Python RSS Generator</generator>
     
     <item>
@@ -23,24 +23,11 @@
     </item>
     
     <item>
-      <title>Why Do We Sleep?</title>
-      <description>Having a post that is continously updated on what I think about sleep would be cool. Perhaps I could design my website around that. Also sounds like work though. Perhaps</description>
-      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <link>https://www.tassiloneubauer.com/unique-identifier.html</link>
-      <guid isPermaLink="true">https://www.tassiloneubauer.com/unique-identifier.html</guid>
-      
-      
-      <category></category>
-      
-      
-    </item>
-    
-    <item>
       <title>Cheap Labour Everywhere</title>
       <description>I recently visited my girlfriend's parents in India. Here is what that experience taught me: Eliezer Yudkowsky has this facebook post where he makes some inferences about the economy after</description>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-      <link>https://www.tassiloneubauer.com/unique-identifier.html</link>
-      <guid isPermaLink="true">https://www.tassiloneubauer.com/unique-identifier.html</guid>
+      <link>https://www.tassiloneubauer.com/cheap-labour-everywhere.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/cheap-labour-everywhere.html</guid>
       
       
       <category></category>
