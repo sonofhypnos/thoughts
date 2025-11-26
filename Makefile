@@ -19,7 +19,7 @@ MARKDOWN_FILES := $(wildcard $(MARKDOWN_DIR)/*.md)
 TEMPLATE_FILES := $(wildcard $(TEMPLATE_DIR)/*)
 
 # Default target
-all: convert_notebooks blog
+all: commit_and_push
 
 # Rule: convert a notebook if it's been updated
 $(HTML_OUTPUT_DIR)/%.html: $(NOTEBOOKS_DIR)/%.ipynb
