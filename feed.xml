@@ -5,9 +5,22 @@
     <description>Tassilo Neubauer's Blog</description>
     <link>https://www.tassiloneubauer.com</link>
     <atom:link href="https://www.tassiloneubauer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Nov 2025 19:01:36 +0000</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2025 19:01:36 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Jan 2026 18:42:25 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Jan 2026 18:42:25 +0000</lastBuildDate>
     <generator>Python RSS Generator</generator>
+    
+    <item>
+      <title>How to Use Foam Earplugs Correctly</title>
+      <description>I used to think foam earplugs suck because they didn't fit into my ear. Turns out you have to roll them! Sadly the first time I encountered foam earplugs in</description>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
+      <link>https://www.tassiloneubauer.com/foam-earplugs.html</link>
+      <guid isPermaLink="true">https://www.tassiloneubauer.com/foam-earplugs.html</guid>
+      
+      
+      <category>earplugs</category>
+      
+      
+    </item>
     
     <item>
       <title>Keeping Ants and Spotting Queens</title>
