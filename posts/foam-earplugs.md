@@ -7,8 +7,8 @@ date: 2026-01-16
 
 I used to think foam earplugs suck because they didn't fit into my ear. Turns out you have to roll them! Sadly the first time I encountered foam earplugs in a library they didn't include instructions.
 Once I knew this they became my favorite earplugs to use during sleep. 
-I used to use reusable ones, but the problem is those innevitably fall out of my ear onto the ground and get dirty.
-Same happens for the foam ones, but they are cheap (mine cost 0.25 USD/pair), so I just grab a new pair if they are dirty. They loose their elasticity after a few uses, so you cannot use them too often anyway, but they are extremly
+I used to use reusable ones, but the problem is those inevitably fall out of my ear onto the ground and get dirty.
+Same happens for the foam ones, but they are cheap (mine cost 0.25 USD/pair), so I just grab a new pair if they are dirty. They lose their elasticity after a few uses, so you cannot use them too often anyway.
 
 ![foam earplug instructions](https://tassiloneubauer.com/images/Earplugs_instructions2.jpg)
 
